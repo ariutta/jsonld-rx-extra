@@ -4,13 +4,18 @@
   "description": "Rx wrapper for JSON-LD processing, with additional convenience functionality.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js"
   },
   "author": "",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "jsonld-rx": "^1.0.0-alpha.0",
+    "jsonld": "git://github.com/ariutta/jsonld.js.git",
     "lodash": "^3.10.0",
-    "rx-node-extra": "^1.0.1"
+    "lru-cache": "^4.0.0",
+    "rx-extra": "^1.0.2",
+    "rx-lite": "4.0.7"
+  },
+  "browser": {
+    "rx": "rx-lite"
   }
 }
