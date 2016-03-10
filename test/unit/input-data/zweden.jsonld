@@ -1,0 +1,7 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "image": "/examples/jvanzweden_s.jpg",
+  "name": "Jaap van Zweden",
+  "sameAs": "http://www.jaapvanzweden.com/"
+}

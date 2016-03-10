@@ -1,0 +1,1196 @@
+{
+  "@context": {
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "dbpprop": "http://dbpedia.org/property/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dc1": "http://purl.org/dc/terms/",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "ns1": "http://www.w3.org/ns/prov#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xhv": "http://www.w3.org/1999/xhtml/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "dbpedia:Neil_deGrasse_Tyson",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Jean_Gebser",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Albert_Einstein's",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Albert_einstein",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Mujahid_Kamran",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Alber_Enstien",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Einstein,_Albert",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Albert_Einstein_(disambiguation)",
+      "dbo:wikiPageDisambiguates": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:The_Evolution_of_Physics",
+      "dbo:author": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Leó_Szilárd",
+      "dbo:academicAdvisor": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Nathan_Rosen",
+      "dbo:academicAdvisor": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "http://en.wikipedia.org/wiki/Albert_Einstein",
+      "foaf:primaryTopic": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Einstien",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Muhammad_Raziuddin_Siddiqui",
+      "dbo:academicAdvisor": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Max_Talmey",
+      "dbo:notableStudent": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Einstein",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Albert_Enstien",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Al_Einstein",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Moritz_Schlick",
+      "dbo:influenced": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Christopher_Hills",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Karl_Pearson",
+      "dbo:influenced": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Rajiv_Satyal",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:AE",
+      "dbo:wikiPageDisambiguates": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:David_Bohm",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Henry_George",
+      "dbo:influenced": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Mileva_Marić",
+      "dbo:spouse": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Albert_LaFache_Einstein",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Einsetein",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Albert_Einstin",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:David_Hume",
+      "dbo:influenced": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Keith_Lewin",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Hans_Albert_Einstein",
+      "dbo:parent": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Julius_Sumner_Miller",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Boris_Podolsky",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Benjamin_Lee_Whorf",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Gunnar_Nordström",
+      "dbo:influenced": {
+        "@id": "dbpedia:Albert_Einstein"
+      },
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Evelyn_Einstein",
+      "dbo:knownFor": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:God_does_not_play_dice",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Albert_Eienstein",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Einsteinian",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Baruch_Spinoza",
+      "dbo:influenced": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Albert_Einstein",
+      "@type": [
+        "http://dbpedia.org/class/yago/SwissHumanitarians",
+        "schema:Person",
+        "http://www.wikidata.org/entity/Q215627",
+        "http://dbpedia.org/class/yago/NonreligiousPerson109625789",
+        "http://dbpedia.org/class/yago/Inquirer110207831",
+        "http://dbpedia.org/class/yago/Scientist110560637",
+        "http://dbpedia.org/class/yago/Acquirer109764201",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "http://dbpedia.org/class/yago/PeopleInAFirst-cousinRelationship",
+        "http://dbpedia.org/class/yago/NobelLaureatesInPhysics",
+        "http://dbpedia.org/class/yago/Cosmologists",
+        "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+        "http://dbpedia.org/class/yago/LivingThing100004258",
+        "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+        "dbo:Scientist",
+        "http://dbpedia.org/class/yago/GermanPhilosophers",
+        "http://dbpedia.org/class/yago/GermanPacifists",
+        "http://dbpedia.org/class/yago/AmericanHumanitarians",
+        "http://dbpedia.org/class/yago/Emigrant110051975",
+        "http://dbpedia.org/class/yago/Traveler109629752",
+        "http://dbpedia.org/class/yago/Recipient109627906",
+        "owl:Thing",
+        "http://dbpedia.org/class/yago/19th-centuryAmericanPeople",
+        "http://dbpedia.org/class/yago/Examiner110068234",
+        "http://dbpedia.org/class/yago/Peer109626238",
+        "http://dbpedia.org/class/yago/Benefactor109608709",
+        "http://dbpedia.org/class/yago/Refugee110516016",
+        "http://dbpedia.org/class/yago/Associate109816771",
+        "http://dbpedia.org/class/yago/Physicist110428004",
+        "http://dbpedia.org/class/yago/PeopleAssociatedWithTheUniversityOfZurich",
+        "http://dbpedia.org/class/yago/Scholar110557854",
+        "http://dbpedia.org/class/yago/Academician109759069",
+        "http://dbpedia.org/class/yago/AmericanInventors",
+        "http://dbpedia.org/class/yago/Inventor110214637",
+        "http://dbpedia.org/class/yago/Colleague109935990",
+        "http://dbpedia.org/class/yago/AmericanPhysicists",
+        "http://dbpedia.org/class/yago/JewishAgnostics",
+        "http://dbpedia.org/class/yago/Educator110045713",
+        "http://dbpedia.org/class/yago/FellowsOfTheLeopoldina",
+        "http://dbpedia.org/class/yago/GoodPerson110138767",
+        "http://dbpedia.org/class/yago/SwissPhysicists",
+        "http://dbpedia.org/class/yago/Philosopher110423589",
+        "http://www.wikidata.org/entity/Q901",
+        "http://umbel.org/umbel/rc/Scientist",
+        "http://www.wikidata.org/entity/Q5",
+        "http://dbpedia.org/class/yago/YagoLegalActor",
+        "http://dbpedia.org/class/yago/SwissNobelLaureates",
+        "http://dbpedia.org/class/yago/Communicator109610660",
+        "dbo:Person",
+        "http://dbpedia.org/class/yago/SwissEmigrantsToTheUnitedStates",
+        "http://dbpedia.org/class/yago/Alumnus109786338",
+        "http://dbpedia.org/class/yago/Creator109614315",
+        "http://dbpedia.org/class/yago/AmericanPeopleOfGerman-JewishDescent",
+        "http://dbpedia.org/class/yago/Citizen109923673",
+        "http://dbpedia.org/class/yago/19th-centurySwissPeople",
+        "http://dbpedia.org/class/yago/GermanHumanitarians",
+        "http://dbpedia.org/class/yago/Absentee109757653",
+        "http://dbpedia.org/class/yago/Pacifist110390199",
+        "http://dbpedia.org/class/yago/GermanPhysicists",
+        "http://dbpedia.org/class/yago/NaturalizedCitizensOfTheUnitedStates",
+        "http://dbpedia.org/class/yago/Deist110000459",
+        "http://dbpedia.org/class/yago/AmericanPeopleOfSwiss-JewishDescent",
+        "http://dbpedia.org/class/yago/CausalAgent100007347",
+        "http://dbpedia.org/class/yago/GermanNobelLaureates",
+        "http://dbpedia.org/class/yago/Intellectual109621545",
+        "http://dbpedia.org/class/yago/Astronomer109818343",
+        "http://dbpedia.org/class/yago/DisplacedPerson110017890",
+        "http://dbpedia.org/class/yago/Deists",
+        "http://dbpedia.org/class/yago/Whole100003553",
+        "http://dbpedia.org/class/yago/AmericanPacifists",
+        "foaf:Person",
+        "http://dbpedia.org/class/yago/SwissPacifists",
+        "http://dbpedia.org/class/yago/JewishPhilosophers",
+        "http://dbpedia.org/class/yago/Honoree110183757",
+        "dbo:Agent",
+        "http://dbpedia.org/class/yago/19th-centuryGermanPeople",
+        "http://dbpedia.org/class/yago/Professional110480253",
+        "http://dbpedia.org/class/yago/GermanEmigrantsToSwitzerland",
+        "http://dbpedia.org/class/yago/PatentExaminers",
+        "http://dbpedia.org/class/yago/JewishInventors",
+        "http://dbpedia.org/class/yago/PeopleFromUlm",
+        "http://dbpedia.org/class/yago/Adult109605289",
+        "http://dbpedia.org/class/yago/Speaker110630188",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+        "http://dbpedia.org/class/yago/Organism100004475",
+        "http://dbpedia.org/class/yago/Writer110794014",
+        "http://dbpedia.org/class/yago/20th-centurySwissPeople",
+        "http://dbpedia.org/class/yago/National109625401",
+        "http://dbpedia.org/class/yago/Migrant110314952",
+        "http://dbpedia.org/class/yago/Cosmologist109819667",
+        "http://dbpedia.org/class/yago/Exile110071332",
+        "http://dbpedia.org/class/yago/GermanInventors",
+        "http://dbpedia.org/class/yago/TheoreticalPhysicists",
+        "http://umbel.org/umbel/rc/PersonWithOccupation",
+        "http://dbpedia.org/class/yago/JewishPacifists",
+        "http://dbpedia.org/class/yago/PeopleFromTheKingdomOfW%C3%BCrttemberg",
+        "http://dbpedia.org/class/yago/Laureate110249011",
+        "http://dbpedia.org/class/yago/SwissInventors",
+        "http://dbpedia.org/class/yago/JewishPhysicists",
+        "http://dbpedia.org/class/yago/Person100007846",
+        "http://dbpedia.org/class/yago/AcademicsOfCharlesUniversityInPrague",
+        "http://dbpedia.org/class/yago/Object100002684",
+        "http://dbpedia.org/class/yago/Humanitarian110191613",
+        "http://dbpedia.org/class/yago/SwissPhilosophers",
+        "http://dbpedia.org/class/yago/Articulator109811712",
+        "http://dbpedia.org/class/yago/JewishAmericanScientists",
+        "http://dbpedia.org/class/yago/JewishAmericanWriters",
+        "http://dbpedia.org/class/yago/Agnostic109779124",
+        "http://dbpedia.org/class/yago/ETHZurichAlumni",
+        "http://dbpedia.org/class/yago/StatelessPersons"
+      ],
+      "dbo:abstract": [
+        {
+          "@language": "it",
+          "@value": "Oltre a essere uno dei più celebri fisici della storia della scienza, che mutò in maniera radicale il paradigma di interpretazione del mondo fisico, fu molto attivo in diversi altri ambiti, dalla filosofia alla politica, e per il suo complesso apporto alla cultura in generale è considerato uno dei più importanti studiosi e pensatori del XX secolo.Nel 1905, ricordato come \"annus mirabilis\", pubblicò tre articoli a contenuto fortemente innovativo, riguardanti tre aree differenti della fisica: dimostrò la validità del concetto di quanto di Planck nell'ambito della spiegazione dell'effetto fotoelettrico dei metalli; fornì una valutazione quantitativa del moto browniano e l'ipotesi di aleatorietà dello stesso; espose la teoria della relatività ristretta, che precedette di circa un decennio quella della relatività generale.Nel 1921 ricevette il premio Nobel per la fisica \"per i contributi alla fisica teorica, in particolare per la scoperta della legge dell'effetto fotoelettrico\" e la sua fama dilagò in tutto il mondo soprattutto per la teoria della relatività, in grado, per l'assoluta originalità, di colpire l'immaginario collettivo. Fu una fama insolita per uno scienziato, che durante gli ultimi anni di vita non fece che aumentare, al punto che in molte culture popolari il suo nome divenne ben presto sinonimo di intelligenza e di grande genio.La sua immagine rimane a tutt'oggi una delle più conosciute del pianeta, anche per il largo uso fattone dal mondo della pubblicità: si è giunti infatti alla registrazione del marchio Albert Einstein."
+        },
+        {
+          "@language": "de",
+          "@value": "Albert Einstein (* 14. März 1879 in Ulm; † 18. April 1955 in Princeton, New Jersey) war ein theoretischer Physiker. Seine Forschungen zur Struktur von Materie, Raum und Zeit sowie dem Wesen der Gravitation veränderten maßgeblich das physikalische Weltbild. Er gilt daher als einer der bedeutendsten Physiker aller Zeiten.Einsteins Hauptwerk, die Relativitätstheorie, machte ihn weltberühmt. Im Jahr 1905 erschien seine Arbeit mit dem Titel Zur Elektrodynamik bewegter Körper, deren Inhalt heute als spezielle Relativitätstheorie bezeichnet wird. 1915 publizierte Einstein die allgemeine Relativitätstheorie. Auch zur Quantenphysik leistete er wesentliche Beiträge. „Für seine Verdienste um die theoretische Physik, besonders für seine Entdeckung des Gesetzes des photoelektrischen Effekts“ erhielt er 1922 den Nobelpreis. Seine theoretischen Arbeiten spielten – im Gegensatz zur verbreiteten Meinung – beim Bau der Atombombe und der Entwicklung der Kernenergie nur eine indirekte Rolle.Albert Einstein gilt als Inbegriff des Forschers und Genies. Er nutzte seine außerordentliche Bekanntheit auch außerhalb der naturwissenschaftlichen Fachwelt bei seinem Einsatz für Völkerverständigung und Frieden. In diesem Zusammenhang verstand er sich selbst als Pazifist, Sozialist und Zionist.Im Laufe seines Lebens war Einstein Staatsbürger mehrerer Länder: Durch Geburt besaß er die württembergische Staatsbürgerschaft. Von 1896 bis 1901 staatenlos, danach Staatsbürger der Schweiz, war er 1911/12 auch Bürger Österreich-Ungarns. Von 1914 bis 1932 lebte Einstein in Berlin und war als Bürger Preußens erneut Staatsangehöriger im Deutschen Reich. Mit der „Machtergreifung“ Hitlers gab er 1933 den deutschen Pass endgültig ab. Zum seit 1901 geltenden Schweizer Bürgerrecht kam ab 1940 noch die US-Staatsbürgerschaft."
+        },
+        {
+          "@language": "zh",
+          "@value": "阿尔伯特·爱因斯坦（德语：Albert Einstein，1879年3月14日－1955年4月18日），旧译恩斯坦，20世纪猶太裔理論物理學家，科學哲學家，创立了相对论，現代物理學的兩大支柱之一（另一個是量子力學）。爱因斯坦的質能方程E = mc2最著稱於世（世人稱之為『全世界最著名的方程式』），他也因為“對理論物理的貢獻，特別是發現了光電效應”而獲得1921年諾貝爾物理學獎，這個發現深深影響量子理論的建立。在愛因斯坦早期職業生涯時，他想牛頓力學的框架已經無法讓古典力學與電磁場相互共存，這也為狹義相對論發展起了開端。然而他了解到相對的性質可以延申到重力場模型以及他在1916年的一些重力理論，就是廣義相對論。接著他著手處理統計力學與量子理論的問題，這也造就他對於粒子與分子運動的解釋。在1917年，愛因斯坦運用廣義相對論建立大尺度結構宇宙的模型。1933年，希特勒掌權，愛因斯坦走訪美國，由於是猶太裔身份，他沒有回到德國，而那時候他早已在普魯士科學院取得教授的職位。在1940年，他定居美國隨後成為美國公民。在二次世界大戰前夕，他署名一封信給當時美國總統羅斯褔，信中提到一種新式且深具威力的炸彈很有可能發展起來，建議美國也盡早進行相關研究，而這也導至曼哈頓計劃的成型。起初愛因斯坦協助增強同盟國的武力但譴責使用當時新發現的核裂变作為一種武器的想法，後來愛因斯坦與英國哲學家伯特蘭·羅素共同簽署一份羅素—愛因斯坦宣言，強調核武的危險性。愛因斯坦總共發表了300多篇科學論文和150篇非科學作品。愛因斯坦被誉为是“現代物理学之父”及二十世紀世界最重要科學家之一。他卓越的科學成就和原創性使得“愛因斯坦”一詞成為“天才”的同義詞。"
+        },
+        {
+          "@language": "pt",
+          "@value": "Albert Einstein (Ulm, 14 de março de 1879 — Princeton, 18 de abril de 1955) foi um físico teórico alemão, radicado nos Estados Unidos a partir de 1933, que desenvolveu a teoria da relatividade geral, um dos dois pilares da física moderna (ao lado da mecânica quântica). Embora mais conhecido por sua fórmula de equivalência massa-energia, E = mc2 (que foi chamada de \"a equação mais famosa do mundo\"), foi laureado com o Prêmio Nobel de Física de 1921 \"por suas contribuições à física teórica e, especialmente, por sua descoberta da lei do efeito fotoelétrico\", que foi fundamental no estabelecimento da teoria quântica.No início de sua carreira, Einstein acreditava que a mecânica newtoniana não era mais suficiente para reconciliar as leis da mecânica clássica com as leis do campo eletromagnético. Isto o levou ao desenvolvimento da teoria da relatividade especial. Einstein percebeu, no entanto, que o princípio da relatividade também poderia ser estendido para campos gravitacionais, e com a sua posterior teoria da gravitação, de 1916, publicou um artigo sobre a teoria da relatividade geral. Continuou a lidar com problemas da mecânica estatística e teoria quântica, o que levou às suas explicações sobre a teoria das partículas e o movimento browniano. Também investigou as propriedades térmicas da luz, o que lançou as bases da teoria dos fótons da luz. Em 1917, aplicou a teoria da relatividade geral para modelar a estrutura do universo como um todo.Einstein estava nos Estados Unidos quando Adolf Hitler chegou ao poder na Alemanha, em 1933, e não voltou para a Alemanha, onde tinha sido professor da Academia de Ciências de Berlim. Estabeleceu-se então nos Estados Unidos, onde naturalizou-se em 1940. Na véspera da Segunda Guerra Mundial, ajudou a alertar o presidente Franklin D. Roosevelt que a Alemanha poderia estar desenvolvendo uma arma atômica, recomendando aos Estados Unidos começar uma pesquisa semelhante, o que levou ao que se tornaria o Projeto Manhattan. Einstein apoiou as forças aliadas, denunciando no entanto a utilização da fissão nuclear como uma arma. Mais tarde, com o filósofo britânico Bertrand Russell, assinou o Manifesto Russell-Einstein, que destacou o perigo das armas nucleares. Einstein foi afiliado ao Instituto de Estudos Avançados de Princeton até sua morte em 1955.Realizou diversas viagens ao redor do mundo, deu palestras públicas em conceituadas universidades e conheceu personalidades celebres de sua época, tanto na física quanto fora do mundo acadêmico. Publicou mais de 300 trabalhos científicos, juntamente com mais de 150 obras não científicas. Suas grandes conquistas intelectuais e originalidade fizeram da palavra \"Einstein\" sinônimo de gênio. 100 físicos renomados elegeram-no, em 1999, o mais memorável físico de todos os tempos."
+        },
+        {
+          "@language": "ja",
+          "@value": "アルベルト・アインシュタイン（独: Albert Einstein、1879年3月14日 - 1955年4月18日）は、ドイツ生まれのユダヤ人の理論物理学者。特殊相対性理論および一般相対性理論、相対性宇宙論、ブラウン運動の起源を説明する揺動散逸定理、光量子仮説による光の粒子と波動の二重性、アインシュタインの固体比熱理論、零点エネルギー、半古典型のシュレディンガー方程式、ボーズ＝アインシュタイン凝縮などを提唱した業績により、20世紀最大の物理学者とも、現代物理学の父とも呼ばれる。特に彼の特殊相対性理論と一般相対性理論が有名だが、光量子仮説に基づく光電効果の理論的解明によって1921年のノーベル物理学賞を受賞した。音楽学者でモーツァルト研究者のアルフレート・アインシュタインは従弟とされる場合があるが、異説もある。数多くの業績のほか、世界中に広くその存在が認知されており、しばしば天才の代名詞としても引き合いに出される。1999年、アメリカのニュース週刊誌『タイム』は、アルベルトを『パーソン・オブ・ザ・センチュリー』（20世紀の人）に選出した。"
+        },
+        {
+          "@language": "fr",
+          "@value": "Albert Einstein (en allemand : [ˈalbɐt ˈaɪnʃtaɪn] ) né le 14 mars 1879 à Ulm, Wurtemberg, et mort le 18 avril 1955 à Princeton, New Jersey est un physicien théoricien qui fut successivement allemand, puis apatride (1896), suisse (1901), et enfin sous la double nationalité helvético-américaine (1940).Il publie sa théorie de la relativité restreinte en 1905, et une théorie de la gravitation  dite relativité générale en 1915. Il contribue largement au développement de la mécanique quantique et de la cosmologie, et reçoit le prix Nobel de physique de 1921 pour son explication de l’effet photoélectrique. Son travail est notamment connu du grand public pour l’équation E=mc2, qui établit une équivalence entre la matière et l’énergie d’un système.Il est aujourd'hui considéré comme l'un des plus grands scientifiques de l'histoire, et sa renommée dépasse largement le milieu scientifique."
+        },
+        {
+          "@language": "en",
+          "@value": "Albert Einstein (/ˈælbərt ˈaɪnstaɪn/; German: [ˈalbɐrt ˈaɪnʃtaɪn] (13px ); 14 March 1879 – 18 April 1955) was a German-born theoretical physicist and philosopher of science. He developed the general theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). He is best known in popular culture for his mass–energy equivalence formula E = mc2 (which has been dubbed \"the world's most famous equation\"). He received the 1921 Nobel Prize in Physics for his \"services to theoretical physics\", in particular his discovery of the photoelectric effect, a pivotal step in the evolution of quantum theory.Near the beginning of his career, Einstein thought that Newtonian mechanics was no longer enough to reconcile the laws of classical mechanics with the laws of the electromagnetic field. This led to the development of his special theory of relativity. He realized, however, that the principle of relativity could also be extended to gravitational fields, and with his subsequent theory of gravitation in 1916, he published a paper on the general theory of relativity. He continued to deal with problems of statistical mechanics and quantum theory, which led to his explanations of particle theory and the motion of molecules. He also investigated the thermal properties of light which laid the foundation of the photon theory of light. In 1917, Einstein applied the general theory of relativity to model the large-scale structure of the universe.He was visiting the United States when Adolf Hitler came to power in 1933 and, being Jewish, did not go back to Germany, where he had been a professor at the Berlin Academy of Sciences. He settled in the U.S., becoming an American citizen in 1940. On the eve of World War II, he endorsed a letter to President Franklin D. Roosevelt alerting him to the potential development of \"extremely powerful bombs of a new type\" and recommending that the U.S. begin similar research. This eventually led to what would become the Manhattan Project. Einstein supported defending the Allied forces, but largely denounced the idea of using the newly discovered nuclear fission as a weapon. Later, with the British philosopher Bertrand Russell, Einstein signed the Russell–Einstein Manifesto, which highlighted the danger of nuclear weapons. Einstein was affiliated with the Institute for Advanced Study in Princeton, New Jersey, until his death in 1955.Einstein published more than 300 scientific papers along with over 150 non-scientific works. On 5 December 2014, universities and archives announced the release of Einstein's papers, comprising more than 30,000 unique documents. Einstein's intellectual achievements and originality have made the word \"Einstein\" synonymous with genius."
+        },
+        {
+          "@language": "pl",
+          "@value": "Albert Einstein (wym. [ˈalbɐt ˈaɪ̯nʃtaɪ̯n]) (ur. 14 marca 1879 w Ulm, Niemcy, zm. 18 kwietnia 1955 w Princeton, USA) – niemiecki fizyk żydowskiego pochodzenia, jeden z największych fizyków-teoretyków XX wieku, twórca ogólnej i szczególnej teorii względności, współtwórca korpuskularno-falowej teorii światła, odkrywca emisji wymuszonej. Laureat Nagrody Nobla w dziedzinie fizyki w 1921 roku za wyjaśnienie efektu fotoelektrycznego. Opublikował ponad 450 prac, w tym ponad 300 naukowych. Wniósł też swój wkład do rozwoju filozofii nauki."
+        },
+        {
+          "@language": "es",
+          "@value": "Albert Einstein (en alemán [ˈalbɐt ˈaɪnʃtaɪn]; Ulm, Imperio alemán, 14 de marzo de 1879 - Princeton, Estados Unidos, 18 de abril de 1955) fue un físico alemán, nacionalizado después suizo y estadounidense. Es considerado como el científico más conocido y popular del siglo XX.En 1905, cuando era un joven físico desconocido, empleado en la Oficina de Patentes de Berna, publicó su teoría de la relatividad especial. En ella incorporó, en un marco teórico simple fundamentado en postulados físicos sencillos, conceptos y fenómenos estudiados antes por Henri Poincaré y por Hendrik Lorentz. Como una consecuencia lógica de esta teoría, dedujo la ecuación de la física más conocida a nivel popular: la equivalencia masa-energía, E=mc². Ese año publicó otros trabajos que sentarían bases para la física estadística y la mecánica cuántica.En 1915 presentó la teoría de la relatividad general, en la que reformuló por completo el concepto de gravedad. Una de las consecuencias fue el surgimiento del estudio científico del origen y la evolución del Universo por la rama de la física denominada cosmología. En 1919, cuando las observaciones británicas de un eclipse solar confirmaron sus predicciones acerca de la curvatura de la luz, fue idolatrado por la prensa. Einstein se convirtió en un icono popular de la ciencia mundialmente famoso, un privilegio al alcance de muy pocos científicos.Por sus explicaciones sobre el efecto fotoeléctrico y sus numerosas contribuciones a la física teórica, en 1921 obtuvo el Premio Nobel de Física y no por la Teoría de la Relatividad, pues el científico a quien se encomendó la tarea de evaluarla no la entendió, y temieron correr el riesgo de que luego se demostrase errónea. En esa época era aún considerada un tanto controvertida.Ante el ascenso del nazismo, el científico abandonó Alemania hacia diciembre de 1932 con destino a Estados Unidos, donde se dedicó a la docencia en el Institute for Advanced Study. Se nacionalizó estadounidense en 1940. Durante sus últimos años trabajó por integrar en una misma teoría la fuerza gravitatoria y la electromagnética.Aunque es considerado por algunos como el «padre de la bomba atómica», abogó por el federalismo mundial, el internacionalismo, el pacifismo, el sionismo y el socialismo democrático, con una fuerte devoción por la libertad individual y la libertad de expresión. Fue proclamado como el «personaje del siglo XX» y el más preeminente científico por la revista Time."
+        },
+        {
+          "@language": "ar",
+          "@value": "ألبرت أينشتاين (بالألمانية: Albert Einstein) ‏ (14 مارس 1879 – 18 أبريل 1955) ألماني سويسري أمريكي الجنسية، يهودي الديانة، أحد أهم العلماء في الفيزياء. يشتهر بأبو النسبية كونه واضع النظرية النسبية الخاصة والنظرية النسبية العامة الشهيرتين اللتان كانت اللبنة الأولى للفيزياء النظرية الحديثة ، حاز في العام 1921 على جائزة نوبل في الفيزياء عن ورقة بحثية عن التأثير الكهروضوئي ضمن ثلاثمائة ورقة علمية أخرى له في تكافؤ المادة والطاقة وميكانيكا الكم وغيرها، وادت استنتاجاته المبرهنة إلى تفسير العديد من الظواهر العلمية التي فشلت الفيزياء الكلاسيكية في اثباتها . ذكاؤه العظيم جعل من كلمة \" آينشتاين \" مرادفا \" للعبقرية \"."
+        },
+        {
+          "@language": "nl",
+          "@value": "Albert Einstein (Ulm, 14 maart 1879 – Princeton (New Jersey), 18 april 1955) was een Duits-Zwitsers-Amerikaanse theoretisch natuurkundige en uitvinder. Hij wordt algemeen gezien als een van de belangrijkste natuurkundigen uit de geschiedenis, naast Isaac Newton en James Clerk Maxwell. Zelf noemde hij altijd Newton als een veel belangrijker natuurkundige dan hijzelf, omdat Newton anders dan Einstein behalve theoretische ook grote experimentele ontdekkingen deed. In het dagelijks leven is de naam Einstein synoniem geworden met grote intelligentie."
+        }
+      ],
+      "dbo:academicAdvisor": {
+        "@id": "dbpedia:Heinrich_Friedrich_Weber"
+      },
+      "dbo:almaMater": [
+        {
+          "@id": "dbpedia:ETH_Zurich"
+        },
+        {
+          "@id": "dbpedia:University_of_Zurich"
+        }
+      ],
+      "dbo:award": [
+        {
+          "@id": "dbpedia:Copley_Medal"
+        },
+        {
+          "@id": "dbpedia:Max_Planck_Medal"
+        },
+        {
+          "@id": "dbpedia:Time_100:_The_Most_Important_People_of_the_Century"
+        },
+        {
+          "@id": "dbpedia:Matteucci_Medal"
+        },
+        {
+          "@id": "dbpedia:Barnard_Medal_for_Meritorious_Service_to_Science"
+        },
+        {
+          "@id": "dbpedia:Nobel_Prize_in_Physics"
+        }
+      ],
+      "dbo:birthDate": {
+        "@language": "en",
+        "@value": "1879-03-14"
+      },
+      "dbo:birthPlace": [
+        {
+          "@id": "dbpedia:Baden-W%C3%BCrttemberg"
+        },
+        {
+          "@id": "dbpedia:German_Empire"
+        },
+        {
+          "@id": "dbpedia:Ulm"
+        },
+        {
+          "@id": "dbpedia:Kingdom_of_Württemberg"
+        },
+        {
+          "@id": "dbpedia:Baden-Württemberg"
+        }
+      ],
+      "dbo:birthYear": {
+        "@language": "en",
+        "@value": "1879-01-01"
+      },
+      "dbo:bnfId": {
+        "@language": "en",
+        "@value": "cb119016075"
+      },
+      "dbo:citizenship": [
+        {
+          "@id": "dbpedia:German_Empire"
+        },
+        {
+          "@id": "dbpedia:Kingdom_of_Württemberg"
+        },
+        {
+          "@id": "dbpedia:Weimar_Republic"
+        },
+        {
+          "@id": "dbpedia:Statelessness"
+        },
+        {
+          "@id": "dbpedia:Switzerland"
+        },
+        {
+          "@id": "dbpedia:United_States"
+        },
+        {
+          "@id": "dbpedia:Austria-Hungary"
+        }
+      ],
+      "dbo:deathDate": {
+        "@language": "en",
+        "@value": "1955-04-18"
+      },
+      "dbo:deathPlace": [
+        {
+          "@id": "dbpedia:United_States"
+        },
+        {
+          "@id": "dbpedia:Princeton,_New_Jersey"
+        }
+      ],
+      "dbo:deathYear": {
+        "@language": "en",
+        "@value": "1955-01-01"
+      },
+      "dbo:doctoralAdvisor": {
+        "@id": "dbpedia:Alfred_Kleiner"
+      },
+      "dbo:field": [
+        {
+          "@id": "dbpedia:Physics"
+        },
+        {
+          "@id": "dbpedia:Philosophy"
+        }
+      ],
+      "dbo:isniId": {
+        "@language": "en",
+        "@value": "000000012281955X"
+      },
+      "dbo:knownFor": [
+        {
+          "@id": "dbpedia:Einstein_field_equations"
+        },
+        {
+          "@id": "dbpedia:Bose–Einstein_correlations"
+        },
+        {
+          "@id": "dbpedia:Brownian_motion"
+        },
+        {
+          "@id": "dbpedia:Bose–Einstein_statistics"
+        },
+        {
+          "@id": "dbpedia:Mass–energy_equivalence"
+        },
+        {
+          "@id": "dbpedia:Special_relativity"
+        },
+        {
+          "@id": "dbpedia:Photoelectric_effect"
+        },
+        {
+          "@id": "dbpedia:EPR_paradox"
+        },
+        {
+          "@id": "dbpedia:Bose–Einstein_condensate"
+        },
+        {
+          "@id": "dbpedia:Classical_unified_field_theories"
+        },
+        {
+          "@id": "dbpedia:General_relativity"
+        }
+      ],
+      "dbo:lccnId": {
+        "@language": "en",
+        "@value": "n/79/22889"
+      },
+      "dbo:nlaId": {
+        "@language": "en",
+        "@value": "36582360"
+      },
+      "dbo:notableStudent": [
+        {
+          "@id": "dbpedia:Leó_Szilárd"
+        },
+        {
+          "@id": "dbpedia:Muhammad_Raziuddin_Siddiqui"
+        },
+        {
+          "@id": "dbpedia:Nathan_Rosen"
+        },
+        {
+          "@id": "dbpedia:Abdul_Jabbar_Abdullah"
+        },
+        {
+          "@id": "dbpedia:Ernst_G._Straus"
+        }
+      ],
+      "dbo:residence": [
+        {
+          "@id": "dbpedia:Switzerland"
+        },
+        {
+          "@id": "dbpedia:United_States"
+        },
+        {
+          "@id": "dbpedia:Austria"
+        },
+        {
+          "@id": "dbpedia:Nazi_Germany"
+        }
+      ],
+      "dbo:ridId": {
+        "@language": "en",
+        "@value": "I-6013-2012"
+      },
+      "dbo:selibrId": {
+        "@language": "en",
+        "@value": "184709"
+      },
+      "dbo:spouse": [
+        {
+          "@id": "dbpedia:Mileva_Marić"
+        },
+        {
+          "@id": "dbpedia:Elsa_Einstein"
+        }
+      ],
+      "dbo:thumbnail": {
+        "@id": "http://en.wikipedia.org/wiki/Special:FilePath/Einstein_1921_by_F_Schmutzer_-_restoration.jpg?width=300"
+      },
+      "dbo:ulanId": {
+        "@language": "en",
+        "@value": "500240971"
+      },
+      "dbo:viafId": {
+        "@language": "en",
+        "@value": "75121530"
+      },
+      "dbo:wikiPageExternalLink": [
+        {
+          "@id": "http://press.princeton.edu/einstein/writings.html#papers"
+        },
+        {
+          "@id": "http://www.shapell.org/exhibitions.aspx?einstein-original-letters-in-aid-of-his-brethren"
+        },
+        {
+          "@id": "http://phys4.harvard.edu/~wilson/NYTimes1948.html"
+        },
+        {
+          "@id": "http://vault.fbi.gov/Albert%20Einstein"
+        },
+        {
+          "@id": "http://www.pitt.edu/~jdnorton/lectures/Rotman_Summer_School_2013/Einstein_1905_docs/Einstein_Dissertation_English.pdf"
+        },
+        {
+          "@id": "http://ocw.mit.edu/courses/science-technology-and-society/sts-042j-einstein-oppenheimer-feynman-physics-in-the-20th-century-spring-2006/"
+        },
+        {
+          "@id": "http://www.monthlyreview.org/598einst.htm"
+        },
+        {
+          "@id": "http://books.google.com/books?id=875TTxildJ0C&dq=idiots+guide+to+einstein&printsec=frontcover"
+        },
+        {
+          "@id": "http://www.wdl.org/en/item/2745/"
+        },
+        {
+          "@id": "http://www.history.com/topics/albert-einstein"
+        },
+        {
+          "@id": "http://www.nybooks.com/articles/archives/1966/mar/17/on-albert-einstein/?pagination=false"
+        },
+        {
+          "@id": "http://einsteinpapers.press.princeton.edu/"
+        },
+        {
+          "@id": "http://nobelprize.org/nobel_prizes/physics/laureates/1921/einstein-bio.html"
+        },
+        {
+          "@id": "http://e-collection.library.ethz.ch/eserv/eth:30378/eth-30378-01.pdf"
+        },
+        {
+          "@id": "http://www.physik.uni-augsburg.de/annalen/history/einstein-papers/1905_17_132-148.pdf"
+        },
+        {
+          "@id": "http://www.msnbc.msn.com/id/46785542/ns/technology_and_science-science/"
+        },
+        {
+          "@id": "http://archon.brandeis.edu/?p=collections/findingaid&id=41"
+        },
+        {
+          "@id": "http://www.einstein.caltech.edu/index.html"
+        },
+        {
+          "@id": "http://press.princeton.edu/einstein/"
+        },
+        {
+          "@id": "http://www.alberteinstein.info/"
+        },
+        {
+          "@id": "https://books.google.com/books?id=B8K6n177ZwcC"
+        },
+        {
+          "@id": "http://www.nobelprize.org/nobel_prizes/physics/laureates/1921/einstein-lecture.html"
+        },
+        {
+          "@id": "http://www.pha.jhu.edu/einstein/stuff/einstein&music.pdf"
+        }
+      ],
+      "dbo:wikiPageID": {
+        "@language": "en",
+        "@value": "736"
+      },
+      "dbo:wikiPageRevisionID": {
+        "@language": "en",
+        "@value": "645719636"
+      },
+      "dc1:subject": [
+        {
+          "@id": "dbpedia:Category:People_with_acquired_Austrian_citizenship"
+        },
+        {
+          "@id": "dbpedia:Category:Institute_for_Advanced_Study_faculty"
+        },
+        {
+          "@id": "dbpedia:Category:Albert_Einstein"
+        },
+        {
+          "@id": "dbpedia:Category:Theoretical_physicists"
+        },
+        {
+          "@id": "dbpedia:Category:American_agnostics"
+        },
+        {
+          "@id": "dbpedia:Category:People_from_Munich"
+        },
+        {
+          "@id": "dbpedia:Category:ETH_Zurich_alumni"
+        },
+        {
+          "@id": "dbpedia:Category:People_from_Berlin"
+        },
+        {
+          "@id": "dbpedia:Category:Einstein_family"
+        },
+        {
+          "@id": "dbpedia:Category:People_from_Z%C3%BCrich"
+        },
+        {
+          "@id": "dbpedia:Category:German_emigrants_to_Switzerland"
+        },
+        {
+          "@id": "dbpedia:Category:German_socialists"
+        },
+        {
+          "@id": "dbpedia:Category:Deaths_from_abdominal_aortic_aneurysm"
+        },
+        {
+          "@id": "dbpedia:Category:People_from_Ulm"
+        },
+        {
+          "@id": "dbpedia:Category:American_science_writers"
+        },
+        {
+          "@id": "dbpedia:Category:Jewish_agnostics"
+        },
+        {
+          "@id": "dbpedia:Category:Swiss_agnostics"
+        },
+        {
+          "@id": "dbpedia:Category:American_physicists"
+        },
+        {
+          "@id": "dbpedia:Category:20th-century_German_writers"
+        },
+        {
+          "@id": "dbpedia:Category:Members_of_the_Bavarian_Academy_of_Sciences"
+        },
+        {
+          "@id": "dbpedia:Category:Winners_of_the_Max_Planck_Medal"
+        },
+        {
+          "@id": "dbpedia:Category:American_Zionists"
+        },
+        {
+          "@id": "dbpedia:Category:People_from_Princeton,_New_Jersey"
+        },
+        {
+          "@id": "dbpedia:Category:Jewish_engineers"
+        },
+        {
+          "@id": "dbpedia:Category:20th-century_American_writers"
+        },
+        {
+          "@id": "dbpedia:Category:Swiss_physicists"
+        },
+        {
+          "@id": "dbpedia:Category:Swiss_Jews"
+        },
+        {
+          "@id": "dbpedia:Category:German_Jews_who_emigrated_to_the_United_States_to_escape_Nazism"
+        },
+        {
+          "@id": "dbpedia:Category:Leiden_University_faculty"
+        },
+        {
+          "@id": "dbpedia:Category:Jewish_philosophers"
+        },
+        {
+          "@id": "dbpedia:Category:Stateless_people"
+        },
+        {
+          "@id": "dbpedia:Category:Charles_University_in_Prague_faculty"
+        },
+        {
+          "@id": "dbpedia:Category:Pantheists"
+        },
+        {
+          "@id": "dbpedia:Category:1955_deaths"
+        },
+        {
+          "@id": "dbpedia:Category:People_with_acquired_Swiss_citizenship"
+        },
+        {
+          "@id": "dbpedia:Category:American_socialists"
+        },
+        {
+          "@id": "dbpedia:Category:Relativists"
+        },
+        {
+          "@id": "dbpedia:Category:Jewish_American_scientists"
+        },
+        {
+          "@id": "dbpedia:Category:Foreign_Members_of_the_Royal_Society"
+        },
+        {
+          "@id": "dbpedia:Category:American_pacifists"
+        },
+        {
+          "@id": "dbpedia:Category:Patent_examiners"
+        },
+        {
+          "@id": "dbpedia:Category:Nobel_laureates_in_Physics"
+        },
+        {
+          "@id": "dbpedia:Category:German_Nobel_laureates"
+        },
+        {
+          "@id": "dbpedia:Category:ETH_Zurich_faculty"
+        },
+        {
+          "@id": "dbpedia:Category:1879_births"
+        },
+        {
+          "@id": "dbpedia:Category:Philosophers_of_science"
+        },
+        {
+          "@id": "dbpedia:Category:German_physicists"
+        },
+        {
+          "@id": "dbpedia:Category:American_engineers"
+        },
+        {
+          "@id": "dbpedia:Category:American_philosophers"
+        },
+        {
+          "@id": "dbpedia:Category:People_from_Bern"
+        },
+        {
+          "@id": "dbpedia:Category:Jewish_physicists"
+        },
+        {
+          "@id": "dbpedia:Category:Cosmologists"
+        },
+        {
+          "@id": "dbpedia:Category:Swiss_emigrants_to_the_United_States"
+        },
+        {
+          "@id": "dbpedia:Category:Members_of_the_American_Philosophical_Society"
+        }
+      ],
+      "dc:description": {
+        "@language": "en",
+        "@value": "Physicist"
+      },
+      "foaf:depiction": {
+        "@id": "http://en.wikipedia.org/wiki/Special:FilePath/Einstein_1921_by_F_Schmutzer_-_restoration.jpg"
+      },
+      "foaf:givenName": {
+        "@language": "en",
+        "@value": "Albert"
+      },
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://en.wikipedia.org/wiki/Albert_Einstein"
+      },
+      "foaf:name": [
+        {
+          "@language": "en",
+          "@value": "Einstein, Albert"
+        },
+        {
+          "@language": "en",
+          "@value": "Albert Einstein"
+        }
+      ],
+      "foaf:surname": {
+        "@language": "en",
+        "@value": "Einstein"
+      },
+      "ns1:wasDerivedFrom": {
+        "@id": "http://en.wikipedia.org/wiki/Albert_Einstein?oldid=645719636"
+      },
+      "rdfs:comment": [
+        {
+          "@language": "es",
+          "@value": "Albert Einstein (en alemán [ˈalbɐt ˈaɪnʃtaɪn]; Ulm, Imperio alemán, 14 de marzo de 1879 - Princeton, Estados Unidos, 18 de abril de 1955) fue un físico alemán, nacionalizado después suizo y estadounidense. Es considerado como el científico más conocido y popular del siglo XX.En 1905, cuando era un joven físico desconocido, empleado en la Oficina de Patentes de Berna, publicó su teoría de la relatividad especial."
+        },
+        {
+          "@language": "nl",
+          "@value": "Albert Einstein (Ulm, 14 maart 1879 – Princeton (New Jersey), 18 april 1955) was een Duits-Zwitsers-Amerikaanse theoretisch natuurkundige en uitvinder. Hij wordt algemeen gezien als een van de belangrijkste natuurkundigen uit de geschiedenis, naast Isaac Newton en James Clerk Maxwell. Zelf noemde hij altijd Newton als een veel belangrijker natuurkundige dan hijzelf, omdat Newton anders dan Einstein behalve theoretische ook grote experimentele ontdekkingen deed."
+        },
+        {
+          "@language": "de",
+          "@value": "Albert Einstein (* 14. März 1879 in Ulm; † 18. April 1955 in Princeton, New Jersey) war ein theoretischer Physiker. Seine Forschungen zur Struktur von Materie, Raum und Zeit sowie dem Wesen der Gravitation veränderten maßgeblich das physikalische Weltbild. Er gilt daher als einer der bedeutendsten Physiker aller Zeiten.Einsteins Hauptwerk, die Relativitätstheorie, machte ihn weltberühmt."
+        },
+        {
+          "@language": "ja",
+          "@value": "アルベルト・アインシュタイン（独: Albert Einstein、1879年3月14日 - 1955年4月18日）は、ドイツ生まれのユダヤ人の理論物理学者。特殊相対性理論および一般相対性理論、相対性宇宙論、ブラウン運動の起源を説明する揺動散逸定理、光量子仮説による光の粒子と波動の二重性、アインシュタインの固体比熱理論、零点エネルギー、半古典型のシュレディンガー方程式、ボーズ＝アインシュタイン凝縮などを提唱した業績により、20世紀最大の物理学者とも、現代物理学の父とも呼ばれる。特に彼の特殊相対性理論と一般相対性理論が有名だが、光量子仮説に基づく光電効果の理論的解明によって1921年のノーベル物理学賞を受賞した。音楽学者でモーツァルト研究者のアルフレート・アインシュタインは従弟とされる場合があるが、異説もある。数多くの業績のほか、世界中に広くその存在が認知されており、しばしば天才の代名詞としても引き合いに出される。1999年、アメリカのニュース週刊誌『タイム』は、アルベルトを『パーソン・オブ・ザ・センチュリー』（20世紀の人）に選出した。"
+        },
+        {
+          "@language": "it",
+          "@value": "Oltre a essere uno dei più celebri fisici della storia della scienza, che mutò in maniera radicale il paradigma di interpretazione del mondo fisico, fu molto attivo in diversi altri ambiti, dalla filosofia alla politica, e per il suo complesso apporto alla cultura in generale è considerato uno dei più importanti studiosi e pensatori del XX secolo.Nel 1905, ricordato come \"annus mirabilis\", pubblicò tre articoli a contenuto fortemente innovativo, riguardanti tre aree differenti della fisica: dimostrò la validità del concetto di quanto di Planck nell'ambito della spiegazione dell'effetto fotoelettrico dei metalli; fornì una valutazione quantitativa del moto browniano e l'ipotesi di aleatorietà dello stesso; espose la teoria della relatività ristretta, che precedette di circa un decennio quella della relatività generale.Nel 1921 ricevette il premio Nobel per la fisica \"per i contributi alla fisica teorica, in particolare per la scoperta della legge dell'effetto fotoelettrico\" e la sua fama dilagò in tutto il mondo soprattutto per la teoria della relatività, in grado, per l'assoluta originalità, di colpire l'immaginario collettivo. "
+        },
+        {
+          "@language": "zh",
+          "@value": "阿尔伯特·爱因斯坦（德语：Albert Einstein，1879年3月14日－1955年4月18日），旧译恩斯坦，20世纪猶太裔理論物理學家，科學哲學家，创立了相对论，現代物理學的兩大支柱之一（另一個是量子力學）。爱因斯坦的質能方程E = mc2最著稱於世（世人稱之為『全世界最著名的方程式』），他也因為“對理論物理的貢獻，特別是發現了光電效應”而獲得1921年諾貝爾物理學獎，這個發現深深影響量子理論的建立。在愛因斯坦早期職業生涯時，他想牛頓力學的框架已經無法讓古典力學與電磁場相互共存，這也為狹義相對論發展起了開端。然而他了解到相對的性質可以延申到重力場模型以及他在1916年的一些重力理論，就是廣義相對論。接著他著手處理統計力學與量子理論的問題，這也造就他對於粒子與分子運動的解釋。在1917年，愛因斯坦運用廣義相對論建立大尺度結構宇宙的模型。1933年，希特勒掌權，愛因斯坦走訪美國，由於是猶太裔身份，他沒有回到德國，而那時候他早已在普魯士科學院取得教授的職位。在1940年，他定居美國隨後成為美國公民。在二次世界大戰前夕，他署名一封信給當時美國總統羅斯褔，信中提到一種新式且深具威力的炸彈很有可能發展起來，建議美國也盡早進行相關研究，而這也導至曼哈頓計劃的成型。起初愛因斯坦協助增強同盟國的武力但譴責使用當時新發現的核裂变作為一種武器的想法，後來愛因斯坦與英國哲學家伯特蘭·羅素共同簽署一份羅素—愛因斯坦宣言，強調核武的危險性。愛因斯坦總共發表了300多篇科學論文和150篇非科學作品。愛因斯坦被誉为是“現代物理学之父”及二十世紀世界最重要科學家之一。他卓越的科學成就和原創性使得“愛因斯坦”一詞成為“天才”的同義詞。"
+        },
+        {
+          "@language": "fr",
+          "@value": "Albert Einstein (en allemand : [ˈalbɐt ˈaɪnʃtaɪn] ) né le 14 mars 1879 à Ulm, Wurtemberg, et mort le 18 avril 1955 à Princeton, New Jersey est un physicien théoricien qui fut successivement allemand, puis apatride (1896), suisse (1901), et enfin sous la double nationalité helvético-américaine (1940).Il publie sa théorie de la relativité restreinte en 1905, et une théorie de la gravitation  dite relativité générale en 1915."
+        },
+        {
+          "@language": "en",
+          "@value": "Albert Einstein (/ˈælbərt ˈaɪnstaɪn/; German: [ˈalbɐrt ˈaɪnʃtaɪn] (13px ); 14 March 1879 – 18 April 1955) was a German-born theoretical physicist and philosopher of science. He developed the general theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). He is best known in popular culture for his mass–energy equivalence formula E = mc2 (which has been dubbed \"the world's most famous equation\")."
+        },
+        {
+          "@language": "pt",
+          "@value": "Albert Einstein (Ulm, 14 de março de 1879 — Princeton, 18 de abril de 1955) foi um físico teórico alemão, radicado nos Estados Unidos a partir de 1933, que desenvolveu a teoria da relatividade geral, um dos dois pilares da física moderna (ao lado da mecânica quântica)."
+        },
+        {
+          "@language": "pl",
+          "@value": "Albert Einstein (wym. [ˈalbɐt ˈaɪ̯nʃtaɪ̯n]) (ur. 14 marca 1879 w Ulm, Niemcy, zm. 18 kwietnia 1955 w Princeton, USA) – niemiecki fizyk żydowskiego pochodzenia, jeden z największych fizyków-teoretyków XX wieku, twórca ogólnej i szczególnej teorii względności, współtwórca korpuskularno-falowej teorii światła, odkrywca emisji wymuszonej. Laureat Nagrody Nobla w dziedzinie fizyki w 1921 roku za wyjaśnienie efektu fotoelektrycznego. Opublikował ponad 450 prac, w tym ponad 300 naukowych."
+        },
+        {
+          "@language": "ar",
+          "@value": "ألبرت أينشتاين (بالألمانية: Albert Einstein) ‏ (14 مارس 1879 – 18 أبريل 1955) ألماني سويسري أمريكي الجنسية، يهودي الديانة، أحد أهم العلماء في الفيزياء."
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@language": "ar",
+          "@value": "ألبرت أينشتاين"
+        },
+        {
+          "@language": "ja",
+          "@value": "アルベルト・アインシュタイン"
+        },
+        {
+          "@language": "de",
+          "@value": "Albert Einstein"
+        },
+        {
+          "@language": "es",
+          "@value": "Albert Einstein"
+        },
+        {
+          "@language": "en",
+          "@value": "Albert Einstein"
+        },
+        {
+          "@language": "pl",
+          "@value": "Albert Einstein"
+        },
+        {
+          "@language": "nl",
+          "@value": "Albert Einstein"
+        },
+        {
+          "@language": "ru",
+          "@value": "Эйнштейн, Альберт"
+        },
+        {
+          "@language": "it",
+          "@value": "Albert Einstein"
+        },
+        {
+          "@language": "zh",
+          "@value": "阿尔伯特·爱因斯坦"
+        },
+        {
+          "@language": "fr",
+          "@value": "Albert Einstein"
+        },
+        {
+          "@language": "pt",
+          "@value": "Albert Einstein"
+        }
+      ],
+      "rdfs:seeAlso": [
+        {
+          "@id": "dbpedia:Equivalence_principle"
+        },
+        {
+          "@id": "dbpedia:Einstein_family"
+        }
+      ]
+    },
+    {
+      "@id": "dbpedia:Einstein_(physicist)",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Kurt_Mendelssohn",
+      "dbo:academicAdvisor": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Einstein_family",
+      "dbo:child": {
+        "@id": "dbpedia:Albert_Einstein"
+      },
+      "dbo:parent": {
+        "@id": "dbpedia:Albert_Einstein"
+      },
+      "dbo:relative": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "http://dbpedia.org/page/Albert_Einstein",
+      "dc1:conformsTo": {
+        "@id": "http://www.w3.org/TR/rdfa-syntax"
+      },
+      "foaf:primarytopic": {
+        "@id": "dbpedia:Albert_Einstein"
+      },
+      "xhv:alternate": [
+        {
+          "@id": "http://dbpedia.org/data/Albert_Einstein.n3"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Albert_Einstein>&output=application%2Fmicrodata%2Bjson"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Albert_Einstein>&format=text%2Fcxml"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Albert_Einstein.atom"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Albert_Einstein.rdf"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Albert_Einstein>&format=text%2Fcsv"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Albert_Einstein.ntriples"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Albert_Einstein>&output=application%2Fld%2Bjson"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Albert_Einstein.json"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Albert_Einstein.jrdf"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Albert_Einstein>&output=text%2Fhtml"
+        }
+      ],
+      "xhv:stylesheet": [
+        {
+          "@id": "http://dbpedia.org/statics/style.css"
+        },
+        {
+          "@id": "http://dbpedia.org/statics/highlighter.css"
+        }
+      ]
+    },
+    {
+      "@id": "dbpedia:Alfred_Kleiner",
+      "dbo:doctoralStudent": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Einstien,_Albert",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Théophile_de_Donder",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Léon_Brillouin",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Einstein_(disambiguation)",
+      "dbo:wikiPageDisambiguates": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Albert_Enstein",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Alber_Einstein",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Émile_Meyerson",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Albert_Einstien",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Sean_M._Carroll",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:A._Einstein",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Compassionate_Zionism_and_Albert_Einstein",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Atomic_Power_(film)",
+      "dbo:starring": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Riazuddin_(physicist)",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:Ernst_G._Straus",
+      "dbo:academicAdvisor": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    },
+    {
+      "@id": "dbpedia:A_Tribute_to_Einstein",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Albert_Einstein"
+      }
+    }
+  ]
+}

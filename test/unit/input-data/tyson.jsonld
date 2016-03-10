@@ -1,0 +1,628 @@
+{
+  "@context": {
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "dbpprop": "http://dbpedia.org/property/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dc1": "http://purl.org/dc/terms/",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "ns1": "http://www.w3.org/ns/prov#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xhv": "http://www.w3.org/1999/xhtml/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "dbpedia:N_d_Tyson",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Nova_ScienceNow",
+      "dbo:presenter": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Neil_degrasse_tyson",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Neil_de_Grasse_Tyson",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "http://en.wikipedia.org/wiki/Neil_deGrasse_Tyson",
+      "foaf:primaryTopic": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Tyson",
+      "dbo:wikiPageDisambiguates": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Neil_deGrasse_Tyson",
+      "@type": [
+        "http://dbpedia.org/class/yago/Physicist110428004",
+        "http://dbpedia.org/class/yago/SpaceAdvocates",
+        "http://dbpedia.org/class/yago/LivingThing100004258",
+        "http://dbpedia.org/class/yago/ColumbiaUniversityAlumni",
+        "dbo:Person",
+        "http://umbel.org/umbel/rc/Scientist",
+        "dbo:Scientist",
+        "http://dbpedia.org/class/yago/Professional110480253",
+        "http://dbpedia.org/class/yago/Scholar110557854",
+        "http://dbpedia.org/class/yago/Object100002684",
+        "http://www.wikidata.org/entity/Q5",
+        "http://dbpedia.org/class/yago/Scientist110560637",
+        "http://dbpedia.org/class/yago/AfricanAmericanAcademics",
+        "http://dbpedia.org/class/yago/Agnostic109779124",
+        "http://dbpedia.org/class/yago/Adult109605289",
+        "http://dbpedia.org/class/yago/AmericanAstronomers",
+        "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+        "http://dbpedia.org/class/yago/Astronomer109818343",
+        "http://dbpedia.org/class/yago/Person100007846",
+        "http://www.wikidata.org/entity/Q901",
+        "schema:Person",
+        "http://dbpedia.org/class/yago/AmericanEducators",
+        "http://dbpedia.org/class/yago/Whole100003553",
+        "dbo:Agent",
+        "http://www.wikidata.org/entity/Q215627",
+        "foaf:Person",
+        "owl:Thing",
+        "http://dbpedia.org/class/yago/Organism100004475",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "http://dbpedia.org/class/yago/Advocate109774783",
+        "http://dbpedia.org/class/yago/YagoLegalActor",
+        "http://dbpedia.org/class/yago/Skeptic110604634",
+        "http://dbpedia.org/class/yago/PeopleFromManhattan",
+        "http://dbpedia.org/class/yago/CausalAgent100007347",
+        "http://dbpedia.org/class/yago/PlanetaryScientists",
+        "http://dbpedia.org/class/yago/HarvardUniversityAlumni",
+        "http://dbpedia.org/class/yago/LivingPeople",
+        "http://dbpedia.org/class/yago/AmericanAgnostics",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+        "http://dbpedia.org/class/yago/PeopleFromTheBronx",
+        "http://dbpedia.org/class/yago/Academician109759069",
+        "http://dbpedia.org/class/yago/Educator110045713",
+        "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+        "http://dbpedia.org/class/yago/Alumnus109786338",
+        "http://dbpedia.org/class/yago/Intellectual109621545",
+        "http://dbpedia.org/class/yago/AmericanSkeptics"
+      ],
+      "dbo:abstract": [
+        {
+          "@language": "es",
+          "@value": "Neil deGrasse Tyson (Bronx, 5 de octubre de 1958) es un astrofísico, escritor y divulgador científico estadounidense. Actualmente es director del Planetario Hayden en el Centro Rose para la Tierra y el Espacio, investigador asociado en el Departamento de Astrofísica del Museo Estadounidense de Historia Natural. Desde el año 2006 es el presentador del programa de televisión de corte educativo científico NOVA ScienceNOW del canal público de Boston WGBH, miembro de PBS, y que ha sido un invitado frecuente en The Daily Show, The Colbert Report, Real Time with Bill Maher y Jeopardy!.Tyson fue escogido para ser el anfitrión de la secuela del programa de televisión Cosmos: Un viaje personal, escrita y presentada originalmente por Carl Sagan. El programa, titulado Cosmos: A Space-Time Odyssey, fue estrenado el 9 de marzo de 2014. Además, tuvo una aparición en un episodio de la popular serie The Big Bang Theory, y también prestó su voz para un episodio de la serie animada Gravity Falls: Un verano de misterio de Disney Channel y Martha Speaks, producida por WGBH para PBS Kids en su episodio \"Ojos en los cielos.\""
+        },
+        {
+          "@language": "ru",
+          "@value": "Нил Деграсс Тайсон (англ. Neil deGrasse Tyson; 5 октября 1958(19581005), Нью-Йорк) — американский астрофизик, доктор философии по физике, писатель, популяризатор науки.C 1996 года по настоящее время — директор планетария Хейдена в Американском музее естественной истории в Манхэттене. Являясь харизматичной личностью, он с 2006 по 2011 год вёл образовательное телевизионное шоу NOVA scienceNOW (англ.) на канале PBS, также был частым гостем на телепередачах The Daily Show, The Colbert Report и Jeopardy!."
+        },
+        {
+          "@language": "en",
+          "@value": "Neil deGrasse Tyson (/ˈniːəl dəˈɡræs ˈtaɪsən/; born October 5, 1958) is an American astrophysicist, cosmologist, author, and science communicator. He is currently the Frederick P. Rose Director of the Hayden Planetarium at the Rose Center for Earth and Space and a research associate in the department of astrophysics at the American Museum of Natural History. From 2006 to 2011, he hosted the educational science television show NOVA ScienceNow on PBS and has been a frequent guest on The Daily Show, The Colbert Report, and Real Time with Bill Maher. Since 2009, he has hosted the weekly radio show Star Talk. In 2014, Tyson hosted the television series Cosmos: A Spacetime Odyssey, a sequel to Carl Sagan's 1980 series Cosmos: A Personal Voyage."
+        },
+        {
+          "@language": "ja",
+          "@value": "ニール・ドグラース・タイソン（Neil deGrasse Tyson、1958年10月5日 - ）は、アメリカの天体物理学者。2000年にはヘイデン・プラネタリウムの館長として館の改修に携わった。太陽系の仲間を紹介するコーナーでは、地球型惑星、小惑星帯、木星型惑星、カイパーベルト、オールトの雲など、共通項を持つ天体をグループごとに分けて展示した。その際、冥王星が他の8つの惑星と違う扱いを受けて展示されたことが、公開から1年近く経過した2001年1月にニューヨーク・タイムズによってセンセーショナルに採り上げられたことにより、全米で物議を醸した。2014年に放映されたドキュメント番組「コスモス:時空と宇宙」では番組のホストを務めた。"
+        },
+        {
+          "@language": "zh",
+          "@value": "奈爾·德葛拉司·泰森（Neil deGrasse Tyson，1958年10月5日－）是一位以從事科學傳播聞名的美國天文學家，現任羅斯地球與太空中心海頓天象館弗雷德里克·羅斯館長；同時也是美國自然史博物館天文物理部的助理研究員。2006年起，他開始主持公共电视网上的科學教育節目《新星-今日科學》（NOVA ScienceNOW），並且經常是《每日秀》（The Daily Show）、《科伯報告》（The Colbert Report）、《與標馬艾的實時》和《危险边缘》等節目的來賓。2011年8月5日泰森宣布他接下原由卡尔·萨根主持的節目《宇宙：個人遊記》（Cosmos: A Personal Voyage）的下一季新節目《宇宙大探索》（Cosmos: A Spacetime Odyssey）的主持人。"
+        },
+        {
+          "@language": "pl",
+          "@value": "Neil deGrasse Tyson (ur. 5 października 1958 roku) – amerykański astrofizyk, popularyzator nauki, autor wielu książek i publikacji o tematyce związanej z astrofizyką. W swojej karierze był między innymi dyrektorem Hayden Planetarium przy American Museum of Natural History na Manhattanie. W latach 2006-2011 prowadził edukacyjny program telewizyjny o tematyce popularnonaukowej NOVA ScienceNow, nadawany na antenie amerykańskiej stacji PBS. Był wielokrotnym gościem takich programów telewizyjnych jak The Daily Show, The Colbert Report oraz Real Time with Bill Maher. Od 2009 roku prowadzi cotygodniową audycję radiową StarTalk. Tyson jest twórcą serialu popularnonaukowego Cosmos: A Spacetime Oddysey, który jest duchowym spadkobiercą kultowego serialu Cosmos: A Personal Voyage, nadawanego w 1980 na antenie PBS, prowadzonego przez Carla Sagana.Od jego nazwiska pochodzi nazwa planetoidy (13123) Tyson."
+        },
+        {
+          "@language": "it",
+          "@value": "È inoltre un ricercatore associato al dipartimento di astrofisica dell'American Museum of Natural History.Nel 2014 ha condotto Cosmos: Odissea nello spazio, il nuovo sequel di Cosmos, famoso programma americano degli anni ottanta sull'astronomia e divulgazione scientifica condotto dall'astrofisico e scrittore Carl Sagan."
+        },
+        {
+          "@language": "fr",
+          "@value": "Neil deGrasse Tyson (né le 5 octobre 1958 à New York) est un astrophysicien américain. Depuis 1996, il est directeur du planétarium Hayden à l'American Museum of Natural History de New York. C'est un des scientifiques américains les plus populaires, et il est souvent considéré comme l'héritier de Carl Sagan. Depuis 2006, il présente l'émission NOVA scienceNOW sur PBS.L'astéroïde (13123) Tyson est nommé en son honneur."
+        },
+        {
+          "@language": "de",
+          "@value": "Neil deGrasse Tyson (* 5. Oktober 1958 in New York City) ist ein US-amerikanischer Astrophysiker, Kosmologe, Wissenschaftsjournalist, Fernsehmoderator und Sachbuchautor. Als Astrophysiker befasst er sich insbesondere mit Sternentwicklung, Zwerggalaxien und der Gestalt der Milchstraße."
+        },
+        {
+          "@language": "pt",
+          "@value": "Neil deGrasse Tyson (11px /ˈniːəl dəˈɡræs ˈtaɪsən/; 5 de outubro de 1958) é um divulgador científico e astrofísico dos Estados Unidos. É atualmente o Diretor Frederick P. Rose do Planetário Hayden no Centro Rose para a Terra e o Espaço e investigador associado do departamento de astrofísica no Museu Americano de História Natural. De 2006 a 2011 foi apresentador do programa de televisão de educação científica NOVA scienceNOW, no canal de televisão PBS, e tem sido um convidado frequente dos programas The Daily Show, The Colbert Report, Real Time with Bill Maher e Jeopardy!.Neil deGrasse Tyson criticou James Cameron por este ter colocado o céu noturno errado numa das cenas finais do filme Titanic, exibido em 1997. Tyson enviou um e-mail a Cameron \"um tanto quanto sarcástico dizendo que, em 1912, naquela época do ano, naquela posição no Atlântico, quando Rose (Kate Winslet) olhava as estrelas, aquele não é o céu estrelado que ela teria visto.\" James Cameron acabou por corrigir o erro na reedição 3D do Titanic em 2012. Esta foi uma das poucas alterações que o realizador teria feito."
+        },
+        {
+          "@language": "ar",
+          "@value": "نيل ديغراس تايسون (بالإنجليزية: Neil deGrasse Tyson) (و. 5 أكتوبر 1958) عالم أمريكي مختص بالفيزياء الفلكية، كاتب ومقدم للعديد من البرامج التلفزيونية العلمية. يعمل حالياً باحثاً في قسم الفيزياء الفلكية في المتحف الأمريكي للتاريخ الطبيعي ومديراً للقبة السماوية \"هايدن\" التابعة للمتحف. حصل على شهادة البكالوريوس في الفيزياء من جامعة هارفارد وشهادة الدكتوراة في الفيزياء الفلكية من جامعة كولومبيا."
+        },
+        {
+          "@language": "nl",
+          "@value": "Neil deGrasse Tyson (New York, 5 oktober 1958) is een Amerikaanse astrofysicus en wetenschapscommunicator. Hij houdt zich onder meer bezig met stervorming, exploderende sterren, dwergstelsels en de structuur van de Melkweg. Dit doet hij met behulp van informatie van de Hubble Ruimtetelescoop en telescopen in Californië, New Mexico, Arizona en in het Chileense Andesgebergte.Tyson ziet het als zijn taak om wetenschap en astronomie naar een groter publiek te brengen. Daarom schuift hij veelvuldig aan bij talkshows, doet hij mee aan toers langs universiteiten, heeft hij zijn eigen podcast, en presenteerde hij het tweede deel van de Amerikaanse serie Cosmos: A Spacetime Odyssey."
+        }
+      ],
+      "dbo:alias": {
+        "@language": "en",
+        "@value": "Tyson, Neil"
+      },
+      "dbo:almaMater": [
+        {
+          "@id": "dbpedia:University_of_Texas_at_Austin"
+        },
+        {
+          "@id": "dbpedia:Harvard_University"
+        },
+        {
+          "@id": "dbpedia:Doctor_of_Philosophy"
+        },
+        {
+          "@id": "dbpedia:Columbia_University"
+        }
+      ],
+      "dbo:award": [
+        {
+          "@id": "dbpedia:NASA_Distinguished_Public_Service_Medal"
+        },
+        {
+          "@id": "dbpedia:Klopsteg_Memorial_Award"
+        }
+      ],
+      "dbo:birthDate": {
+        "@language": "en",
+        "@value": "1958-10-05"
+      },
+      "dbo:birthPlace": [
+        {
+          "@id": "dbpedia:Manhattan"
+        },
+        {
+          "@id": "dbpedia:United_States"
+        },
+        {
+          "@id": "dbpedia:New_York_City"
+        }
+      ],
+      "dbo:birthYear": {
+        "@language": "en",
+        "@value": "1958-01-01"
+      },
+      "dbo:field": [
+        {
+          "@id": "dbpedia:Physical_cosmology"
+        },
+        {
+          "@id": "dbpedia:Science_communication"
+        },
+        {
+          "@id": "dbpedia:Astrophysics"
+        }
+      ],
+      "dbo:influencedBy": [
+        {
+          "@id": "dbpedia:Isaac_Newton"
+        },
+        {
+          "@id": "dbpedia:Carl_Sagan"
+        },
+        {
+          "@id": "dbpedia:Richard_Feynman"
+        },
+        {
+          "@id": "dbpedia:Albert_Einstein"
+        }
+      ],
+      "dbo:lccnId": {
+        "@language": "en",
+        "@value": "n/88/297103"
+      },
+      "dbo:residence": [
+        {
+          "@id": "dbpedia:Manhattan"
+        },
+        {
+          "@id": "dbpedia:United_States"
+        },
+        {
+          "@id": "dbpedia:New_York_City"
+        }
+      ],
+      "dbo:thumbnail": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Tyson_-_Apollo_40th_anniversary_2009.jpg?width=300"
+      },
+      "dbo:viafId": {
+        "@language": "en",
+        "@value": "79110445"
+      },
+      "dbo:wikiPageExternalLink": [
+        {
+          "@id": "http://billmoyers.com/2014/01/10/book-excerpt-the-sky-is-not-the-limit/"
+        },
+        {
+          "@id": "http://www.planetary.org/about/neil_tyson.html"
+        },
+        {
+          "@id": "http://www.pbs.org/wgbh/nova/sciencenow/"
+        },
+        {
+          "@id": "http://startalkradio.net"
+        },
+        {
+          "@id": "http://www.haydenplanetarium.org/tyson"
+        }
+      ],
+      "dbo:wikiPageID": {
+        "@language": "en",
+        "@value": "1972777"
+      },
+      "dbo:wikiPageRevisionID": {
+        "@language": "en",
+        "@value": "645456079"
+      },
+      "dc1:subject": [
+        {
+          "@id": "dbpedia:Category:University_of_Texas_at_Austin_alumni"
+        },
+        {
+          "@id": "dbpedia:Category:Space_advocates"
+        },
+        {
+          "@id": "dbpedia:Category:People_associated_with_the_American_Museum_of_Natural_History"
+        },
+        {
+          "@id": "dbpedia:Category:People_from_Manhattan"
+        },
+        {
+          "@id": "dbpedia:Category:American_skeptics"
+        },
+        {
+          "@id": "dbpedia:Category:Columbia_University_alumni"
+        },
+        {
+          "@id": "dbpedia:Category:American_educators"
+        },
+        {
+          "@id": "dbpedia:Category:People_from_the_Bronx"
+        },
+        {
+          "@id": "dbpedia:Category:African-American_academics"
+        },
+        {
+          "@id": "dbpedia:Category:Fellows_of_the_Committee_for_Skeptical_Inquiry"
+        },
+        {
+          "@id": "dbpedia:Category:Critics_of_creationism"
+        },
+        {
+          "@id": "dbpedia:Category:American_people_of_Puerto_Rican_descent"
+        },
+        {
+          "@id": "dbpedia:Category:1958_births"
+        },
+        {
+          "@id": "dbpedia:Category:African-American_agnostics"
+        },
+        {
+          "@id": "dbpedia:Category:Living_people"
+        },
+        {
+          "@id": "dbpedia:Category:American_astrophysicists"
+        },
+        {
+          "@id": "dbpedia:Category:The_Bronx_High_School_of_Science_alumni"
+        },
+        {
+          "@id": "dbpedia:Category:Neil_deGrasse_Tyson"
+        },
+        {
+          "@id": "dbpedia:Category:African-American_scientists"
+        },
+        {
+          "@id": "dbpedia:Category:Planetary_scientists"
+        },
+        {
+          "@id": "dbpedia:Category:Harvard_University_alumni"
+        }
+      ],
+      "dc:description": {
+        "@language": "en",
+        "@value": "Astrophysicist"
+      },
+      "foaf:depiction": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Tyson_-_Apollo_40th_anniversary_2009.jpg"
+      },
+      "foaf:givenName": {
+        "@language": "en",
+        "@value": "Neil deGrasse"
+      },
+      "foaf:homepage": {
+        "@id": "http://www.haydenplanetarium.org/tyson"
+      },
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://en.wikipedia.org/wiki/Neil_deGrasse_Tyson"
+      },
+      "foaf:name": [
+        {
+          "@language": "en",
+          "@value": "Tyson, Neil deGrasse"
+        },
+        {
+          "@language": "en",
+          "@value": "Neil deGrasse Tyson"
+        }
+      ],
+      "foaf:surname": {
+        "@language": "en",
+        "@value": "Tyson"
+      },
+      "ns1:wasDerivedFrom": {
+        "@id": "http://en.wikipedia.org/wiki/Neil_deGrasse_Tyson?oldid=645456079"
+      },
+      "rdfs:comment": [
+        {
+          "@language": "en",
+          "@value": "Neil deGrasse Tyson (/ˈniːəl dəˈɡræs ˈtaɪsən/; born October 5, 1958) is an American astrophysicist, cosmologist, author, and science communicator. He is currently the Frederick P. Rose Director of the Hayden Planetarium at the Rose Center for Earth and Space and a research associate in the department of astrophysics at the American Museum of Natural History."
+        },
+        {
+          "@language": "pt",
+          "@value": "Neil deGrasse Tyson (11px /ˈniːəl dəˈɡræs ˈtaɪsən/; 5 de outubro de 1958) é um divulgador científico e astrofísico dos Estados Unidos. É atualmente o Diretor Frederick P. Rose do Planetário Hayden no Centro Rose para a Terra e o Espaço e investigador associado do departamento de astrofísica no Museu Americano de História Natural."
+        },
+        {
+          "@language": "zh",
+          "@value": "奈爾·德葛拉司·泰森（Neil deGrasse Tyson，1958年10月5日－）是一位以從事科學傳播聞名的美國天文學家，現任羅斯地球與太空中心海頓天象館弗雷德里克·羅斯館長；同時也是美國自然史博物館天文物理部的助理研究員。2006年起，他開始主持公共电视网上的科學教育節目《新星-今日科學》（NOVA ScienceNOW），並且經常是《每日秀》（The Daily Show）、《科伯報告》（The Colbert Report）、《與標馬艾的實時》和《危险边缘》等節目的來賓。2011年8月5日泰森宣布他接下原由卡尔·萨根主持的節目《宇宙：個人遊記》（Cosmos: A Personal Voyage）的下一季新節目《宇宙大探索》（Cosmos: A Spacetime Odyssey）的主持人。"
+        },
+        {
+          "@language": "ru",
+          "@value": "Нил Деграсс Тайсон (англ. Neil deGrasse Tyson; 5 октября 1958(19581005), Нью-Йорк) — американский астрофизик, доктор философии по физике, писатель, популяризатор науки.C 1996 года по настоящее время — директор планетария Хейдена в Американском музее естественной истории в Манхэттене."
+        },
+        {
+          "@language": "ja",
+          "@value": "ニール・ドグラース・タイソン（Neil deGrasse Tyson、1958年10月5日 - ）は、アメリカの天体物理学者。2000年にはヘイデン・プラネタリウムの館長として館の改修に携わった。太陽系の仲間を紹介するコーナーでは、地球型惑星、小惑星帯、木星型惑星、カイパーベルト、オールトの雲など、共通項を持つ天体をグループごとに分けて展示した。その際、冥王星が他の8つの惑星と違う扱いを受けて展示されたことが、公開から1年近く経過した2001年1月にニューヨーク・タイムズによってセンセーショナルに採り上げられたことにより、全米で物議を醸した。2014年に放映されたドキュメント番組「コスモス:時空と宇宙」では番組のホストを務めた。"
+        },
+        {
+          "@language": "fr",
+          "@value": "Neil deGrasse Tyson (né le 5 octobre 1958 à New York) est un astrophysicien américain. Depuis 1996, il est directeur du planétarium Hayden à l'American Museum of Natural History de New York. C'est un des scientifiques américains les plus populaires, et il est souvent considéré comme l'héritier de Carl Sagan. Depuis 2006, il présente l'émission NOVA scienceNOW sur PBS.L'astéroïde (13123) Tyson est nommé en son honneur."
+        },
+        {
+          "@language": "it",
+          "@value": "È inoltre un ricercatore associato al dipartimento di astrofisica dell'American Museum of Natural History.Nel 2014 ha condotto Cosmos: Odissea nello spazio, il nuovo sequel di Cosmos, famoso programma americano degli anni ottanta sull'astronomia e divulgazione scientifica condotto dall'astrofisico e scrittore Carl Sagan."
+        },
+        {
+          "@language": "pl",
+          "@value": "Neil deGrasse Tyson (ur. 5 października 1958 roku) – amerykański astrofizyk, popularyzator nauki, autor wielu książek i publikacji o tematyce związanej z astrofizyką. W swojej karierze był między innymi dyrektorem Hayden Planetarium przy American Museum of Natural History na Manhattanie. W latach 2006-2011 prowadził edukacyjny program telewizyjny o tematyce popularnonaukowej NOVA ScienceNow, nadawany na antenie amerykańskiej stacji PBS."
+        },
+        {
+          "@language": "nl",
+          "@value": "Neil deGrasse Tyson (New York, 5 oktober 1958) is een Amerikaanse astrofysicus en wetenschapscommunicator. Hij houdt zich onder meer bezig met stervorming, exploderende sterren, dwergstelsels en de structuur van de Melkweg. Dit doet hij met behulp van informatie van de Hubble Ruimtetelescoop en telescopen in Californië, New Mexico, Arizona en in het Chileense Andesgebergte.Tyson ziet het als zijn taak om wetenschap en astronomie naar een groter publiek te brengen."
+        },
+        {
+          "@language": "de",
+          "@value": "Neil deGrasse Tyson (* 5. Oktober 1958 in New York City) ist ein US-amerikanischer Astrophysiker, Kosmologe, Wissenschaftsjournalist, Fernsehmoderator und Sachbuchautor. Als Astrophysiker befasst er sich insbesondere mit Sternentwicklung, Zwerggalaxien und der Gestalt der Milchstraße."
+        },
+        {
+          "@language": "ar",
+          "@value": "نيل ديغراس تايسون (بالإنجليزية: Neil deGrasse Tyson) (و. 5 أكتوبر 1958) عالم أمريكي مختص بالفيزياء الفلكية، كاتب ومقدم للعديد من البرامج التلفزيونية العلمية. يعمل حالياً باحثاً في قسم الفيزياء الفلكية في المتحف الأمريكي للتاريخ الطبيعي ومديراً للقبة السماوية \"هايدن\" التابعة للمتحف. حصل على شهادة البكالوريوس في الفيزياء من جامعة هارفارد وشهادة الدكتوراة في الفيزياء الفلكية من جامعة كولومبيا."
+        },
+        {
+          "@language": "es",
+          "@value": "Neil deGrasse Tyson (Bronx, 5 de octubre de 1958) es un astrofísico, escritor y divulgador científico estadounidense. Actualmente es director del Planetario Hayden en el Centro Rose para la Tierra y el Espacio, investigador asociado en el Departamento de Astrofísica del Museo Estadounidense de Historia Natural."
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@language": "it",
+          "@value": "Neil deGrasse Tyson"
+        },
+        {
+          "@language": "ar",
+          "@value": "نيل تايسون"
+        },
+        {
+          "@language": "pl",
+          "@value": "Neil deGrasse Tyson"
+        },
+        {
+          "@language": "en",
+          "@value": "Neil deGrasse Tyson"
+        },
+        {
+          "@language": "ru",
+          "@value": "Тайсон, Нил Деграсс"
+        },
+        {
+          "@language": "pt",
+          "@value": "Neil deGrasse Tyson"
+        },
+        {
+          "@language": "es",
+          "@value": "Neil deGrasse Tyson"
+        },
+        {
+          "@language": "nl",
+          "@value": "Neil deGrasse Tyson"
+        },
+        {
+          "@language": "fr",
+          "@value": "Neil deGrasse Tyson"
+        },
+        {
+          "@language": "de",
+          "@value": "Neil deGrasse Tyson"
+        },
+        {
+          "@language": "zh",
+          "@value": "奈爾·德葛拉司·泰森"
+        },
+        {
+          "@language": "ja",
+          "@value": "ニール・ドグラース・タイソン"
+        }
+      ]
+    },
+    {
+      "@id": "dbpedia:Cosmos:_A_Spacetime_Odyssey",
+      "dbo:presenter": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Niel_tyson",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:StarTalk_(podcast)",
+      "dbo:presenter": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Niel_deGrasse_Tyson",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Death_by_Black_Hole",
+      "dbo:author": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "http://dbpedia.org/page/Neil_deGrasse_Tyson",
+      "dc1:conformsTo": {
+        "@id": "http://www.w3.org/TR/rdfa-syntax"
+      },
+      "foaf:primarytopic": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      },
+      "xhv:alternate": [
+        {
+          "@id": "http://dbpedia.org/data/Neil_deGrasse_Tyson.n3"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Neil_deGrasse_Tyson.jrdf"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Neil_deGrasse_Tyson.rdf"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Neil_deGrasse_Tyson>&format=text%2Fcxml"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Neil_deGrasse_Tyson.ntriples"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Neil_deGrasse_Tyson>&format=text%2Fcsv"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Neil_deGrasse_Tyson.json"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Neil_deGrasse_Tyson.atom"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Neil_deGrasse_Tyson>&output=application%2Fmicrodata%2Bjson"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Neil_deGrasse_Tyson>&output=text%2Fhtml"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Neil_deGrasse_Tyson>&output=application%2Fld%2Bjson"
+        }
+      ],
+      "xhv:stylesheet": [
+        {
+          "@id": "http://dbpedia.org/statics/highlighter.css"
+        },
+        {
+          "@id": "http://dbpedia.org/statics/style.css"
+        }
+      ]
+    },
+    {
+      "@id": "dbpedia:Neil_DeGrasse",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:DeGrasse_Tyson",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Neil_Degrasse_Tyson",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:NDT",
+      "dbo:wikiPageDisambiguates": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:400_Years_of_the_Telescope",
+      "dbo:narrator": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Neil_DeGrasse_Tyson",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:The_Pluto_Files",
+      "dbo:author": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Space_Chronicles:_Facing_the_Ultimate_Frontier",
+      "dbo:author": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Neil_Tyson",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Neil_degrass_tyson",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Niel_Degrasse_Tyson",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    },
+    {
+      "@id": "dbpedia:Neil_degrasse",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Neil_deGrasse_Tyson"
+      }
+    }
+  ]
+}

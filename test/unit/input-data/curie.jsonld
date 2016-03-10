@@ -1,0 +1,901 @@
+{
+  "@context": {
+    "dbo": "http://dbpedia.org/ontology/",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "dbpprop": "http://dbpedia.org/property/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dc1": "http://purl.org/dc/terms/",
+    "dct": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "ns1": "http://www.w3.org/ns/prov#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xhv": "http://www.w3.org/1999/xhtml/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "dbpedia:Marie_Curie's_birthplace",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:The_Radium_Woman",
+      "dbo:nonFictionSubject": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Madame_Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Sklodowska%E2%80%93Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Sklodowska-Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Curie_(disambiguation)",
+      "dbo:wikiPageDisambiguates": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Curie_(disambiguation)",
+      "dbo:wikiPageDisambiguates": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "http://dbpedia.org/page/Marie_Curie",
+      "dc1:conformsTo": {
+        "@id": "http://www.w3.org/TR/rdfa-syntax"
+      },
+      "foaf:primarytopic": {
+        "@id": "dbpedia:Marie_Curie"
+      },
+      "xhv:alternate": [
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Marie_Curie>&format=text%2Fcxml"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Marie_Curie.ntriples"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Marie_Curie.json"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Marie_Curie.n3"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Marie_Curie.atom"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Marie_Curie>&output=application%2Fmicrodata%2Bjson"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Marie_Curie>&output=application%2Fld%2Bjson"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Marie_Curie.rdf"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Marie_Curie>&output=text%2Fhtml"
+        },
+        {
+          "@id": "http://dbpedia.org/data/Marie_Curie.jrdf"
+        },
+        {
+          "@id": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=DESCRIBE+<http://dbpedia.org/resource/Marie_Curie>&format=text%2Fcsv"
+        }
+      ],
+      "xhv:stylesheet": [
+        {
+          "@id": "http://dbpedia.org/statics/highlighter.css"
+        },
+        {
+          "@id": "http://dbpedia.org/statics/style.css"
+        }
+      ]
+    },
+    {
+      "@id": "dbpedia:Maria_Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Skoldowska_Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Sklodowska",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Madam_Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "http://en.wikipedia.org/wiki/Marie_Curie",
+      "foaf:primaryTopic": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Sk%C5%82odowska%E2%80%93Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Maria_Sklodowska-Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Maria_Sk%C5%82odowska_Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Madame_Curie_(disambiguation)",
+      "dbo:wikiPageDisambiguates": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Curie,_Marie_Sklodowska",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Maria_Curie-Sk%C5%82odowska",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:William_Duane_(physicist)",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Curie,_Marie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marja_Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Maria_Sklodowska",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Ève_Curie",
+      "dbo:relative": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Mary_curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Maria_Sk%C5%82odowska%E2%80%93Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Pierre_Curie",
+      "dbo:spouse": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Maria_Curie-Sklodowska",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Sk%C5%82odowska_Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Sklodowska_Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Robert_Abbe",
+      "dbo:influencedBy": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Maria_Salomea_Sk%C5%82odowska",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Curie",
+      "@type": [
+        "http://dbpedia.org/class/yago/NobelLaureatesWithMultipleNobelAwards",
+        "http://umbel.org/umbel/rc/Scientist",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent",
+        "http://dbpedia.org/class/yago/Recipient109627906",
+        "http://dbpedia.org/class/yago/Person100007846",
+        "http://dbpedia.org/class/yago/NuclearChemists",
+        "http://umbel.org/umbel/rc/PersonWithOccupation",
+        "http://dbpedia.org/class/yago/PeopleFromWarsaw",
+        "http://dbpedia.org/class/yago/Inventor110214637",
+        "http://dbpedia.org/class/yago/FrenchNobelLaureates",
+        "http://www.wikidata.org/entity/Q901",
+        "http://dbpedia.org/class/yago/NobelLaureatesInChemistry",
+        "dbo:Scientist",
+        "http://dbpedia.org/class/yago/Honoree110183757",
+        "schema:Person",
+        "foaf:Person",
+        "http://dbpedia.org/class/yago/Organism100004475",
+        "http://dbpedia.org/class/yago/YagoLegalActor",
+        "http://dbpedia.org/class/yago/Traveler109629752",
+        "dbo:Person",
+        "http://dbpedia.org/class/yago/PolishAgnostics",
+        "http://dbpedia.org/class/yago/Laureate110249011",
+        "http://dbpedia.org/class/yago/NuclearChemist110364502",
+        "http://dbpedia.org/class/yago/ExperimentalPhysicists",
+        "http://dbpedia.org/class/yago/LivingThing100004258",
+        "http://dbpedia.org/class/yago/PolishEmigrantsToFrance",
+        "http://dbpedia.org/class/yago/PolishScientists",
+        "http://dbpedia.org/class/yago/PhysicalEntity100001930",
+        "http://dbpedia.org/class/yago/WomenChemists",
+        "http://dbpedia.org/class/yago/FrenchScientists",
+        "owl:Thing",
+        "http://www.wikidata.org/entity/Q5",
+        "http://dbpedia.org/class/yago/FrenchPeopleOfPolishDescent",
+        "http://dbpedia.org/class/yago/WomenNobelLaureates",
+        "http://dbpedia.org/class/yago/PolishPhysicists",
+        "http://dbpedia.org/class/yago/Scientist110560637",
+        "http://dbpedia.org/class/yago/Emigrant110051975",
+        "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson",
+        "http://dbpedia.org/class/yago/Creator109614315",
+        "http://www.wikidata.org/entity/Q215627",
+        "http://dbpedia.org/class/yago/Whole100003553",
+        "http://dbpedia.org/class/yago/Physicist110428004",
+        "http://dbpedia.org/class/yago/YagoLegalActorGeo",
+        "http://dbpedia.org/class/yago/Chemist109913824",
+        "http://dbpedia.org/class/yago/FrenchChemists",
+        "http://dbpedia.org/class/yago/WomenPhysicists",
+        "http://dbpedia.org/class/yago/PolishChemists",
+        "http://dbpedia.org/class/yago/FrenchPhysicists",
+        "http://dbpedia.org/class/yago/PolishNobelLaureates",
+        "http://dbpedia.org/class/yago/Acquirer109764201",
+        "dbo:Agent",
+        "http://dbpedia.org/class/yago/DiscoverersOfChemicalElements",
+        "http://dbpedia.org/class/yago/Agnostic109779124",
+        "http://dbpedia.org/class/yago/CausalAgent100007347",
+        "http://dbpedia.org/class/yago/Migrant110314952",
+        "http://dbpedia.org/class/yago/Object100002684",
+        "http://dbpedia.org/class/yago/NobelLaureatesInPhysics"
+      ],
+      "dbo:abstract": [
+        {
+          "@language": "ar",
+          "@value": "ماري سكلودوفسكا كوري (بالبولندية: Marie Skłodowska–Curie) ‏ (7 نوفمبر 1867 – 4 يوليو 1934) عالمة فيزياء وكيمياء بولندية المولد، اكتسبت الجنسية الفرنسية فيما بعد. عرفت بسبقها وأبحاثها في مجال اضمحلال النشاط الإشعاعي وهي أول امرأة تحصل على جائزة نوبل والوحيدة التي حصلت عليها مرتين وفي مجالين مختلفين  (مرة في الفيزياء وأخرى في الكيمياء)، وهي أول امرأة تتبوأ رتبة الأستاذية في جامعة باريس. اكتشفت مع زوجها بيار كوري عنصري البولونيوم والراديوم وليحصلا مشاركةً على جائزة نوبل في الفيزياء، كما حصلت على جائزة نوبل في الكيمياء عام 1911 بمفردها، وقد اقتسمت ابنتها إيرين جوليو-كوري وزوج ابنتها فردريك جوليو-كوري أيضًا جائزة نوبل لعام 1935.ولدت ماري كوري باسم ماريا سكلودوفسكا في مدينة وارسو (التي كانت آنذاك تابعة لمنطقة فستولا، وهو الاسم الذي كان يطلق على بولندا تحت حكم الإمبراطورية الروسية) وعاشت فيها حتى بلغت الرابعة والعشرين. وفي سنة 1891، لحقت بأختها الكبرى برونسوافا (بالبولندية Bronisława) التي سافرت إلى باريس للدراسة.من إنجازاتها وضع نظرية للنشاط الإشعاعي (وإليها ينسب مصطلح \"نشاط إشعاعي\"). كما ابتكرت تقنيات لفصل النظائر المشعة، واكتشفت عنصرين كيميائيين هما البولونيوم والراديوم، وتحت إشرافها أجريت أول دراسات لمعالجة الأورام باستخدام النظائر المشعة. كما أسست معهدي كوري في باريس وفي وراسو.خلال الحرب العالمية الأولى، أسست أول مراكز إشعاعية عسكرية. ورغم حصولها على الجنسية الفرنسية، لم تفقد ماري سكلودوفسكا كوري إحساسها بهويتها البولندية، فقد علمت بناتها اللغة البولندية، واصطحبتهم في زيارات لبولندا. كما أطلقت على أول عنصر كيميائي اكتشفته اسم البولونيوم، الذي عزلته للمرة الأولى عام 1898، نسبة إلى بلدها الأصل. وخلال الحرب العالمية الأولى أصبحت عضوًا في منظمة بولندا الحرة. كما أسست معهدًا مخصصًا للعلاج بالراديوم في مدينة وارسو سنة 1932 (يسمى حاليًا معهد ماريا سكلودوفسكا كوري للأورام)، والذي ترأسته شقيقتها الطبيبة برونسوافا.توفيت ماري كوري عام 1934، بمرض فقر الدم اللاتنسجي الذي أصيبت به نتيجة تعرضها للإشعاع لأعوام."
+        },
+        {
+          "@language": "de",
+          "@value": "Marie Skłodowska Curie (* 7. November 1867 in Warschau; † 4. Juli 1934 in Sancellemoz, geborene Maria Salomea Skłodowska) war eine Physikerin und Chemikerin polnischer Herkunft, die in Frankreich wirkte. Sie untersuchte die 1896 von Henri Becquerel beobachtete Strahlung von Uran<span />verbindungen und prägte für diese das Wort „radioaktiv“. Im Rahmen ihrer Forschungen, für die ihr 1903 ein anteiliger Nobelpreis für Physik und 1911 der Nobelpreis für Chemie zugesprochen wurde, entdeckte sie gemeinsam mit ihrem Ehemann Pierre Curie die chemischen Elemente Polonium und Radium. Marie Curie ist bisher die einzige Frau unter den vier Mehrfach-Nobelpreisträgern und neben Linus Pauling die einzige Person, die Nobelpreise auf zwei unterschiedlichen Gebieten erhalten hat.Marie Curie wuchs in der damals zum Russischen Kaiserreich gehörigen Provinz Weichselland auf. Da Frauen dort nicht zum Studium zugelassen wurden, zog sie nach Paris und begann Ende 1891 ein Studium an der Sorbonne, das sie mit Lizenziaten in Physik und Mathematik beendete. Im Dezember 1897 begann sie die Erforschung radioaktiver Substanzen, die seitdem den Schwerpunkt ihrer wissenschaftlichen Tätigkeit bildeten. Nach dem Unfalltod Pierre Curies wurden ihr 1906 zunächst seine Lehrverpflichtungen übertragen. Zwei Jahre später wurde sie schließlich auf den für ihn geschaffenen Lehrstuhl für Allgemeine Physik berufen. Sie war die erste Frau und die erste Professorin, die an der Sorbonne lehrte. Als sich Marie Curie 1911 um einen Sitz in der Académie des sciences bewarb und im selben Jahr ihr Verhältnis mit Paul Langevin bekannt wurde, erschienen in der Boulevardpresse Artikel, in denen sie persönlich angegriffen und als Fremde, Intellektuelle, Jüdin und sonderbare Frau bezeichnet wurde.Während des Ersten Weltkrieges widmete sich Marie Curie als Radiologin der Behandlung verwundeter Soldaten. Sie entwickelte einen Röntgenwagen, der es ermöglichte, radiologische Untersuchungen in unmittelbarer Nähe der Front vorzunehmen, und beteiligte sich an der Qualifizierung der notwendigen Techniker und Krankenschwestern. Nach dem Krieg engagierte sie sich in der Internationalen Kommission für Geistige Zusammenarbeit des Völkerbundes für bessere Arbeitsbedingungen von Wissenschaftlern. An dem von ihr geleiteten Pariser Radium-Institut setzte sie sich für die Förderung von weiblichen und ausländischen Studierenden ein."
+        },
+        {
+          "@language": "pl",
+          "@value": "Maria Salomea Skłodowska-Curie (urodzona 7 listopada 1867 w Warszawie, zmarła 4 lipca 1934 w Passy) – fizyczka, chemiczka, dwukrotna laureatka Nagrody Nobla.W 1891 roku, Maria Skłodowska wyjechała z Polski (Królestwa Polskiego) do Paryża, by tam kontynuować studia na Sorbonie (na ziemiach polskich w XIX wieku kobiety nie mogły studiować, a i we Francji było to rzadkością); następnie rozwinęła tam swoją karierę naukową. Była prekursorką nowej gałęzi chemii – radiochemii. Do jej dokonań należą: opracowanie teorii promieniotwórczości, technik rozdzielania izotopów promieniotwórczych oraz odkrycie dwóch nowych pierwiastków – radu i polonu. Z jej inicjatywy prowadzono także pierwsze badania nad leczeniem raka za pomocą promieniotwórczości. Dwukrotnie wyróżniona Nagrodą Nobla za osiągnięcia naukowe, po raz pierwszy w roku 1903 z fizyki wraz z mężem i Henrim Becquerelem za badania nad odkrytym przez Becquerela zjawiskiem promieniotwórczości, po raz drugi w 1911 roku z chemii za wydzielenie czystego radu i badanie właściwości chemicznych pierwiastków promieniotwórczych. Jest jedyną kobietą, która tę nagrodę otrzymała dwukrotnie, a także jedynym uczonym w historii uhonorowanym Nagrodą Nobla w dwóch różnych dziedzinach nauk przyrodniczych. Jest ona też jedyną kobietą, która spoczęła w paryskim Panteonie w dowód uznania zasług na polu naukowym.Żona Pierre’a Curie, matka Ève Curie i Irène Joliot-Curie."
+        },
+        {
+          "@language": "it",
+          "@value": "Nel 1903 fu insignita del premio Nobel per la fisica (assieme al marito Pierre Curie e ad Antoine Henri Becquerel) per i loro studi sulle radiazioni e, nel 1911, del premio Nobel per la chimica per la sua scoperta del radio e del polonio. Marie Curie è stata l'unica donna tra i quattro vincitori di più di un Nobel e, insieme a Linus Pauling, l'unica ad averlo vinto in due aree distinte.Marie Curie crebbe nella Polonia russa; poiché qui le donne non potevano essere ammesse agli studi superiori, si trasferì a Parigi e nel 1891 iniziò a frequentare la Sorbona, dove si laureò in fisica e matematica. Nel dicembre del 1897 iniziò a compiere degli studi sulle sostanze radioattive, che da allora rimasero al centro dei suoi interessi. Dopo la morte accidentale del marito Pierre Curie, avvenuta nel 1906, le fu concesso di insegnare nella prestigiosa università della Sorbona. Due anni più tardi le venne assegnata la cattedra di fisica generale, diventando la prima donna ad insegnare alla Sorbona."
+        },
+        {
+          "@language": "ru",
+          "@value": "Мари́я Склодо́вская-Кюри́ (фр. Marie Curie, польск. Maria Skłodowska-Curie;урождённая Мария Саломея Склодовская, польск. Maria Salomea Skłodowska; 7 ноября 1867 года, Варшава, Царство Польское, Российская империя, — 4 июля 1934 года, близ Санселльмоза, Франция) — французский учёный-экспериментатор польского происхождения (физик, химик), педагог, общественный деятель. Удостоена Нобелевской премии: по физике (1903) и по химии (1911), первый дважды нобелевский лауреат в истории. Основала Институты Кюри в Париже и в Варшаве. Жена Пьера Кюри, вместе с ним занималась исследованием радиоактивности. Совместно с мужем открыла элементы радий (от лат. radiāre «излучать») и полоний (от латинского названия Польши, Polōnia — дань уважения родине Марии Склодовской)."
+        },
+        {
+          "@language": "zh",
+          "@value": "玛丽·斯克沃多夫斯卡-居里（波兰语：Marie Skłodowska-Curie，1867年11月7日－1934年7月4日），通常稱為玛丽·居里（法语：Marie Curie）或居里夫人（Madame Curie），波兰裔法国籍女物理学家、化学家。她是放射性研究的先驱者，是首位获得诺贝尔奖的女性，获得两次诺贝尔奖（獲得物理学奖及化学奖）的第一人（另一位為鲍林，獲得化學奖及和平奖）及唯一的女性，是唯一獲得二種不同科學類诺贝尔奖的人。她是巴黎大学第一位女教授。1995年，她与丈夫皮埃尔·居里一起移葬先贤祠，成为第一位凭自身价值入葬先贤祠的女性。玛丽·居里原名玛丽亚·斯克沃多夫斯卡（Maria Salomea Skłodowska），生于当时俄罗斯帝国统治下的波兰会议王国的华沙，即现在波兰的首都。她在华沙地下飞行大学读书，并开始接受真正的科学训练。她在华沙生活至24岁，1891年追随姐姐布洛尼斯拉娃至巴黎读书。她在巴黎取得学位并在毕业后留在巴黎从事科学研究。1903年她和丈夫皮埃尔·居里及亨利·贝可勒尔共同獲得了诺贝尔物理学奖，1911年又因放射化学方面的成就获得诺贝尔化学奖。玛丽·居里的成就包括开创了放射性理论，放射性的英文Radioactivity是她造的词，她发明了分离放射性同位素的技术，以及发现两种新元素釙（Po）和镭（Ra）。在她的指导下，人们第一次将放射性同位素用于治疗肿瘤。她在巴黎和华沙各创办了一座居里研究所，这两个研究所至今仍是重要的医学研究中心。在第一次世界大战期间，她创办了第一批战地放射中心。雖然玛丽·居里是法國公民，人身在異國，但也从未忘记她的祖国波兰。她教女兒波蘭文，多次帶她們去波蘭。她以祖国波兰的名字命名她所发现的第一种元素釙。一戰時期，瑪麗·居里利用她本人发明的流動式X光機協助外科醫生，可能因為長期暴露在過量的放射線下，導致晚年身患再生障礙性貧血，1934年病逝於法國上薩瓦省療養院。"
+        },
+        {
+          "@language": "en",
+          "@value": "Marie Skłodowska-Curie (/ˈkjʊri, kjʊˈri/; French: [kyʁi]; 7 November 1867 – 4 July 1934) was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person (and only woman) to win twice, the only person to win twice in multiple sciences, and was part of the Curie family legacy of five Nobel Prizes. She was also the first woman to become a professor at the University of Paris, and in 1995 became the first woman to be entombed on her own merits in the Panthéon in Paris.She was born Maria Salomea Skłodowska (pronounced [ˈmarja salɔˈmɛa skwɔˈdɔfska]) in Warsaw, in what was then the Kingdom of Poland, part of the Russian Empire. She studied at Warsaw's clandestine Floating University and began her practical scientific training in Warsaw. In 1891, aged 24, she followed her older sister Bronisława to study in Paris, where she earned her higher degrees and conducted her subsequent scientific work. She shared the 1903 Nobel Prize in Physics with her husband Pierre Curie and with physicist Henri Becquerel. She won the 1911 Nobel Prize in Chemistry.Her achievements included a theory of radioactivity (a term that she coined), techniques for isolating radioactive isotopes, and the discovery of two elements, polonium and radium. Under her direction, the world's first studies were conducted into the treatment of neoplasms, using radioactive isotopes. She founded the Curie Institutes in Paris and in Warsaw, which remain major centres of medical research today. During World War I, she established the first military field radiological centres.While a French citizen, Marie Skłodowska Curie (she used both surnames) never lost her sense of Polish identity. She taught her daughters the Polish language and took them on visits to Poland.  She named the first chemical element that she discovered – polonium, which she isolated in 1898 – after her native country.Curie died in 1934 at the sanatorium of Sancellemoz (Haute-Savoie), France, due to aplastic anemia brought on by exposure to radiation – including carrying test tubes of radium in her pockets during research and her service during World War I in mobile X-ray units created by her."
+        },
+        {
+          "@language": "fr",
+          "@value": "Marie Curie, née Maria Salomea Skłodowska (prononcé [ˈmarja salɔˈmɛa skwɔˈdɔfska ]) le 7 novembre 1867 à Varsovie, au sein du Royaume du Congrès (actuelle Pologne), et morte le 4 juillet 1934 au sanatorium de Sancellemoz situé à Passy, Haute-Savoie en France, est une physicienne et chimiste polonaise, naturalisée française.Pierre Curie — son époux — et Marie Curie reçoivent une moitié du prix Nobel de physique de 1903 (l'autre moitié est remise à Henri Becquerel) pour leurs recherches sur les radiations. En 1911, elle obtient le prix Nobel de chimie pour ses travaux sur le polonium et le radium. Elle est la seule femme à avoir reçu deux prix Nobel et la seule parmi tous les lauréats à avoir été récompensée dans deux domaines scientifiques distincts (en dehors strictement des sciences, Linus Pauling obtint le prix Nobel de chimie en 1954 et le prix Nobel de la paix en 1962). Elle est également la première femme lauréate en 1903, avec son mari, de la médaille Davy pour ses travaux sur le radium."
+        },
+        {
+          "@language": "nl",
+          "@value": "Maria Salomea (Marie) Skłodowska-Curie (Warschau, 7 november 1867 – Passy, 4 juli 1934) was een Pools-Frans schei- en natuurkundige. Zij was een pionier op het gebied van de radioactiviteit, ontving twee Nobelprijzen en ontdekte de elementen polonium en radium. In haar tweede vaderland Frankrijk is ze bekend als Marie Curie en ze wordt vaak aangeduid als Madame Curie, de titel van de biografie door haar dochter Ève."
+        },
+        {
+          "@language": "ja",
+          "@value": "マリア・スクウォドフスカ＝キュリー（Maria Skłodowska-Curie, 1867年11月7日 - 1934年7月4日）は、現在のポーランド（ポーランド立憲王国）出身の物理学者・化学者である。フランス語名はマリ（マリー）・キュリー(Marie Curie)。ワルシャワ生まれ。キュリー夫人(Madame Curie)として有名である。放射線の研究で、1903年のノーベル物理学賞、1911年のノーベル化学賞を受賞し、パリ大学初の女性教授職に就任した。放射能 (radioactivity) という用語は彼女の発案による。"
+        },
+        {
+          "@language": "pt",
+          "@value": "Marie Curie, nome assumido após o casamento por Maria Skłodowska, (Varsóvia, 7 de Novembro de 1867 — Passy, Sallanches, 4 de Julho de 1934) foi uma cientista polonesa que exerceu a sua actividade profissional na França. Foi a primeira pessoa a ser laureada duas vezes com um Prémio Nobel, de Física, em 1903 (dividido com seu marido, Pierre Curie, e Becquerel) pelas suas descobertas no campo da radioatividade (que naquela altura era ainda um fenómeno pouco conhecido) e com o Nobel de Química de 1911 pela descoberta dos elementos químicos rádio e polônio."
+        },
+        {
+          "@language": "es",
+          "@value": "Maria Salomea Skłodowska-Curie, conocida habitualmente como Marie Curie (Varsovia, Zarato de Polonia, 7 de noviembre de 1867-Passy, Francia, 4 de julio de 1934), fue una física, matemática y química polaca, nacionalizada francesa. Pionera en el campo de la radiactividad, fue, entre otros méritos, la primera persona en recibir dos Premios Nobel en distintas especialidades, Física y Química, y la primera mujer en ser profesora en la Universidad de París. Nació en Varsovia (Zarato de Polonia, Imperio ruso), donde vivió hasta los 24 años. En 1891 se trasladó a París para continuar sus estudios. Fundó el Instituto Curie en París y en Varsovia. Estuvo casada con el físico Pierre Curie y fue madre de Irène Joliot-Curie (también galardonada con el Premio Nobel, junto a su marido Frédéric Joliot-Curie) y de Eva Curie."
+        }
+      ],
+      "dbo:alias": {
+        "@language": "en",
+        "@value": "Skłodowska-Curie, Maria (Polish)"
+      },
+      "dbo:almaMater": [
+        {
+          "@id": "dbpedia:ESPCI_ParisTech"
+        },
+        {
+          "@id": "dbpedia:University_of_Paris"
+        }
+      ],
+      "dbo:award": [
+        {
+          "@id": "dbpedia:Nobel_Prize_in_Chemistry"
+        },
+        {
+          "@id": "dbpedia:Nobel_Prize_in_Physics"
+        },
+        {
+          "@id": "dbpedia:Willard_Gibbs_Award"
+        },
+        {
+          "@id": "dbpedia:Matteucci_Medal"
+        },
+        {
+          "@id": "dbpedia:Elliott_Cresson_Medal"
+        },
+        {
+          "@id": "dbpedia:Davy_Medal"
+        },
+        {
+          "@id": "dbpedia:Albert_Medal_(Royal_Society_of_Arts)"
+        }
+      ],
+      "dbo:birthDate": {
+        "@language": "en",
+        "@value": "1867-11-07"
+      },
+      "dbo:birthName": {
+        "@language": "en",
+        "@value": "Maria Salomea Skłodowska"
+      },
+      "dbo:birthPlace": [
+        {
+          "@id": "dbpedia:Congress_Poland"
+        },
+        {
+          "@id": "dbpedia:Warsaw"
+        },
+        {
+          "@id": "dbpedia:Russian_Empire"
+        }
+      ],
+      "dbo:birthYear": {
+        "@language": "en",
+        "@value": "1867-01-01"
+      },
+      "dbo:bnfId": {
+        "@language": "en",
+        "@value": "121447141"
+      },
+      "dbo:deathCause": {
+        "@id": "dbpedia:Aplastic_anemia"
+      },
+      "dbo:deathDate": {
+        "@language": "en",
+        "@value": "1934-07-04"
+      },
+      "dbo:deathPlace": [
+        {
+          "@id": "dbpedia:France"
+        },
+        {
+          "@id": "dbpedia:Passy,_Haute-Savoie"
+        },
+        {
+          "@id": "dbpedia:Sancellemoz"
+        }
+      ],
+      "dbo:deathYear": {
+        "@language": "en",
+        "@value": "1934-01-01"
+      },
+      "dbo:doctoralAdvisor": {
+        "@id": "dbpedia:Gabriel_Lippmann"
+      },
+      "dbo:doctoralStudent": [
+        {
+          "@id": "dbpedia:Marguerite_Perey"
+        },
+        {
+          "@id": "dbpedia:André-Louis_Debierne"
+        },
+        {
+          "@id": "dbpedia:Óscar_Moreno"
+        }
+      ],
+      "dbo:field": [
+        {
+          "@id": "dbpedia:Physics"
+        },
+        {
+          "@id": "dbpedia:Chemistry"
+        }
+      ],
+      "dbo:individualisedGnd": {
+        "@language": "en",
+        "@value": "118523023"
+      },
+      "dbo:knownFor": [
+        {
+          "@id": "dbpedia:Radium"
+        },
+        {
+          "@id": "dbpedia:Polonium"
+        },
+        {
+          "@id": "dbpedia:Radioactive_decay"
+        }
+      ],
+      "dbo:lccnId": {
+        "@language": "en",
+        "@value": "n/80/155913"
+      },
+      "dbo:residence": {
+        "@id": "dbpedia:France"
+      },
+      "dbo:spouse": {
+        "@id": "dbpedia:Pierre_Curie"
+      },
+      "dbo:thumbnail": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Marie_Curie_c1920.jpg?width=300"
+      },
+      "dbo:viafId": {
+        "@language": "en",
+        "@value": "76353174"
+      },
+      "dbo:wikiPageExternalLink": [
+        {
+          "@id": "http://www.staff.amu.edu.pl/~zbzw/ph/sci/msc.htm"
+        },
+        {
+          "@id": "http://himetop.wikidot.com/marie-curie"
+        },
+        {
+          "@id": "http://www.aip.org/history/curie/contents.htm"
+        },
+        {
+          "@id": "http://www.nobelprize.org/physics/articles/curie/index.html"
+        },
+        {
+          "@id": "http://www.aip.org/history/curie/brief/index.html"
+        },
+        {
+          "@id": "http://www-personal.umich.edu/~jbourj/money1.htm"
+        },
+        {
+          "@id": "http://www.woodrow.org/teachers/chemistry/institutes/1992/MarieCurie.html"
+        },
+        {
+          "@id": "http://www.industrienationale.fr/"
+        },
+        {
+          "@id": "http://www.hypatiamaze.org/m_curie/curie_walk.html"
+        },
+        {
+          "@id": "http://alsos.wlu.edu/qsearch.aspx?browse=people/Curie,+Marie"
+        },
+        {
+          "@id": "http://gallica.bnf.fr/?lang=EN"
+        },
+        {
+          "@id": "http://gallica.bnf.fr/Search?idArk=&n=15&p=1&lang=EN&adva=1&adv=1&reset=&urlReferer=%2Fadvancedsearch%3Flang%3DEN&enreg=&tri=&catsel1=f_title&cat1=curie&ope2=MUST&catsel2=f_creator&cat2=marie+curie&ope3=MUST&catsel3=f_tdm&cat3=&date=daTo&daFr=&daTo=&sel_provenance_Part=toutPartenaires&sel_provenance_Edist=toutSNE&sel_source=toutSources&dateMiseEnLigne=indexDateFrom&firstIndexationDateDebut=&firstIndexationDateFin=&tri=&submit2=Start+search"
+        },
+        {
+          "@id": "http://www.umcs.lublin.pl/articles.php?aid=1113"
+        },
+        {
+          "@id": "http://www.cambridge.org/us/catalogue/catalogue.asp?isbn=9780521821971"
+        },
+        {
+          "@id": "http://www.nytimes.com/learning/general/onthisday/bday/1107.html"
+        },
+        {
+          "@id": "http://www.mariecurie.org/"
+        },
+        {
+          "@id": "https://archive.org/"
+        },
+        {
+          "@id": "http://cordis.europa.eu/fp7/mariecurieactions/home_en.html"
+        },
+        {
+          "@id": "https://archive.org/search.php?query=marie%20curie%20AND%20mediatype%3Atexts"
+        }
+      ],
+      "dbo:wikiPageID": {
+        "@language": "en",
+        "@value": "20408"
+      },
+      "dbo:wikiPageRevisionID": {
+        "@language": "en",
+        "@value": "645846508"
+      },
+      "dc1:subject": [
+        {
+          "@id": "dbpedia:Category:Corresponding_Members_of_the_USSR_Academy_of_Sciences"
+        },
+        {
+          "@id": "dbpedia:Category:Radioactivity"
+        },
+        {
+          "@id": "dbpedia:Category:Curie_family"
+        },
+        {
+          "@id": "dbpedia:Category:Cancer_deaths_in_France"
+        },
+        {
+          "@id": "dbpedia:Category:L%C3%A9gion_d'honneur_refusals"
+        },
+        {
+          "@id": "dbpedia:Category:University_of_Paris_faculty"
+        },
+        {
+          "@id": "dbpedia:Category:University_of_Paris_alumni"
+        },
+        {
+          "@id": "dbpedia:Category:Marie_Curie"
+        },
+        {
+          "@id": "dbpedia:Category:Polish_expatriates_in_France"
+        },
+        {
+          "@id": "dbpedia:Category:French_scientists"
+        },
+        {
+          "@id": "dbpedia:Category:Members_of_the_Lw%C3%B3w_Scientific_Society"
+        },
+        {
+          "@id": "dbpedia:Category:Polish_emigrants_to_France"
+        },
+        {
+          "@id": "dbpedia:Category:Women_Nobel_laureates"
+        },
+        {
+          "@id": "dbpedia:Category:Nuclear_chemists"
+        },
+        {
+          "@id": "dbpedia:Category:1934_deaths"
+        },
+        {
+          "@id": "dbpedia:Category:French_Nobel_laureates"
+        },
+        {
+          "@id": "dbpedia:Category:Corresponding_Members_of_the_St_Petersburg_Academy_of_Sciences"
+        },
+        {
+          "@id": "dbpedia:Category:Polish_Nobel_laureates"
+        },
+        {
+          "@id": "dbpedia:Category:19th-century_physicists"
+        },
+        {
+          "@id": "dbpedia:Category:Experimental_physicists"
+        },
+        {
+          "@id": "dbpedia:Category:Polish_agnostics"
+        },
+        {
+          "@id": "dbpedia:Category:People_from_Warsaw"
+        },
+        {
+          "@id": "dbpedia:Category:Nobel_laureates_in_Chemistry"
+        },
+        {
+          "@id": "dbpedia:Category:19th-century_women_scientists"
+        },
+        {
+          "@id": "dbpedia:Category:Honorary_Members_of_the_USSR_Academy_of_Sciences"
+        },
+        {
+          "@id": "dbpedia:Category:Burials_at_the_Panth%C3%A9on,_Paris"
+        },
+        {
+          "@id": "dbpedia:Category:Women_chemists"
+        },
+        {
+          "@id": "dbpedia:Category:Discoverers_of_chemical_elements"
+        },
+        {
+          "@id": "dbpedia:Category:French_people_of_Polish_descent"
+        },
+        {
+          "@id": "dbpedia:Category:French_physicists"
+        },
+        {
+          "@id": "dbpedia:Category:Corresponding_Members_of_the_Russian_Academy_of_Sciences_(1917%E2%80%9325)"
+        },
+        {
+          "@id": "dbpedia:Category:Nobel_laureates_with_multiple_Nobel_awards"
+        },
+        {
+          "@id": "dbpedia:Category:Polish_chemists"
+        },
+        {
+          "@id": "dbpedia:Category:Women_physicists"
+        },
+        {
+          "@id": "dbpedia:Category:Deaths_from_anemia"
+        },
+        {
+          "@id": "dbpedia:Category:Polish_scientists"
+        },
+        {
+          "@id": "dbpedia:Category:French_chemists"
+        },
+        {
+          "@id": "dbpedia:Category:Nobel_laureates_in_Physics"
+        },
+        {
+          "@id": "dbpedia:Category:1867_births"
+        },
+        {
+          "@id": "dbpedia:Category:Elliott_Cresson_Medal_recipients"
+        },
+        {
+          "@id": "dbpedia:Category:Polish_physicists"
+        }
+      ],
+      "dc:description": [
+        {
+          "@language": "en",
+          "@value": "Physicist and chemist"
+        },
+        {
+          "@language": "en",
+          "@value": "Physicistandchemist"
+        }
+      ],
+      "foaf:depiction": {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Marie_Curie_c1920.jpg"
+      },
+      "foaf:givenName": {
+        "@language": "en",
+        "@value": "Marie"
+      },
+      "foaf:homepage": {
+        "@id": "http://www.umcs.lublin.pl/articles.php?aid=1113"
+      },
+      "foaf:isPrimaryTopicOf": {
+        "@id": "http://en.wikipedia.org/wiki/Marie_Curie"
+      },
+      "foaf:name": [
+        {
+          "@language": "en",
+          "@value": "Marie Curie"
+        },
+        {
+          "@language": "en",
+          "@value": "Curie, Marie"
+        }
+      ],
+      "foaf:surname": {
+        "@language": "en",
+        "@value": "Curie"
+      },
+      "ns1:wasDerivedFrom": {
+        "@id": "http://en.wikipedia.org/wiki/Marie_Curie?oldid=645846508"
+      },
+      "rdfs:comment": [
+        {
+          "@language": "ja",
+          "@value": "マリア・スクウォドフスカ＝キュリー（Maria Skłodowska-Curie, 1867年11月7日 - 1934年7月4日）は、現在のポーランド（ポーランド立憲王国）出身の物理学者・化学者である。フランス語名はマリ（マリー）・キュリー(Marie Curie)。ワルシャワ生まれ。キュリー夫人(Madame Curie)として有名である。放射線の研究で、1903年のノーベル物理学賞、1911年のノーベル化学賞を受賞し、パリ大学初の女性教授職に就任した。放射能 (radioactivity) という用語は彼女の発案による。"
+        },
+        {
+          "@language": "pl",
+          "@value": "Maria Salomea Skłodowska-Curie (urodzona 7 listopada 1867 w Warszawie, zmarła 4 lipca 1934 w Passy) – fizyczka, chemiczka, dwukrotna laureatka Nagrody Nobla.W 1891 roku, Maria Skłodowska wyjechała z Polski (Królestwa Polskiego) do Paryża, by tam kontynuować studia na Sorbonie (na ziemiach polskich w XIX wieku kobiety nie mogły studiować, a i we Francji było to rzadkością); następnie rozwinęła tam swoją karierę naukową. Była prekursorką nowej gałęzi chemii – radiochemii."
+        },
+        {
+          "@language": "en",
+          "@value": "Marie Skłodowska-Curie (/ˈkjʊri, kjʊˈri/; French: [kyʁi]; 7 November 1867 – 4 July 1934) was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person (and only woman) to win twice, the only person to win twice in multiple sciences, and was part of the Curie family legacy of five Nobel Prizes."
+        },
+        {
+          "@language": "de",
+          "@value": "Marie Skłodowska Curie (* 7. November 1867 in Warschau; † 4. Juli 1934 in Sancellemoz, geborene Maria Salomea Skłodowska) war eine Physikerin und Chemikerin polnischer Herkunft, die in Frankreich wirkte. Sie untersuchte die 1896 von Henri Becquerel beobachtete Strahlung von Uran<span />verbindungen und prägte für diese das Wort „radioaktiv“."
+        },
+        {
+          "@language": "zh",
+          "@value": "玛丽·斯克沃多夫斯卡-居里（波兰语：Marie Skłodowska-Curie，1867年11月7日－1934年7月4日），通常稱為玛丽·居里（法语：Marie Curie）或居里夫人（Madame Curie），波兰裔法国籍女物理学家、化学家。她是放射性研究的先驱者，是首位获得诺贝尔奖的女性，获得两次诺贝尔奖（獲得物理学奖及化学奖）的第一人（另一位為鲍林，獲得化學奖及和平奖）及唯一的女性，是唯一獲得二種不同科學類诺贝尔奖的人。她是巴黎大学第一位女教授。1995年，她与丈夫皮埃尔·居里一起移葬先贤祠，成为第一位凭自身价值入葬先贤祠的女性。玛丽·居里原名玛丽亚·斯克沃多夫斯卡（Maria Salomea Skłodowska），生于当时俄罗斯帝国统治下的波兰会议王国的华沙，即现在波兰的首都。她在华沙地下飞行大学读书，并开始接受真正的科学训练。她在华沙生活至24岁，1891年追随姐姐布洛尼斯拉娃至巴黎读书。她在巴黎取得学位并在毕业后留在巴黎从事科学研究。1903年她和丈夫皮埃尔·居里及亨利·贝可勒尔共同獲得了诺贝尔物理学奖，1911年又因放射化学方面的成就获得诺贝尔化学奖。玛丽·居里的成就包括开创了放射性理论，放射性的英文Radioactivity是她造的词，她发明了分离放射性同位素的技术，以及发现两种新元素釙（Po）和镭（Ra）。在她的指导下，人们第一次将放射性同位素用于治疗肿瘤。她在巴黎和华沙各创办了一座居里研究所，这两个研究所至今仍是重要的医学研究中心。在第一次世界大战期间，她创办了第一批战地放射中心。雖然玛丽·居里是法國公民，人身在異國，但也从未忘记她的祖国波兰。她教女兒波蘭文，多次帶她們去波蘭。她以祖国波兰的名字命名她所发现的第一种元素釙。一戰時期，瑪麗·居里利用她本人发明的流動式X光機協助外科醫生，可能因為長期暴露在過量的放射線下，導致晚年身患再生障礙性貧血，1934年病逝於法國上薩瓦省療養院。"
+        },
+        {
+          "@language": "it",
+          "@value": "Nel 1903 fu insignita del premio Nobel per la fisica (assieme al marito Pierre Curie e ad Antoine Henri Becquerel) per i loro studi sulle radiazioni e, nel 1911, del premio Nobel per la chimica per la sua scoperta del radio e del polonio."
+        },
+        {
+          "@language": "es",
+          "@value": "Maria Salomea Skłodowska-Curie, conocida habitualmente como Marie Curie (Varsovia, Zarato de Polonia, 7 de noviembre de 1867-Passy, Francia, 4 de julio de 1934), fue una física, matemática y química polaca, nacionalizada francesa. Pionera en el campo de la radiactividad, fue, entre otros méritos, la primera persona en recibir dos Premios Nobel en distintas especialidades, Física y Química, y la primera mujer en ser profesora en la Universidad de París."
+        },
+        {
+          "@language": "fr",
+          "@value": "Marie Curie, née Maria Salomea Skłodowska (prononcé [ˈmarja salɔˈmɛa skwɔˈdɔfska ]) le 7 novembre 1867 à Varsovie, au sein du Royaume du Congrès (actuelle Pologne), et morte le 4 juillet 1934 au sanatorium de Sancellemoz situé à Passy, Haute-Savoie en France, est une physicienne et chimiste polonaise, naturalisée française.Pierre Curie — son époux — et Marie Curie reçoivent une moitié du prix Nobel de physique de 1903 (l'autre moitié est remise à Henri Becquerel) pour leurs recherches sur les radiations. "
+        },
+        {
+          "@language": "nl",
+          "@value": "Maria Salomea (Marie) Skłodowska-Curie (Warschau, 7 november 1867 – Passy, 4 juli 1934) was een Pools-Frans schei- en natuurkundige. Zij was een pionier op het gebied van de radioactiviteit, ontving twee Nobelprijzen en ontdekte de elementen polonium en radium. In haar tweede vaderland Frankrijk is ze bekend als Marie Curie en ze wordt vaak aangeduid als Madame Curie, de titel van de biografie door haar dochter Ève."
+        },
+        {
+          "@language": "ru",
+          "@value": "Мари́я Склодо́вская-Кюри́ (фр. Marie Curie, польск. Maria Skłodowska-Curie;урождённая Мария Саломея Склодовская, польск. Maria Salomea Skłodowska; 7 ноября 1867 года, Варшава, Царство Польское, Российская империя, — 4 июля 1934 года, близ Санселльмоза, Франция) — французский учёный-экспериментатор польского происхождения (физик, химик), педагог, общественный деятель. Удостоена Нобелевской премии: по физике (1903) и по химии (1911), первый дважды нобелевский лауреат в истории."
+        },
+        {
+          "@language": "ar",
+          "@value": "ماري سكلودوفسكا كوري (بالبولندية: Marie Skłodowska–Curie) ‏ (7 نوفمبر 1867 – 4 يوليو 1934) عالمة فيزياء وكيمياء بولندية المولد، اكتسبت الجنسية الفرنسية فيما بعد. عرفت بسبقها وأبحاثها في مجال اضمحلال النشاط الإشعاعي وهي أول امرأة تحصل على جائزة نوبل والوحيدة التي حصلت عليها مرتين وفي مجالين مختلفين  (مرة في الفيزياء وأخرى في الكيمياء)، وهي أول امرأة تتبوأ رتبة الأستاذية في جامعة باريس."
+        },
+        {
+          "@language": "pt",
+          "@value": "Marie Curie, nome assumido após o casamento por Maria Skłodowska, (Varsóvia, 7 de Novembro de 1867 — Passy, Sallanches, 4 de Julho de 1934) foi uma cientista polonesa que exerceu a sua actividade profissional na França."
+        }
+      ],
+      "rdfs:label": [
+        {
+          "@language": "fr",
+          "@value": "Marie Curie"
+        },
+        {
+          "@language": "pt",
+          "@value": "Marie Curie"
+        },
+        {
+          "@language": "es",
+          "@value": "Marie Curie"
+        },
+        {
+          "@language": "de",
+          "@value": "Marie Curie"
+        },
+        {
+          "@language": "ru",
+          "@value": "Склодовская-Кюри, Мария"
+        },
+        {
+          "@language": "ar",
+          "@value": "ماري كوري"
+        },
+        {
+          "@language": "pl",
+          "@value": "Maria Skłodowska-Curie"
+        },
+        {
+          "@language": "en",
+          "@value": "Marie Curie"
+        },
+        {
+          "@language": "ja",
+          "@value": "マリ・キュリー"
+        },
+        {
+          "@language": "it",
+          "@value": "Marie Curie"
+        },
+        {
+          "@language": "nl",
+          "@value": "Marie Curie"
+        },
+        {
+          "@language": "zh",
+          "@value": "玛丽·居里"
+        }
+      ]
+    },
+    {
+      "@id": "dbpedia:Gioacchino_Failla",
+      "dbo:doctoralAdvisor": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Maria_Sk%C5%82odowska-Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Maria_Sk%C5%82odowska",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:The_Curies",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Sk%C5%82odowska-Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Curie-Sk%C5%82odowska",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Henri_Becquerel",
+      "dbo:doctoralStudent": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Marie_Curie-Sklodowska",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    },
+    {
+      "@id": "dbpedia:Maria_Sklodowska_Curie",
+      "dbo:wikiPageRedirects": {
+        "@id": "dbpedia:Marie_Curie"
+      }
+    }
+  ]
+}
