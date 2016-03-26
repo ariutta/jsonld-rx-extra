@@ -161,6 +161,8 @@ jsonldRx.normalize(doc, {
   format: 'application/nquads'
 })
 .subscribe(function(normalized) {
+  console.log('normalized');
+  console.log(normalized);
   console.log(JSON.stringify(normalized, null, 2));
   // normalized is a string that is a canonical representation of the document
   // that can be used for hashing, comparison, etc.

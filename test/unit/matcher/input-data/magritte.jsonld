@@ -1,0 +1,10 @@
+[
+  {
+    "@context": "http://schema.org"
+  },
+  {
+    "@type": "Person",
+    "name": "René Magritte",
+    "sameAs": "https://www.freebase.com/m/06h88"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "name": "Paul McCartney",
+  "@id": "http://musicbrainz.org/artist/ba550d0e-adac-4864-b88b-407cab5e76af"
+}

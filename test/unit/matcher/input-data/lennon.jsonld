@@ -1,0 +1,6 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "John Lennon",
+  "@id": "http://musicbrainz.org/artist/4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+}

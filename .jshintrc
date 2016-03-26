@@ -4,6 +4,7 @@
   "eqeqeq": false,
   "loopfunc": false,
   "noarg": true,
+  "sub": true,
   "trailing": true,
   "undef": true,
   "unused": false,
