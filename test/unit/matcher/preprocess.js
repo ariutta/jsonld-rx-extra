@@ -236,7 +236,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
       .shareReplay();
 
       var matchers = [{
-        characteristicKeys: [
+        characteristics: [
           '@id',
           DATASOURCES_URI_NS,
           convertMiriamUrnToIdentifiersIri,
@@ -245,7 +245,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
         probabilityTruePositive: 0.999,
         probabilityFalsePositive: 0.03,
       }, {
-        characteristicKeys: [
+        characteristics: [
           'http://vocabularies.bridgedb.org/ops#datasource_name',
           'http://schema.org/name',
           'http://vocabularies.bridgedb.org/ops#official_name',
@@ -255,7 +255,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
         probabilityTruePositive: 0.8,
         probabilityFalsePositive: 0.05,
       }, {
-        characteristicKeys: [
+        characteristics: [
           'http://vocabularies.bridgedb.org/ops#example_identifier',
           IDENTIFIERS + 'idot/exampleIdentifier',
         ],
@@ -390,7 +390,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
       .shareReplay();
 
       var matchers = [{
-        characteristicKeys: [
+        characteristics: [
           '@id',
           DATASOURCES_URI_NS,
           convertMiriamUrnToIdentifiersIri,
@@ -399,7 +399,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
         probabilityTruePositive: 0.999,
         probabilityFalsePositive: 0.03,
       }, {
-        characteristicKeys: [
+        characteristics: [
           'http://vocabularies.bridgedb.org/ops#datasource_name',
           'http://schema.org/name',
           'http://vocabularies.bridgedb.org/ops#official_name',
@@ -409,7 +409,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
         probabilityTruePositive: 0.8,
         probabilityFalsePositive: 0.05,
       }, {
-        characteristicKeys: [
+        characteristics: [
           'http://vocabularies.bridgedb.org/ops#example_identifier',
           IDENTIFIERS + 'idot/exampleIdentifier',
         ],
@@ -551,7 +551,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
       .shareReplay();
 
       var matchers = [{
-        characteristicKeys: [
+        characteristics: [
           BRIDGEDB + 'datasource_name'
         ],
         probabilityTruePositive: 0.9,

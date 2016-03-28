@@ -123,9 +123,9 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
     describe('many reference records - pre-process them so as to process only once', function() {
 
       var matchers = [{
-        characteristicKeys: ['@id']
+        characteristics: ['@id']
       }, {
-        characteristicKeys: [
+        characteristics: [
           'http://schema.org/name',
           'http://xmlns.com/foaf/0.1/name',
         ],
@@ -229,7 +229,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
 
         var MIN_FUZZY_MATCH_SCORE = 0.9;
         var matchers = [{
-          characteristicKeys: [
+          characteristics: [
             'http://schema.org/name',
             'name',
             'label',
@@ -281,7 +281,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
 
         var MIN_FUZZY_MATCH_SCORE = 0.9;
         var matchers = [{
-          characteristicKeys: [
+          characteristics: [
             'http://schema.org/name',
             'name',
             'label',
@@ -335,7 +335,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
 
         var MIN_FUZZY_MATCH_SCORE = 0.9;
         var matchers = [{
-          characteristicKeys: [
+          characteristics: [
             'http://schema.org/name',
             'name',
             'label',
@@ -389,7 +389,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
 
         var MIN_FUZZY_MATCH_SCORE = 0.9;
         var matchers = [{
-          characteristicKeys: [
+          characteristics: [
             'http://schema.org/name',
             'name',
             'label',
@@ -709,7 +709,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         };
 
         var matchers = [{
-          characteristicKeys: [
+          characteristics: [
             'http://schema.org/name',
             'http://xmlns.com/foaf/0.1/name',
           ],
@@ -824,7 +824,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       var matchers = [{
-        characteristicKeys: [
+        characteristics: [
           '@id',
           DATASOURCES_URI_NS
         ],
@@ -859,14 +859,14 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
 
     it('should filter by RDF:about "urn:miriam:ncbigene"', function(done) {
       // This test is for RDF:about and also for the method "enhanceMatchers",
-      // because the characteristicKeys listed below include "@id", but not
+      // because the characteristics listed below include "@id", but not
       // "http://www.w3.org/1999/02/22-rdf-syntax-ns#about"
       var recordToMatch = {
         'http://www.w3.org/1999/02/22-rdf-syntax-ns#about': 'urn:miriam:ncbigene'
       };
 
       var matchers = [{
-        characteristicKeys: [
+        characteristics: [
           '@id',
           DATASOURCES_URI_NS
         ],
@@ -906,7 +906,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       var matchers = [{
-        characteristicKeys: [
+        characteristics: [
           '@id',
           DATASOURCES_URI_NS,
           convertMiriamUrnToIdentifiersIri,
@@ -947,7 +947,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       var matchers = [{
-        characteristicKeys: [
+        characteristics: [
           '@id',
           DATASOURCES_URI_NS,
           convertMiriamUrnToIdentifiersIri,
@@ -988,7 +988,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       var matchers = [{
-        characteristicKeys: [
+        characteristics: [
           'http://vocabularies.bridgedb.org/ops#datasource_name',
           'http://schema.org/name',
           'http://vocabularies.bridgedb.org/ops#official_name',
@@ -1030,7 +1030,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       var matchers = [{
-        characteristicKeys: [
+        characteristics: [
           BRIDGEDB + 'example_identifier',
           IDENTIFIERS + 'idot/exampleIdentifier',
         ],
@@ -1080,7 +1080,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       var matchers = [{
-        characteristicKeys: [
+        characteristics: [
           BRIDGEDB + 'example_identifier',
           IDENTIFIERS + 'idot/exampleIdentifier',
         ],
@@ -1157,7 +1157,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       var matchers = [{
-        characteristicKeys: [
+        characteristics: [
           BRIDGEDB + 'example_identifier',
           IDENTIFIERS + 'idot/exampleIdentifier',
         ],
@@ -1235,7 +1235,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
 
     // NOTE must match the appropriate matchers in preprocess.js.
     var matchers = [{
-      characteristicKeys: [
+      characteristics: [
         BRIDGEDB + 'datasource_name'
       ],
       probabilityTruePositive: 0.9,
@@ -1318,7 +1318,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
 
 // TODO make a test where the matchers disagree
 //      var matchers = [{
-//        characteristicKeys: [
+//        characteristics: [
 //          '@id',
 //          DATASOURCES_URI_NS,
 //          function(dataset) {
@@ -1337,7 +1337,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
 //        probabilityTruePositive: 0.7,
 //        probabilityFalsePositive: 0.02,
 //      }, {
-//        characteristicKeys: [
+//        characteristics: [
 //          'http://vocabularies.bridgedb.org/ops#datasource_name',
 //          'http://schema.org/name',
 //          'http://vocabularies.bridgedb.org/ops#official_name',
