@@ -67,7 +67,7 @@ function normalizeText(inputText) {
 
 describe('BridgeDb.jsonldMatcher.filter', function() {
 
-  describe('simple object as recordToMatch', function() {
+  describe('simple object as toMatchRecord', function() {
 
     describe('few reference records - process them every time (no pre-processing)', function() {
       var smallReferenceRecordsSource = Rx.Observable.from([
@@ -91,7 +91,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       ]);
 
       it('should filter by @id', function(done) {
-        var recordToMatch = {
+        var toMatchRecord = {
           '@id': 'http://musicbrainz.org/artist/ba550d0e-adac-4864-b88b-407cab5e76af'
         };
 
@@ -102,7 +102,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
           ]
         ];
 
-        jsonldMatcher.filter(recordToMatch, smallReferenceRecordsSource)
+        jsonldMatcher.filter(toMatchRecord, smallReferenceRecordsSource)
         .first()
         .map(function(result) {
           return result.value;
@@ -162,12 +162,12 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       });
 
       it('should filter by @id', function(done) {
-        var recordToMatch = {
+        var toMatchRecord = {
           '@id': 'http://musicbrainz.org/artist/ba550d0e-adac-4864-b88b-407cab5e76af'
         };
 
         jsonldMatcher.filter(
-          recordToMatch,
+          toMatchRecord,
           referenceRecordsSource,
           null,
           {
@@ -191,14 +191,14 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       });
 
       it('should filter by @id with conflicting profession property', function(done) {
-        var recordToMatch = {
+        var toMatchRecord = {
           '@id': 'http://musicbrainz.org/artist/ba550d0e-adac-4864-b88b-407cab5e76af',
           'name': 'Paul McCartney',
           'profession': 'artist'
         };
 
         jsonldMatcher.filter(
-          recordToMatch,
+          toMatchRecord,
           referenceRecordsSource,
           null,
           {
@@ -222,7 +222,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       });
 
       it('should filter by name', function(done) {
-        var recordToMatch = {
+        var toMatchRecord = {
           '@id': 'http://dbpedia.org/resource/Paul_McCartney',
           'name': 'Paul McCartney'
         };
@@ -240,9 +240,9 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
           ],
           normalize: normalizeText,
           tests: [
-            function(referenceRecord, referenceRecordName, recordToMatch, recordToMatchName) {
-              var matchScore = 1 - (leven(recordToMatchName, referenceRecordName) /
-              recordToMatchName.length);
+            function(toMatchRecord, toMatchRecordName, referenceRecord, referenceRecordName) {
+              var matchScore = 1 - (leven(toMatchRecordName, referenceRecordName) /
+              toMatchRecordName.length);
               return matchScore >= MIN_FUZZY_MATCH_SCORE;
             }
           ]
@@ -253,7 +253,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         };
 
         jsonldMatcher.filter(
-          recordToMatch,
+          toMatchRecord,
           referenceRecordsSource,
           matchers,
           options
@@ -275,7 +275,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       });
 
       it('should filter by name without @id', function(done) {
-        var recordToMatch = {
+        var toMatchRecord = {
           'name': 'Paul McCartney'
         };
 
@@ -294,9 +294,9 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
           probabilityTruePositive: 0.9,
           probabilityFalsePositive: 0.03,
           tests: [
-            function(referenceRecord, referenceRecordName, recordToMatch, recordToMatchName) {
-              var matchScore = 1 - (leven(recordToMatchName, referenceRecordName) /
-                  recordToMatchName.length);
+            function(toMatchRecord, toMatchRecordName, referenceRecord, referenceRecordName) {
+              var matchScore = 1 - (leven(toMatchRecordName, referenceRecordName) /
+                  toMatchRecordName.length);
               return matchScore >= MIN_FUZZY_MATCH_SCORE;
             }
           ]
@@ -307,7 +307,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         };
 
         jsonldMatcher.filter(
-          recordToMatch,
+          toMatchRecord,
           referenceRecordsSource,
           matchers,
           options
@@ -329,7 +329,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       });
 
       it('should filter by name (case insensitive)', function(done) {
-        var recordToMatch = {
+        var toMatchRecord = {
           'name': 'paul mccartney'
         };
 
@@ -348,9 +348,9 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
           probabilityFalsePositive: 0.05,
           normalize: normalizeText,
           tests: [
-            function(referenceRecord, referenceRecordName, recordToMatch, recordToMatchName) {
-              var matchScore = 1 - (leven(recordToMatchName, referenceRecordName) /
-                  recordToMatchName.length);
+            function(toMatchRecord, toMatchRecordName, referenceRecord, referenceRecordName) {
+              var matchScore = 1 - (leven(toMatchRecordName, referenceRecordName) /
+                  toMatchRecordName.length);
               return matchScore >= MIN_FUZZY_MATCH_SCORE;
             }
           ]
@@ -361,7 +361,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         };
 
         jsonldMatcher.filter(
-          recordToMatch,
+          toMatchRecord,
           referenceRecordsSource,
           matchers,
           options
@@ -383,7 +383,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       });
 
       it('should filter by name (w/ threshold)', function(done) {
-        var recordToMatch = {
+        var toMatchRecord = {
           'name': 'Paul McCartney'
         };
 
@@ -402,9 +402,9 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
           probabilityFalsePositive: 0.05,
           normalize: normalizeText,
           tests: [
-            function(referenceRecord, referenceRecordName, recordToMatch, recordToMatchName) {
-              var matchScore = 1 - (leven(recordToMatchName, referenceRecordName) /
-                  recordToMatchName.length);
+            function(toMatchRecord, toMatchRecordName, referenceRecord, referenceRecordName) {
+              var matchScore = 1 - (leven(toMatchRecordName, referenceRecordName) /
+                  toMatchRecordName.length);
               return matchScore >= MIN_FUZZY_MATCH_SCORE;
             }
           ]
@@ -416,7 +416,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         };
 
         jsonldMatcher.filter(
-          recordToMatch,
+          toMatchRecord,
           referenceRecordsSource,
           matchers,
           options
@@ -438,7 +438,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       });
 
       it('should filter by owl:sameAs (string)', function(done) {
-        var recordToMatch = {
+        var toMatchRecord = {
           '@context': {
             owl: 'http://www.w3.org/2002/07/owl#',
             'owl:sameAs': {
@@ -453,7 +453,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         };
 
         jsonldMatcher.filter(
-          recordToMatch,
+          toMatchRecord,
           referenceRecordsSource,
           null,
           {
@@ -477,7 +477,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       });
 
       it('should filter by owl:sameAs (array)', function(done) {
-        var recordToMatch = {
+        var toMatchRecord = {
           '@context': {
             owl: 'http://www.w3.org/2002/07/owl#',
             'owl:sameAs': {
@@ -492,7 +492,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         };
 
         jsonldMatcher.filter(
-          recordToMatch,
+          toMatchRecord,
           referenceRecordsSource,
           null,
           {
@@ -516,7 +516,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       });
 
       it('should filter a compacted JSON-LD document by @id (base)', function(done) {
-        var recordToMatch = {
+        var toMatchRecord = {
           '@context': {
             '@base': 'http://musicbrainz.org/artist/'
           },
@@ -524,7 +524,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         };
 
         jsonldMatcher.filter(
-          recordToMatch,
+          toMatchRecord,
           referenceRecordsSource,
           null,
           {
@@ -548,7 +548,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       });
 
       it('should filter a compacted JSON-LD document by @id (compact IRI)', function(done) {
-        var recordToMatch = {
+        var toMatchRecord = {
           '@context': {
             musicbrainz: {
               '@type': '@id',
@@ -559,7 +559,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         };
 
         jsonldMatcher.filter(
-          recordToMatch,
+          toMatchRecord,
           referenceRecordsSource,
           null,
           {
@@ -617,7 +617,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         })
         .doOnError(done);
 
-        var recordToMatch = {
+        var toMatchRecord = {
           '@id': 'http://dbpedia.org/resource/Neil_deGrasse_Tyson',
           'givenName': 'Neil'
         };
@@ -640,7 +640,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
           fs.writeFileSync('./expected.jsonld', expectedOut, {encoding: 'utf8'});
           //*/
           jsonldMatcher.filter(
-            recordToMatch,
+            toMatchRecord,
             referenceRecordsSource,
             null,
             options
@@ -704,7 +704,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         })
         .doOnError(done);
 
-        var recordToMatch = {
+        var toMatchRecord = {
           'http://xmlns.com/foaf/0.1/name': 'Neil deGrasse Tyson'
         };
 
@@ -726,7 +726,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         .toArray()
         .subscribe(function(expectedList) {
           jsonldMatcher.filter(
-            recordToMatch,
+            toMatchRecord,
             referenceRecordsSource,
             matchers,
             options
@@ -748,60 +748,15 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
   });
 
   describe('datasources.txt tests', function() {
-    /************************************************
-    * Start: Helper Functions
-    *************************************************/
-    /**
-     * convertMiriamUrnToIdentifiersIri
-     *
-     * @param {object} dataset expanded dataset based on datasources.txt and
-                               datasources_headers.txt
-     * @param {array} dataset['http://vocabularies.bridgedb.org/ops#uri'] length is no more than 1
-     * @param {object} dataset['http://vocabularies.bridgedb.org/ops#uri'][0]
-     * @param {string} dataset['http://vocabularies.bridgedb.org/ops#uri'][0]['@id']
-     *                 e.g., "urn:miriam:ncbigene"
-     * @return {string} e.g., "http://identifiers.org/ncbigene/"
-     */
-    function convertMiriamUrnToIdentifiersIri(dataset) {
-      var uriProperty = dataset[DATASOURCES_URI_NS];
-      if (!!uriProperty && uriProperty.length === 1) {
-        var uri = uriProperty[0]['@id'];
-        // Making sure it's actually an identifiers.org namespace,
-        // not a BridgeDb system code.
-        if (uri.indexOf('urn:miriam:') > -1) {
-          var miriamRootUrn = uri;
-          var preferredPrefix = miriamRootUrn.substring(11, miriamRootUrn.length);
-          return IDENTIFIERS + preferredPrefix + '/';
-        }
-      }
-    }
-
-    /**
-     * getPreferredPrefixFromMiriamUrn
-     *
-     * @param {object} dataset expanded dataset based on datasources.txt and
-                               datasources_headers.txt
-     * @param {array} dataset['http://vocabularies.bridgedb.org/ops#uri'] length is no more than 1
-     * @param {object} dataset['http://vocabularies.bridgedb.org/ops#uri'][0]
-     * @param {string} dataset['http://vocabularies.bridgedb.org/ops#uri'][0]['@id']
-     *                 e.g., "urn:miriam:ncbigene"
-     * @return {string} preferredPrefix from identifiers.org, e.g., "ncbigene"
-     */
-    function getPreferredPrefixFromMiriamUrn(dataset) {
-      var uriProperty = dataset[DATASOURCES_URI_NS];
-      if (!!uriProperty && uriProperty.length === 1) {
-        var uri = uriProperty[0]['@id'];
-        // Making sure it's actually an identifiers.org namespace,
-        // not a BridgeDb system code.
-        if (uri.indexOf('urn:miriam:') > -1) {
-          var miriamRootUrn = uri;
-          return miriamRootUrn.substring(11, miriamRootUrn.length);
-        }
-      }
-    }
-    /************************************************
-    * End: Helper Functions
-    *************************************************/
+    var bridgedbHelpers = require('./bridgedb-helpers.js');
+    var getIdentifiersIriFromMiriamUrnInDataset =
+        bridgedbHelpers.getIdentifiersIriFromMiriamUrnInDataset;
+    var getExpandedIdentifiersIriFromMiriamUrnInDataset =
+        bridgedbHelpers.getExpandedIdentifiersIriFromMiriamUrnInDataset;
+    var getPreferredPrefixFromMiriamUrnInDataset =
+        bridgedbHelpers.getPreferredPrefixFromMiriamUrnInDataset;
+    var getExpandedPreferredPrefixFromMiriamUrnInDataset =
+        bridgedbHelpers.getExpandedPreferredPrefixFromMiriamUrnInDataset;
 
     var datasourcesSource;
 
@@ -819,7 +774,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
     });
 
     it('should filter by @id "urn:miriam:affy.probeset"', function(done) {
-      var recordToMatch = {
+      var toMatchRecord = {
         '@id': 'urn:miriam:affy.probeset'
       };
 
@@ -837,7 +792,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       jsonldMatcher.filter(
-        recordToMatch,
+        toMatchRecord,
         datasourcesSource,
         matchers,
         options
@@ -861,7 +816,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       // This test is for RDF:about and also for the method "enhanceMatchers",
       // because the characteristics listed below include "@id", but not
       // "http://www.w3.org/1999/02/22-rdf-syntax-ns#about"
-      var recordToMatch = {
+      var toMatchRecord = {
         'http://www.w3.org/1999/02/22-rdf-syntax-ns#about': 'urn:miriam:ncbigene'
       };
 
@@ -879,7 +834,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       jsonldMatcher.filter(
-        recordToMatch,
+        toMatchRecord,
         datasourcesSource,
         matchers,
         options
@@ -901,7 +856,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
 
     it('should filter by calculated @id for http://identifiers.org/affy.probeset/', function(done) {
 
-      var recordToMatch = {
+      var toMatchRecord = {
         '@id': IDENTIFIERS + 'affy.probeset/'
       };
 
@@ -909,7 +864,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         characteristics: [
           '@id',
           DATASOURCES_URI_NS,
-          convertMiriamUrnToIdentifiersIri,
+          getExpandedIdentifiersIriFromMiriamUrnInDataset,
           DATASOURCES_WEBSITE_URL_NS,
         ],
         probabilityTruePositive: 0.999,
@@ -921,7 +876,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       jsonldMatcher.filter(
-        recordToMatch,
+        toMatchRecord,
         datasourcesSource,
         matchers,
         options
@@ -942,7 +897,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
     });
 
     it('should filter by calculated @id for http://identifiers.org/ncbigene/', function(done) {
-      var recordToMatch = {
+      var toMatchRecord = {
         '@id': IDENTIFIERS + 'ncbigene/'
       };
 
@@ -950,7 +905,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         characteristics: [
           '@id',
           DATASOURCES_URI_NS,
-          convertMiriamUrnToIdentifiersIri,
+          getExpandedIdentifiersIriFromMiriamUrnInDataset,
           DATASOURCES_WEBSITE_URL_NS,
         ],
         probabilityTruePositive: 0.999,
@@ -962,7 +917,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       jsonldMatcher.filter(
-        recordToMatch,
+        toMatchRecord,
         datasourcesSource,
         matchers,
         options
@@ -983,7 +938,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
     });
 
     it('should filter by name: "Entrez Gene"', function(done) {
-      var recordToMatch = {
+      var toMatchRecord = {
         'http://schema.org/name': 'Entrez Gene'
       };
 
@@ -992,7 +947,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
           'http://vocabularies.bridgedb.org/ops#datasource_name',
           'http://schema.org/name',
           'http://vocabularies.bridgedb.org/ops#official_name',
-          getPreferredPrefixFromMiriamUrn,
+          getExpandedPreferredPrefixFromMiriamUrnInDataset,
           DATASOURCES_SYSTEM_CODE_NS
         ],
         probabilityTruePositive: 0.8,
@@ -1004,7 +959,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       jsonldMatcher.filter(
-        recordToMatch,
+        toMatchRecord,
         datasourcesSource,
         matchers,
         options
@@ -1025,7 +980,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
     });
 
     it('should filter by regex', function(done) {
-      var recordToMatch = {
+      var toMatchRecord = {
         'http://vocabularies.bridgedb.org/ops#example_identifier': '1234'
       };
 
@@ -1037,12 +992,12 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         probabilityTruePositive: 0.8,
         probabilityFalsePositive: 0.05,
         tests: [
-         function(referenceRecord, referenceRecordValue, recordToMatch, recordToMatchValue) {
+         function(toMatchRecord, toMatchRecordValue, referenceRecord, referenceRecordValue) {
            var reEntry = referenceRecord[DATASOURCES_REGEX_NS];
            if (reEntry && reEntry[0] && reEntry[0]['@value']) {
              var reString = reEntry[0]['@value'];
              var re = new RegExp(reString);
-             return re.test(recordToMatchValue);
+             return re.test(toMatchRecordValue);
            }
          },
         ]
@@ -1054,7 +1009,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       jsonldMatcher.filter(
-        recordToMatch,
+        toMatchRecord,
         datasourcesSource,
         matchers,
         options
@@ -1075,7 +1030,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
     });
 
     it('should filter all by regex', function(done) {
-      var recordToMatch = {
+      var toMatchRecord = {
         'http://vocabularies.bridgedb.org/ops#example_identifier': '1234'
       };
 
@@ -1087,12 +1042,12 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         probabilityTruePositive: 0.8,
         probabilityFalsePositive: 0.05,
         tests: [
-         function(referenceRecord, referenceRecordValue, recordToMatch, recordToMatchValue) {
+         function(toMatchRecord, toMatchRecordValue, referenceRecord, referenceRecordValue) {
            var reEntry = referenceRecord[DATASOURCES_REGEX_NS];
            if (reEntry && reEntry[0] && reEntry[0]['@value']) {
              var reString = reEntry[0]['@value'];
              var re = new RegExp(reString);
-             return re.test(recordToMatchValue);
+             return re.test(toMatchRecordValue);
            }
          },
         ]
@@ -1133,7 +1088,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       ];
 
       jsonldMatcher.filter(
-        recordToMatch,
+        toMatchRecord,
         datasourcesSource,
         matchers,
         options
@@ -1152,7 +1107,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
     });
 
     it('should filter all by regex and priority', function(done) {
-      var recordToMatch = {
+      var toMatchRecord = {
         'http://vocabularies.bridgedb.org/ops#example_identifier': '1234'
       };
 
@@ -1164,7 +1119,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
         probabilityTruePositive: 0.8,
         probabilityFalsePositive: 0.05,
         tests: [
-         function(referenceRecord, referenceRecordValue, recordToMatch, recordToMatchValue) {
+         function(toMatchRecord, toMatchRecordValue, referenceRecord, referenceRecordValue) {
            var reEntry = referenceRecord[DATASOURCES_REGEX_NS];
            var priorityEntry = referenceRecord[BRIDGEDB + 'identifier_type'];
            if (priorityEntry && priorityEntry[0] && priorityEntry[0]['@value']) {
@@ -1172,7 +1127,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
              if (priorityValue === '1' && reEntry && reEntry[0] && reEntry[0]['@value']) {
                var reString = reEntry[0]['@value'];
                var re = new RegExp(reString);
-               return re.test(recordToMatchValue);
+               return re.test(toMatchRecordValue);
              }
            }
          },
@@ -1209,7 +1164,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       ];
 
       jsonldMatcher.filter(
-        recordToMatch,
+        toMatchRecord,
         datasourcesSource,
         matchers,
         options
@@ -1261,12 +1216,12 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
     });
 
     it('should convert datasource_name "Entrez Gene" to system_code "L"', function(done) {
-      var recordToMatch = {
+      var toMatchRecord = {
         'http://vocabularies.bridgedb.org/ops#datasource_name': 'Entrez Gene'
       };
 
       jsonldMatcher.filter(
-        recordToMatch,
+        toMatchRecord,
         datasourcesSource,
         matchers,
         options
@@ -1287,12 +1242,12 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
     });
 
     it('should convert datasource_name "KNApSAcK" to system_code "Cks"', function(done) {
-      var recordToMatch = {
+      var toMatchRecord = {
         'http://vocabularies.bridgedb.org/ops#datasource_name': 'KNApSAcK'
       };
 
       jsonldMatcher.filter(
-        recordToMatch,
+        toMatchRecord,
         datasourcesSource,
         matchers,
         options
@@ -1341,7 +1296,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
 //          'http://vocabularies.bridgedb.org/ops#datasource_name',
 //          'http://schema.org/name',
 //          'http://vocabularies.bridgedb.org/ops#official_name',
-//          getPreferredPrefixFromMiriamUrn,
+//          getExpandedPreferredPrefixFromMiriamUrnInDataset,
 //          DATASOURCES_SYSTEM_CODE_NS
 //        ],
 //        probabilityTruePositive: 0.8,
@@ -1368,7 +1323,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
             // if you specify a key here in sameAs, don't include it again as its own key entry.
             'http://schema.org/name',
             'http://vocabularies.bridgedb.org/ops#official_name',
-            getPreferredPrefixFromMiriamUrn,
+            getExpandedPreferredPrefixFromMiriamUrnInDataset,
             DATASOURCES_SYSTEM_CODE_NS
           ],
           // TODO we're handling sameAs for keys. What about for values? For example, we
@@ -1390,23 +1345,23 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
           // TODO in jsonld-matcher-rx.js, we need to pass in the same args
           // for every test function.
           // We also need to consider that the values may come from a sameAs function.
-//            @param {object} recordToMatch the record for which to find a match in the set of
+//            @param {object} toMatchRecord the record for which to find a match in the set of
 //                                  reference records
-//            @param {object[]} recordToMatchValues value(s) from the record for which to find a
+//            @param {object[]} toMatchRecordValues value(s) from the record for which to find a
 //                                          match in the set of reference records like
 //                                          [{'@id': '...'}] or [{'@value': '...'}]
 //            @param {object} referenceRecord e.g, JSON-LD expanded row of the dataset based on
 //                                            datasources.txt and datasources_headers.txt
 //            @param {object[]} referenceRecordValues value(s) like [{'@id': '...'}] or
 //                                                    [{'@value': '...'}]
-//            @return {boolean} whether the current referenceRecord matches the recordToMatch
-            function(recordToMatch, recordToMatchValues, referenceRecord,
+//            @return {boolean} whether the current referenceRecord matches the toMatchRecord
+            function(toMatchRecord, toMatchRecordValues, referenceRecord,
                 referenceRecordValues) {
               return referenceRecordValues.find(function(referenceRecordValue) {
                 var referenceRecordString = referenceRecordValue['@value'];
-                return recordToMatchValues.find(function(recordToMatchValue) {
-                  var recordToMatchString = recordToMatchValue['@value'];
-                  return distance(referenceRecordString, recordToMatchString) > 0.8;
+                return toMatchRecordValues.find(function(toMatchRecordValue) {
+                  var toMatchRecordString = toMatchRecordValue['@value'];
+                  return distance(referenceRecordString, toMatchRecordString) > 0.8;
                 });
               });
             },
@@ -1417,15 +1372,14 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
             IDENTIFIERS + 'idot/exampleIdentifier',
           ],
           tests: [
-            function(recordToMatch, recordToMatchValues, referenceRecord,
-                referenceRecordValues) {
+            function(toMatchRecord, toMatchRecordValue, referenceRecord, referenceRecordValue) {
               var reEntry = referenceRecord[DATASOURCES_REGEX_NS];
               if (reEntry && reEntry[0] && reEntry[0]['@value']) {
                 var reString = reEntry[0]['@value'];
                 var re = new RegExp(reString);
-                if (recordToMatchValues[0] && recordToMatchValues[0]['@value']) {
-                  return recordToMatchValues.find(function(recordToMatchValue) {
-                    var targetValue = recordToMatchValue['@value'];
+                if (toMatchRecordValues[0] && toMatchRecordValues[0]['@value']) {
+                  return toMatchRecordValues.find(function(toMatchRecordValue) {
+                    var targetValue = toMatchRecordValue['@value'];
                     return re.test(targetValue);
                   });
                 }
@@ -1560,7 +1514,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
       };
 
       jsonldMatcher.filter(
-        recordToMatch,
+        toMatchRecord,
         datasourcesSource,
         matchers,
         options
@@ -1588,7 +1542,7 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
               // if you specify a key here in sameAs, don't include it again as its own key entry.
               'http://schema.org/name',
               'http://vocabularies.bridgedb.org/ops#official_name',
-              getPreferredPrefixFromMiriamUrn,
+              getExpandedPreferredPrefixFromMiriamUrnInDataset,
               DATASOURCES_SYSTEM_CODE_NS
             ],
             // TODO we're handling sameAs for keys. What about for values? For example, we
@@ -1610,23 +1564,23 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
             // TODO in jsonld-matcher-rx.js, we need to pass in the same args
             // for every test function.
             // We also need to consider that the values may come from a sameAs function.
-  //            @param {object} recordToMatch the record for which to find a match in the set of
+  //            @param {object} toMatchRecord the record for which to find a match in the set of
   //                                  reference records
-  //            @param {object[]} recordToMatchValues value(s) from the record for which to find a
+  //            @param {object[]} toMatchRecordValues value(s) from the record for which to find a
   //                                          match in the set of reference records like
   //                                          [{'@id': '...'}] or [{'@value': '...'}]
   //            @param {object} referenceRecord e.g, JSON-LD expanded row of the dataset based on
   //                                            datasources.txt and datasources_headers.txt
   //            @param {object[]} referenceRecordValues value(s) like [{'@id': '...'}] or
   //                                                    [{'@value': '...'}]
-  //            @return {boolean} whether the current referenceRecord matches the recordToMatch
-              function(recordToMatch, recordToMatchValues,
+  //            @return {boolean} whether the current referenceRecord matches the toMatchRecord
+              function(toMatchRecord, toMatchRecordValues,
                   referenceRecord, referenceRecordValues) {
                 return referenceRecordValues.find(function(referenceRecordValue) {
                   var referenceRecordString = referenceRecordValue['@value'];
-                  return recordToMatchValues.find(function(recordToMatchValue) {
-                    var recordToMatchString = recordToMatchValue['@value'];
-                    return distance(referenceRecordString, recordToMatchString) > 0.8;
+                  return toMatchRecordValues.find(function(toMatchRecordValue) {
+                    var toMatchRecordString = toMatchRecordValue['@value'];
+                    return distance(referenceRecordString, toMatchRecordString) > 0.8;
                   });
                 });
               },
@@ -1637,15 +1591,14 @@ describe('BridgeDb.jsonldMatcher.filter', function() {
               IDENTIFIERS + 'idot/exampleIdentifier',
             ],
             tests: [
-              function(recordToMatch, recordToMatchValues,
-                  referenceRecord, referenceRecordValues) {
+              function(toMatchRecord, toMatchRecordValue, referenceRecord, referenceRecordValue) {
                 var reEntry = referenceRecord[DATASOURCES_REGEX_NS];
                 if (reEntry && reEntry[0] && reEntry[0]['@value']) {
                   var reString = reEntry[0]['@value'];
                   var re = new RegExp(reString);
-                  if (recordToMatchValues[0] && recordToMatchValues[0]['@value']) {
-                    return recordToMatchValues.find(function(recordToMatchValue) {
-                      var targetValue = recordToMatchValue['@value'];
+                  if (toMatchRecordValues[0] && toMatchRecordValues[0]['@value']) {
+                    return toMatchRecordValues.find(function(toMatchRecordValue) {
+                      var targetValue = toMatchRecordValue['@value'];
                       return re.test(targetValue);
                     });
                   }

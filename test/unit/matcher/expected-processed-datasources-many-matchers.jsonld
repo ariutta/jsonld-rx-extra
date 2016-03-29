@@ -189,8 +189,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/affy.probeset/",
+        "http://identifiers.org/affy.probeset",
         "urn:miriam:affy.probeset",
-        "http://www.affymetrix.com/"
+        "http://urn/:miriam:affy.probeset",
+        "http://www.affymetrix.com/",
+        "http://affymetrix.com"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "affy.probeset",
@@ -388,6 +391,7 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Ag",
+        "http://ag",
         "http://agilent.com"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
@@ -585,16 +589,18 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/bind/",
+        "http://identifiers.org/bind",
         "urn:miriam:bind",
-        "http://www.bind.ca/"
+        "http://urn/:miriam:bind",
+        "http://www.bind.ca/",
+        "http://bind.ca"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "bind",
         "BIND",
         "BIND",
         "Bi"
-      ],
-      "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#example_identifier": []
+      ]
     }
   ],
   [
@@ -787,7 +793,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/biocyc/",
+        "http://identifiers.org/biocyc",
         "urn:miriam:biocyc",
+        "http://urn/:miriam:biocyc",
         "http://biocyc.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
@@ -991,8 +999,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/biogrid/",
+        "http://identifiers.org/biogrid",
         "urn:miriam:biogrid",
-        "http://thebiogrid.org/"
+        "http://urn/:miriam:biogrid",
+        "http://thebiogrid.org/",
+        "http://thebiogrid.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "biogrid",
@@ -1195,8 +1206,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/biomodels.db/",
+        "http://identifiers.org/biomodels.db",
         "urn:miriam:biomodels.db",
-        "http://www.ebi.ac.uk/biomodels/"
+        "http://urn/:miriam:biomodels.db",
+        "http://www.ebi.ac.uk/biomodels/",
+        "http://ebi.ac.uk/biomodels"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "biomodels.db",
@@ -1399,8 +1413,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/biosystems/",
+        "http://identifiers.org/biosystems",
         "urn:miriam:biosystems",
-        "http://www.ncbi.nlm.nih.gov/biosystems/"
+        "http://urn/:miriam:biosystems",
+        "http://www.ncbi.nlm.nih.gov/biosystems/",
+        "http://ncbi.nlm.nih.gov/biosystems"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "biosystems",
@@ -1603,8 +1620,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/brenda/",
+        "http://identifiers.org/brenda",
         "urn:miriam:brenda",
-        "http://www.brenda-enzymes.org/"
+        "http://urn/:miriam:brenda",
+        "http://www.brenda-enzymes.org/",
+        "http://brenda-enzymes.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "brenda",
@@ -1807,7 +1827,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/cas/",
+        "http://identifiers.org/cas",
         "urn:miriam:cas",
+        "http://urn/:miriam:cas",
         "http://commonchemistry.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
@@ -2011,8 +2033,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/ccds/",
+        "http://identifiers.org/ccds",
         "urn:miriam:ccds",
-        "http://identifiers.org/ccds/"
+        "http://urn/:miriam:ccds",
+        "http://identifiers.org/ccds/",
+        "http://identifiers.org/ccds"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "ccds",
@@ -2215,8 +2240,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/chembl.compound/",
+        "http://identifiers.org/chembl.compound",
         "urn:miriam:chembl.compound",
-        "https://www.ebi.ac.uk/chembldb/"
+        "http://urn/:miriam:chembl.compound",
+        "https://www.ebi.ac.uk/chembldb/",
+        "https://ebi.ac.uk/chembldb"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "chembl.compound",
@@ -2419,8 +2447,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/chebi/",
+        "http://identifiers.org/chebi",
         "urn:miriam:chebi",
-        "http://www.ebi.ac.uk/chebi/"
+        "http://urn/:miriam:chebi",
+        "http://www.ebi.ac.uk/chebi/",
+        "http://ebi.ac.uk/chebi"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "chebi",
@@ -2623,8 +2654,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/chemspider/",
+        "http://identifiers.org/chemspider",
         "urn:miriam:chemspider",
-        "http://www.chemspider.com/"
+        "http://urn/:miriam:chemspider",
+        "http://www.chemspider.com/",
+        "http://chemspider.com"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "chemspider",
@@ -2817,7 +2851,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Ge",
-        "http://www.appliedmicroarrays.com/"
+        "http://ge",
+        "http://www.appliedmicroarrays.com/",
+        "http://appliedmicroarrays.com"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "CodeLink",
@@ -3019,8 +3055,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/dip/",
+        "http://identifiers.org/dip",
         "urn:miriam:dip",
-        "http://dip.doe-mbi.ucla.edu/"
+        "http://urn/:miriam:dip",
+        "http://dip.doe-mbi.ucla.edu/",
+        "http://dip.doe-mbi.ucla.edu"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "dip",
@@ -3223,8 +3262,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/dbsnp/",
+        "http://identifiers.org/dbsnp",
         "urn:miriam:dbsnp",
-        "http://www.ncbi.nlm.nih.gov/sites/entrez?db=snp"
+        "http://urn/:miriam:dbsnp",
+        "http://www.ncbi.nlm.nih.gov/sites/entrez?db=snp",
+        "http://ncbi.nlm.nih.gov/sites/entrez?db=snp"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "dbsnp",
@@ -3427,8 +3469,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/drugbank/",
+        "http://identifiers.org/drugbank",
         "urn:miriam:drugbank",
-        "http://www.drugbank.ca/"
+        "http://urn/:miriam:drugbank",
+        "http://www.drugbank.ca/",
+        "http://drugbank.ca"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "drugbank",
@@ -3631,7 +3676,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Eco",
-        "http://ecocyc.org/"
+        "http://eco",
+        "http://ecocyc.org/",
+        "http://ecocyc.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "EcoCyc",
@@ -3838,8 +3885,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/ecogene/",
+        "http://identifiers.org/ecogene",
         "urn:miriam:ecogene",
-        "http://ecogene.org/"
+        "http://urn/:miriam:ecogene",
+        "http://ecogene.org/",
+        "http://ecogene.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "ecogene",
@@ -4042,8 +4092,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/ena.embl/",
+        "http://identifiers.org/ena.embl",
         "urn:miriam:ena.embl",
-        "http://www.ebi.ac.uk/embl/"
+        "http://urn/:miriam:ena.embl",
+        "http://www.ebi.ac.uk/embl/",
+        "http://ebi.ac.uk/embl"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "ena.embl",
@@ -4246,8 +4299,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/ensembl/",
+        "http://identifiers.org/ensembl",
         "urn:miriam:ensembl",
-        "http://www.ensembl.org/"
+        "http://urn/:miriam:ensembl",
+        "http://www.ensembl.org/",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "ensembl",
@@ -4455,7 +4511,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnBs",
-        "http://www.ensembl.org"
+        "http://enbs",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl B. subtilis",
@@ -4657,7 +4715,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnCe",
-        "http://www.ensembl.org"
+        "http://ence",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl C. elegans",
@@ -4864,7 +4924,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnGg",
-        "http://www.ensembl.org"
+        "http://engg",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Chicken",
@@ -5071,7 +5133,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnPt",
-        "http://www.ensembl.org"
+        "http://enpt",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Chimp",
@@ -5278,7 +5342,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnBt",
-        "http://www.ensembl.org"
+        "http://enbt",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Cow",
@@ -5485,7 +5551,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnCf",
-        "http://www.ensembl.org"
+        "http://encf",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Dog",
@@ -5692,7 +5760,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnEc",
-        "http://www.ensembl.org"
+        "http://enec",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl E. coli",
@@ -5899,7 +5969,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnDm",
-        "http://www.ensembl.org"
+        "http://endm",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Fruitfly",
@@ -6106,7 +6178,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnQc",
-        "http://www.ensembl.org"
+        "http://enqc",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Horse",
@@ -6313,7 +6387,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnHs",
-        "http://www.ensembl.org"
+        "http://enhs",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Human",
@@ -6520,7 +6596,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnMx",
-        "http://www.ensembl.org"
+        "http://enmx",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl M. tuberculosis",
@@ -6727,7 +6805,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnAg",
-        "http://www.ensembl.org"
+        "http://enag",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Mosquito",
@@ -6934,7 +7014,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnMm",
-        "http://www.ensembl.org"
+        "http://enmm",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Mouse",
@@ -7141,7 +7223,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnSs",
-        "http://www.ensembl.org"
+        "http://enss",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Pig",
@@ -7343,8 +7427,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/ensembl.plant/",
+        "http://identifiers.org/ensembl.plant",
         "urn:miriam:ensembl.plant",
-        "http://plants.ensembl.org/"
+        "http://urn/:miriam:ensembl.plant",
+        "http://plants.ensembl.org/",
+        "http://plants.ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "ensembl.plant",
@@ -7552,7 +7639,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnRn",
-        "http://www.ensembl.org"
+        "http://enrn",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Rat",
@@ -7759,7 +7848,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnXt",
-        "http://www.ensembl.org"
+        "http://enxt",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Xenopus",
@@ -7966,7 +8057,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnSc",
-        "http://www.ensembl.org"
+        "http://ensc",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Yeast",
@@ -8173,7 +8266,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnDr",
-        "http://www.ensembl.org"
+        "http://endr",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Ensembl Zebrafish",
@@ -8375,8 +8470,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/ncbigene/",
+        "http://identifiers.org/ncbigene",
         "urn:miriam:ncbigene",
-        "http://www.ncbi.nlm.nih.gov/gene"
+        "http://urn/:miriam:ncbigene",
+        "http://www.ncbi.nlm.nih.gov/gene",
+        "http://ncbi.nlm.nih.gov/gene"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "ncbigene",
@@ -8579,8 +8677,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/ec-code/",
+        "http://identifiers.org/ec-code",
         "urn:miriam:ec-code",
-        "http://www.ebi.ac.uk/intenz/"
+        "http://urn/:miriam:ec-code",
+        "http://www.ebi.ac.uk/intenz/",
+        "http://ebi.ac.uk/intenz"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "ec-code",
@@ -8788,8 +8889,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/flybase/",
+        "http://identifiers.org/flybase",
         "urn:miriam:flybase",
-        "http://flybase.org/"
+        "http://urn/:miriam:flybase",
+        "http://flybase.org/",
+        "http://flybase.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "flybase",
@@ -8992,8 +9096,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/insdc/",
+        "http://identifiers.org/insdc",
         "urn:miriam:insdc",
-        "http://www.ncbi.nlm.nih.gov/genbank/"
+        "http://urn/:miriam:insdc",
+        "http://www.ncbi.nlm.nih.gov/genbank/",
+        "http://ncbi.nlm.nih.gov/genbank"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "insdc",
@@ -9196,7 +9303,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/genewiki/",
+        "http://identifiers.org/genewiki",
         "urn:miriam:genewiki",
+        "http://urn/:miriam:genewiki",
         "http://en.wikipedia.org/wiki/Portal:Gene_Wiki"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
@@ -9400,8 +9509,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/go/",
+        "http://identifiers.org/go",
         "urn:miriam:go",
-        "http://www.ebi.ac.uk/QuickGO/"
+        "http://urn/:miriam:go",
+        "http://www.ebi.ac.uk/QuickGO/",
+        "http://ebi.ac.uk/QuickGO"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "go",
@@ -9609,7 +9721,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnAt",
-        "http://www.gramene.org/"
+        "http://enat",
+        "http://www.gramene.org/",
+        "http://gramene.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Gramene Arabidopsis",
@@ -9811,7 +9925,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Gg",
-        "http://www.gramene.org/"
+        "http://gg",
+        "http://www.gramene.org/",
+        "http://gramene.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Gramene Genes DB",
@@ -10008,7 +10124,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Gl",
-        "http://www.gramene.org/"
+        "http://gl",
+        "http://www.gramene.org/",
+        "http://gramene.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Gramene Literature",
@@ -10205,7 +10323,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnZm",
-        "http://www.ensembl.org"
+        "http://enzm",
+        "http://www.ensembl.org",
+        "http://ensembl.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Gramene Maize",
@@ -10397,7 +10517,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Gp",
-        "http://www.gramene.org/pathway"
+        "http://gp",
+        "http://www.gramene.org/pathway",
+        "http://gramene.org/pathway"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Gramene Pathway",
@@ -10594,7 +10716,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "EnOj",
-        "http://www.gramene.org/"
+        "http://enoj",
+        "http://www.gramene.org/",
+        "http://gramene.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Gramene Rice",
@@ -10801,8 +10925,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/hgnc.symbol/",
+        "http://identifiers.org/hgnc.symbol",
         "urn:miriam:hgnc.symbol",
-        "http://www.genenames.org"
+        "http://urn/:miriam:hgnc.symbol",
+        "http://www.genenames.org",
+        "http://genenames.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "hgnc.symbol",
@@ -11010,8 +11137,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/hgnc/",
+        "http://identifiers.org/hgnc",
         "urn:miriam:hgnc",
-        "http://www.genenames.org"
+        "http://urn/:miriam:hgnc",
+        "http://www.genenames.org",
+        "http://genenames.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "hgnc",
@@ -11214,8 +11344,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/hmdb/",
+        "http://identifiers.org/hmdb",
         "urn:miriam:hmdb",
-        "http://www.hmdb.ca/"
+        "http://urn/:miriam:hmdb",
+        "http://www.hmdb.ca/",
+        "http://hmdb.ca"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "hmdb",
@@ -11418,8 +11551,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/homologene/",
+        "http://identifiers.org/homologene",
         "urn:miriam:homologene",
-        "http://www.ncbi.nlm.nih.gov/homologene/"
+        "http://urn/:miriam:homologene",
+        "http://www.ncbi.nlm.nih.gov/homologene/",
+        "http://ncbi.nlm.nih.gov/homologene"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "homologene",
@@ -11612,16 +11748,18 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/hprd/",
+        "http://identifiers.org/hprd",
         "urn:miriam:hprd",
-        "http://www.hprd.org/"
+        "http://urn/:miriam:hprd",
+        "http://www.hprd.org/",
+        "http://hprd.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "hprd",
         "HPRD",
         "HPRD",
         "Hp"
-      ],
-      "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#example_identifier": []
+      ]
     }
   ],
   [
@@ -11809,7 +11947,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Il",
-        "http://www.illumina.com/"
+        "http://il",
+        "http://www.illumina.com/",
+        "http://illumina.com"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Illumina",
@@ -12006,8 +12146,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/inchikey/",
+        "http://identifiers.org/inchikey",
         "urn:miriam:inchikey",
-        "http://inchi.org/"
+        "http://urn/:miriam:inchikey",
+        "http://inchi.org/",
+        "http://inchi.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "inchikey",
@@ -12210,8 +12353,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/intact/",
+        "http://identifiers.org/intact",
         "urn:miriam:intact",
-        "http://www.ebi.ac.uk/intact/"
+        "http://urn/:miriam:intact",
+        "http://www.ebi.ac.uk/intact/",
+        "http://ebi.ac.uk/intact"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "intact",
@@ -12414,8 +12560,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/interpro/",
+        "http://identifiers.org/interpro",
         "urn:miriam:interpro",
-        "http://www.ebi.ac.uk/interpro/"
+        "http://urn/:miriam:interpro",
+        "http://www.ebi.ac.uk/interpro/",
+        "http://ebi.ac.uk/interpro"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "interpro",
@@ -12618,8 +12767,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/ipi/",
+        "http://identifiers.org/ipi",
         "urn:miriam:ipi",
-        "http://www.ebi.ac.uk/IPI"
+        "http://urn/:miriam:ipi",
+        "http://www.ebi.ac.uk/IPI",
+        "http://ebi.ac.uk/IPI"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "ipi",
@@ -12817,7 +12969,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Ir",
-        "http://rgp.dna.affrc.go.jp/IRGSP/"
+        "http://ir",
+        "http://rgp.dna.affrc.go.jp/IRGSP/",
+        "http://rgp.dna.affrc.go.jp/IRGSP"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "IRGSP Gene",
@@ -13019,8 +13173,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/kegg.compound/",
+        "http://identifiers.org/kegg.compound",
         "urn:miriam:kegg.compound",
-        "http://www.genome.jp/kegg/ligand.html"
+        "http://urn/:miriam:kegg.compound",
+        "http://www.genome.jp/kegg/ligand.html",
+        "http://genome.jp/kegg/ligand.html"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "kegg.compound",
@@ -13223,8 +13380,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/kegg.drug/",
+        "http://identifiers.org/kegg.drug",
         "urn:miriam:kegg.drug",
-        "http://www.genome.jp/kegg/drug/"
+        "http://urn/:miriam:kegg.drug",
+        "http://www.genome.jp/kegg/drug/",
+        "http://genome.jp/kegg/drug"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "kegg.drug",
@@ -13427,8 +13587,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/kegg.genes/",
+        "http://identifiers.org/kegg.genes",
         "urn:miriam:kegg.genes",
-        "http://www.genome.jp/kegg/genes.html"
+        "http://urn/:miriam:kegg.genes",
+        "http://www.genome.jp/kegg/genes.html",
+        "http://genome.jp/kegg/genes.html"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "kegg.genes",
@@ -13631,8 +13794,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/kegg.glycan/",
+        "http://identifiers.org/kegg.glycan",
         "urn:miriam:kegg.glycan",
-        "http://www.genome.jp/kegg/glycan/"
+        "http://urn/:miriam:kegg.glycan",
+        "http://www.genome.jp/kegg/glycan/",
+        "http://genome.jp/kegg/glycan"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "kegg.glycan",
@@ -13835,8 +14001,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/kegg.pathway/",
+        "http://identifiers.org/kegg.pathway",
         "urn:miriam:kegg.pathway",
-        "http://www.genome.jp/kegg/pathway.html"
+        "http://urn/:miriam:kegg.pathway",
+        "http://www.genome.jp/kegg/pathway.html",
+        "http://genome.jp/kegg/pathway.html"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "kegg.pathway",
@@ -14039,8 +14208,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/kegg.reaction/",
+        "http://identifiers.org/kegg.reaction",
         "urn:miriam:kegg.reaction",
-        "http://www.genome.jp/kegg/reaction/"
+        "http://urn/:miriam:kegg.reaction",
+        "http://www.genome.jp/kegg/reaction/",
+        "http://genome.jp/kegg/reaction"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "kegg.reaction",
@@ -14243,8 +14415,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/knapsack/",
+        "http://identifiers.org/knapsack",
         "urn:miriam:knapsack",
-        "http://kanaya.aist-nara.ac.jp/KNApSAcK/"
+        "http://urn/:miriam:knapsack",
+        "http://kanaya.aist-nara.ac.jp/KNApSAcK/",
+        "http://kanaya.aist-nara.ac.jp/KNApSAcK"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "knapsack",
@@ -14447,8 +14622,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/lipidmaps/",
+        "http://identifiers.org/lipidmaps",
         "urn:miriam:lipidmaps",
-        "http://www.lipidmaps.org"
+        "http://urn/:miriam:lipidmaps",
+        "http://www.lipidmaps.org",
+        "http://lipidmaps.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "lipidmaps",
@@ -14651,7 +14829,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/lipidbank/",
+        "http://identifiers.org/lipidbank",
         "urn:miriam:lipidbank",
+        "http://urn/:miriam:lipidbank",
         "http://lipidbank.jp/index.html"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
@@ -14855,8 +15035,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/macie/",
+        "http://identifiers.org/macie",
         "urn:miriam:macie",
-        "http://www.ebi.ac.uk/thornton-srv/databases/MACiE/index.html"
+        "http://urn/:miriam:macie",
+        "http://www.ebi.ac.uk/thornton-srv/databases/MACiE/index.html",
+        "http://ebi.ac.uk/thornton-srv/databases/MACiE/index.html"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "macie",
@@ -15053,7 +15236,8 @@
         }
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
-        "Mg"
+        "Mg",
+        "http://mg"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "MaizeGDB",
@@ -15255,8 +15439,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/matrixdb.association/",
+        "http://identifiers.org/matrixdb.association",
         "urn:miriam:matrixdb.association",
-        "http://matrixdb.ibcp.fr/"
+        "http://urn/:miriam:matrixdb.association",
+        "http://matrixdb.ibcp.fr/",
+        "http://matrixdb.ibcp.fr"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "matrixdb.association",
@@ -15454,7 +15641,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Mc",
-        "http://www.metacyc.org/"
+        "http://mc",
+        "http://www.metacyc.org/",
+        "http://metacyc.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "MetaCyc",
@@ -15661,8 +15850,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/mgd/",
+        "http://identifiers.org/mgd",
         "urn:miriam:mgd",
-        "http://www.informatics.jax.org/"
+        "http://urn/:miriam:mgd",
+        "http://www.informatics.jax.org/",
+        "http://informatics.jax.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "mgd",
@@ -15865,8 +16057,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/mint/",
+        "http://identifiers.org/mint",
         "urn:miriam:mint",
-        "http://mint.bio.uniroma2.it/mint/"
+        "http://urn/:miriam:mint",
+        "http://mint.bio.uniroma2.it/mint/",
+        "http://mint.bio.uniroma2.it/mint"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "mint",
@@ -16069,8 +16264,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/mirbase.mature/",
+        "http://identifiers.org/mirbase.mature",
         "urn:miriam:mirbase.mature",
-        "http://www.mirbase.org/"
+        "http://urn/:miriam:mirbase.mature",
+        "http://www.mirbase.org/",
+        "http://mirbase.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "mirbase.mature",
@@ -16273,8 +16471,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/mirbase/",
+        "http://identifiers.org/mirbase",
         "urn:miriam:mirbase",
-        "http://microrna.sanger.ac.uk/"
+        "http://urn/:miriam:mirbase",
+        "http://microrna.sanger.ac.uk/",
+        "http://microrna.sanger.ac.uk"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "mirbase",
@@ -16477,7 +16678,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "N",
-        "http://arabidopsis.info/"
+        "http://n",
+        "http://arabidopsis.info/",
+        "http://arabidopsis.info"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "NASC Gene",
@@ -16679,8 +16882,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/ncbiprotein/",
+        "http://identifiers.org/ncbiprotein",
         "urn:miriam:ncbiprotein",
-        "http://www.ncbi.nlm.nih.gov/protein"
+        "http://urn/:miriam:ncbiprotein",
+        "http://www.ncbi.nlm.nih.gov/protein",
+        "http://ncbi.nlm.nih.gov/protein"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "ncbiprotein",
@@ -16883,8 +17089,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pid.pathway/",
+        "http://identifiers.org/pid.pathway",
         "urn:miriam:pid.pathway",
-        "http://pid.nci.nih.gov/"
+        "http://urn/:miriam:pid.pathway",
+        "http://pid.nci.nih.gov/",
+        "http://pid.nci.nih.gov"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pid.pathway",
@@ -17082,6 +17291,7 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Nw",
+        "http://nw",
         "http://wiki.nugo.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
@@ -17284,8 +17494,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/omim/",
+        "http://identifiers.org/omim",
         "urn:miriam:omim",
-        "http://omim.org/"
+        "http://urn/:miriam:omim",
+        "http://omim.org/",
+        "http://omim.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "omim",
@@ -17488,7 +17701,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Ob",
-        "http://www.shigen.nig.ac.jp/rice/oryzabase"
+        "http://ob",
+        "http://www.shigen.nig.ac.jp/rice/oryzabase",
+        "http://shigen.nig.ac.jp/rice/oryzabase"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Oryzabase",
@@ -17669,14 +17884,14 @@
         }
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
-        "O"
+        "O",
+        "http://o"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Other",
         "Other",
         "O"
-      ],
-      "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#example_identifier": []
+      ]
     }
   ],
   [
@@ -17869,8 +18084,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pathwaycommons/",
+        "http://identifiers.org/pathwaycommons",
         "urn:miriam:pathwaycommons",
-        "http://www.pathwaycommons.org/pc/"
+        "http://urn/:miriam:pathwaycommons",
+        "http://www.pathwaycommons.org/pc/",
+        "http://pathwaycommons.org/pc"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pathwaycommons",
@@ -18073,8 +18291,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pdb/",
+        "http://identifiers.org/pdb",
         "urn:miriam:pdb",
-        "http://www.pdb.org/"
+        "http://urn/:miriam:pdb",
+        "http://www.pdb.org/",
+        "http://pdb.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pdb",
@@ -18277,8 +18498,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pfam/",
+        "http://identifiers.org/pfam",
         "urn:miriam:pfam",
-        "http://pfam.sanger.ac.uk/"
+        "http://urn/:miriam:pfam",
+        "http://pfam.sanger.ac.uk/",
+        "http://pfam.sanger.ac.uk"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pfam",
@@ -18481,8 +18705,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pharmgkb.drug/",
+        "http://identifiers.org/pharmgkb.drug",
         "urn:miriam:pharmgkb.drug",
-        "http://www.pharmgkb.org/"
+        "http://urn/:miriam:pharmgkb.drug",
+        "http://www.pharmgkb.org/",
+        "http://pharmgkb.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pharmgkb.drug",
@@ -18685,8 +18912,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pharmgkb.gene/",
+        "http://identifiers.org/pharmgkb.gene",
         "urn:miriam:pharmgkb.gene",
-        "http://www.pharmgkb.org/"
+        "http://urn/:miriam:pharmgkb.gene",
+        "http://www.pharmgkb.org/",
+        "http://pharmgkb.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pharmgkb.gene",
@@ -18889,8 +19119,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pharmgkb.pathways/",
+        "http://identifiers.org/pharmgkb.pathways",
         "urn:miriam:pharmgkb.pathways",
-        "http://www.pharmgkb.org/"
+        "http://urn/:miriam:pharmgkb.pathways",
+        "http://www.pharmgkb.org/",
+        "http://pharmgkb.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pharmgkb.pathways",
@@ -19093,8 +19326,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/phosphosite.protein/",
+        "http://identifiers.org/phosphosite.protein",
         "urn:miriam:phosphosite.protein",
-        "http://www.phosphosite.org/homeAction.do"
+        "http://urn/:miriam:phosphosite.protein",
+        "http://www.phosphosite.org/homeAction.do",
+        "http://phosphosite.org/homeAction.do"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "phosphosite.protein",
@@ -19297,8 +19533,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pina/",
+        "http://identifiers.org/pina",
         "urn:miriam:pina",
-        "http://cbg.garvan.unsw.edu.au/pina/"
+        "http://urn/:miriam:pina",
+        "http://cbg.garvan.unsw.edu.au/pina/",
+        "http://cbg.garvan.unsw.edu.au/pina"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pina",
@@ -19496,7 +19735,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Pl",
-        "http://www.plantgdb.org/"
+        "http://pl",
+        "http://www.plantgdb.org/",
+        "http://plantgdb.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "PlantGDB",
@@ -19698,8 +19939,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pubchem.bioassay/",
+        "http://identifiers.org/pubchem.bioassay",
         "urn:miriam:pubchem.bioassay",
-        "http://www.ncbi.nlm.nih.gov/sites/entrez?db=pcassay "
+        "http://urn/:miriam:pubchem.bioassay",
+        "http://www.ncbi.nlm.nih.gov/sites/entrez?db=pcassay ",
+        "http://ncbi.nlm.nih.gov/sites/entrez?db=pcassay"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pubchem.bioassay",
@@ -19902,8 +20146,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pubchem.compound/",
+        "http://identifiers.org/pubchem.compound",
         "urn:miriam:pubchem.compound",
-        "http://pubchem.ncbi.nlm.nih.gov/"
+        "http://urn/:miriam:pubchem.compound",
+        "http://pubchem.ncbi.nlm.nih.gov/",
+        "http://pubchem.ncbi.nlm.nih.gov"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pubchem.compound",
@@ -20106,8 +20353,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pubchem.substance/",
+        "http://identifiers.org/pubchem.substance",
         "urn:miriam:pubchem.substance",
-        "http://pubchem.ncbi.nlm.nih.gov/"
+        "http://urn/:miriam:pubchem.substance",
+        "http://pubchem.ncbi.nlm.nih.gov/",
+        "http://pubchem.ncbi.nlm.nih.gov"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pubchem.substance",
@@ -20310,8 +20560,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/reactome/",
+        "http://identifiers.org/reactome",
         "urn:miriam:reactome",
-        "http://www.reactome.org/"
+        "http://urn/:miriam:reactome",
+        "http://www.reactome.org/",
+        "http://reactome.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "reactome",
@@ -20514,8 +20767,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/refseq/",
+        "http://identifiers.org/refseq",
         "urn:miriam:refseq",
-        "http://www.ncbi.nlm.nih.gov/projects/RefSeq/"
+        "http://urn/:miriam:refseq",
+        "http://www.ncbi.nlm.nih.gov/projects/RefSeq/",
+        "http://ncbi.nlm.nih.gov/projects/RefSeq"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "refseq",
@@ -20718,8 +20974,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/resid/",
+        "http://identifiers.org/resid",
         "urn:miriam:resid",
-        "http://www.ebi.ac.uk/RESID/"
+        "http://urn/:miriam:resid",
+        "http://www.ebi.ac.uk/RESID/",
+        "http://ebi.ac.uk/RESID"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "resid",
@@ -20916,7 +21175,8 @@
         }
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
-        "Rf"
+        "Rf",
+        "http://rf"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Rfam",
@@ -21123,8 +21383,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/rgd/",
+        "http://identifiers.org/rgd",
         "urn:miriam:rgd",
-        "http://rgd.mcw.edu/"
+        "http://urn/:miriam:rgd",
+        "http://rgd.mcw.edu/",
+        "http://rgd.mcw.edu"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "rgd",
@@ -21327,8 +21590,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/rhea/",
+        "http://identifiers.org/rhea",
         "urn:miriam:rhea",
-        "http://www.ebi.ac.uk/rhea/"
+        "http://urn/:miriam:rhea",
+        "http://www.ebi.ac.uk/rhea/",
+        "http://ebi.ac.uk/rhea"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "rhea",
@@ -21531,7 +21797,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Os",
-        "http://www.gramene.org/Oryza_sativa"
+        "http://os",
+        "http://www.gramene.org/Oryza_sativa",
+        "http://gramene.org/Oryza_sativa"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Rice Ensembl Gene",
@@ -21738,8 +22006,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/sgd/",
+        "http://identifiers.org/sgd",
         "urn:miriam:sgd",
-        "http://www.yeastgenome.org/"
+        "http://urn/:miriam:sgd",
+        "http://www.yeastgenome.org/",
+        "http://yeastgenome.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "sgd",
@@ -21942,8 +22213,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/smpdb/",
+        "http://identifiers.org/smpdb",
         "urn:miriam:smpdb",
-        "http://www.smpdb.ca/pathways"
+        "http://urn/:miriam:smpdb",
+        "http://www.smpdb.ca/pathways",
+        "http://smpdb.ca/pathways"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "smpdb",
@@ -22146,8 +22420,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/smart/",
+        "http://identifiers.org/smart",
         "urn:miriam:smart",
-        "http://smart.embl-heidelberg.de/"
+        "http://urn/:miriam:smart",
+        "http://smart.embl-heidelberg.de/",
+        "http://smart.embl-heidelberg.de"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "smart",
@@ -22350,8 +22627,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/spike.map/",
+        "http://identifiers.org/spike.map",
         "urn:miriam:spike.map",
-        "http://www.cs.tau.ac.il/~spike/"
+        "http://urn/:miriam:spike.map",
+        "http://www.cs.tau.ac.il/~spike/",
+        "http://cs.tau.ac.il/~spike"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "spike.map",
@@ -22554,8 +22834,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/sprint/",
+        "http://identifiers.org/sprint",
         "urn:miriam:sprint",
-        "http://www.bioinf.manchester.ac.uk/dbbrowser/sprint/"
+        "http://urn/:miriam:sprint",
+        "http://www.bioinf.manchester.ac.uk/dbbrowser/sprint/",
+        "http://bioinf.manchester.ac.uk/dbbrowser/sprint"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "sprint",
@@ -22758,8 +23041,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/string/",
+        "http://identifiers.org/string",
         "urn:miriam:string",
-        "http://string.embl.de/"
+        "http://urn/:miriam:string",
+        "http://string.embl.de/",
+        "http://string.embl.de"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "string",
@@ -22962,8 +23248,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/pmap.substratedb/",
+        "http://identifiers.org/pmap.substratedb",
         "urn:miriam:pmap.substratedb",
-        "http://substrate.burnham.org/"
+        "http://urn/:miriam:pmap.substratedb",
+        "http://substrate.burnham.org/",
+        "http://substrate.burnham.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "pmap.substratedb",
@@ -23171,8 +23460,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/subtiwiki/",
+        "http://identifiers.org/subtiwiki",
         "urn:miriam:subtiwiki",
-        "http://www.subtiwiki.uni-goettingen.de/wiki/index.php/Main_Page"
+        "http://urn/:miriam:subtiwiki",
+        "http://www.subtiwiki.uni-goettingen.de/wiki/index.php/Main_Page",
+        "http://subtiwiki.uni-goettingen.de/wiki/index.php/Main_Page"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "subtiwiki",
@@ -23375,8 +23667,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/supfam/",
+        "http://identifiers.org/supfam",
         "urn:miriam:supfam",
-        "http://supfam.org/SUPERFAMILY/"
+        "http://urn/:miriam:supfam",
+        "http://supfam.org/SUPERFAMILY/",
+        "http://supfam.org/SUPERFAMILY"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "supfam",
@@ -23579,8 +23874,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/swiss-model/",
+        "http://identifiers.org/swiss-model",
         "urn:miriam:swiss-model",
-        "http://swissmodel.expasy.org/"
+        "http://urn/:miriam:swiss-model",
+        "http://swissmodel.expasy.org/",
+        "http://swissmodel.expasy.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "swiss-model",
@@ -23777,7 +24075,8 @@
         }
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
-        "http://www.swisslipids.org/"
+        "http://www.swisslipids.org/",
+        "http://swisslipids.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "SwissLipids",
@@ -23979,8 +24278,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/biomodels.sbo/",
+        "http://identifiers.org/biomodels.sbo",
         "urn:miriam:biomodels.sbo",
-        "http://www.ebi.ac.uk/sbo/"
+        "http://urn/:miriam:biomodels.sbo",
+        "http://www.ebi.ac.uk/sbo/",
+        "http://ebi.ac.uk/sbo"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "biomodels.sbo",
@@ -24183,7 +24485,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/tair.locus/",
+        "http://identifiers.org/tair.locus",
         "urn:miriam:tair.locus",
+        "http://urn/:miriam:tair.locus",
         "http://arabidopsis.org/index.jsp"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
@@ -24377,7 +24681,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Ti",
-        "http://www.jcvi.org/"
+        "http://ti",
+        "http://www.jcvi.org/",
+        "http://jcvi.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "TIGR",
@@ -24579,7 +24885,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/ttd.drug/",
+        "http://identifiers.org/ttd.drug",
         "urn:miriam:ttd.drug",
+        "http://urn/:miriam:ttd.drug",
         "http://bidd.nus.edu.sg/group/cjttd/TTD_HOME.asp"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
@@ -24783,7 +25091,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/ttd.target/",
+        "http://identifiers.org/ttd.target",
         "urn:miriam:ttd.target",
+        "http://urn/:miriam:ttd.target",
         "http://bidd.nus.edu.sg/group/cjttd/TTD_HOME.asp"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
@@ -24992,7 +25302,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/myco.tuber/",
+        "http://identifiers.org/myco.tuber",
         "urn:miriam:myco.tuber",
+        "http://urn/:miriam:myco.tuber",
         "http://tuberculist.epfl.ch"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
@@ -25196,7 +25508,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Uc",
-        "http://genome.ucsc.edu/"
+        "http://uc",
+        "http://genome.ucsc.edu/",
+        "http://genome.ucsc.edu"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "UCSC Genome Browser",
@@ -25398,7 +25712,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "U",
-        "http://www.ncbi.nlm.nih.gov/unigene"
+        "http://u",
+        "http://www.ncbi.nlm.nih.gov/unigene",
+        "http://ncbi.nlm.nih.gov/unigene"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "UniGene",
@@ -25600,8 +25916,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/unipathway/",
+        "http://identifiers.org/unipathway",
         "urn:miriam:unipathway",
-        "http://www.grenoble.prabi.fr/obiwarehouse/unipathway"
+        "http://urn/:miriam:unipathway",
+        "http://www.grenoble.prabi.fr/obiwarehouse/unipathway",
+        "http://grenoble.prabi.fr/obiwarehouse/unipathway"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "unipathway",
@@ -25804,8 +26123,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/uniprot/",
+        "http://identifiers.org/uniprot",
         "urn:miriam:uniprot",
-        "http://www.uniprot.org/"
+        "http://urn/:miriam:uniprot",
+        "http://www.uniprot.org/",
+        "http://uniprot.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "uniprot",
@@ -26008,7 +26330,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Sp",
-        "http://www.uniprot.org/"
+        "http://sp",
+        "http://www.uniprot.org/",
+        "http://uniprot.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Uniprot-SwissProt",
@@ -26210,7 +26534,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Wn",
-        "http://wheat.pw.usda.gov/"
+        "http://wn",
+        "http://wheat.pw.usda.gov/",
+        "http://wheat.pw.usda.gov"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Wheat gene names",
@@ -26412,7 +26738,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "Wr",
-        "http://wheat.pw.usda.gov/"
+        "http://wr",
+        "http://wheat.pw.usda.gov/",
+        "http://wheat.pw.usda.gov"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "Wheat gene refs",
@@ -26609,8 +26937,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/wikigenes/",
+        "http://identifiers.org/wikigenes",
         "urn:miriam:wikigenes",
-        "http://www.wikigenes.org/"
+        "http://urn/:miriam:wikigenes",
+        "http://www.wikigenes.org/",
+        "http://wikigenes.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "wikigenes",
@@ -26813,8 +27144,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/wikipathways/",
+        "http://identifiers.org/wikipathways",
         "urn:miriam:wikipathways",
-        "http://www.wikipathways.org/"
+        "http://urn/:miriam:wikipathways",
+        "http://www.wikipathways.org/",
+        "http://wikipathways.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "wikipathways",
@@ -27017,8 +27351,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/wikidata/",
+        "http://identifiers.org/wikidata",
         "urn:miriam:wikidata",
-        "http://www.wikidata.org"
+        "http://urn/:miriam:wikidata",
+        "http://www.wikidata.org",
+        "http://wikidata.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "wikidata",
@@ -27216,8 +27553,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/wikipedia.en/",
+        "http://identifiers.org/wikipedia.en",
         "urn:miriam:wikipedia.en",
-        "http://www.wikipedia.org"
+        "http://urn/:miriam:wikipedia.en",
+        "http://www.wikipedia.org",
+        "http://wikipedia.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "wikipedia.en",
@@ -27425,8 +27765,11 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/wormbase/",
+        "http://identifiers.org/wormbase",
         "urn:miriam:wormbase",
-        "http://www.wormbase.org/"
+        "http://urn/:miriam:wormbase",
+        "http://www.wormbase.org/",
+        "http://wormbase.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "wormbase",
@@ -27623,7 +27966,8 @@
         }
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
-        "http://www.xmetdb.org/"
+        "http://www.xmetdb.org/",
+        "http://xmetdb.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
         "XMetDB",
@@ -27830,7 +28174,9 @@
       },
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/@id": [
         "http://identifiers.org/zfin/",
+        "http://identifiers.org/zfin",
         "urn:miriam:zfin",
+        "http://urn/:miriam:zfin",
         "http://zfin.org"
       ],
       "http://example.org/g08hftwyppyp77whdiq7y9xq2uowiv5uyq5p82t2dswo2t5om595asj1d8hw8r5b/characteristicvalues/http://vocabularies.bridgedb.org/ops#datasource_name": [
