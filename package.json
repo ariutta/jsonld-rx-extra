@@ -4,7 +4,7 @@
   "description": "Rx wrapper for JSON-LD processing, with additional convenience functionality.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js",
+    "test": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js && npm run test:matcher",
     "test:matcher": "mocha ./test/unit/matcher/preprocess.js && mocha ./test/unit/matcher/index.js"
   },
   "author": "",
