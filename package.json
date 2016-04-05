@@ -10,7 +10,8 @@
   "author": "",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "jsonld": "git://github.com/ariutta/jsonld.js.git",
+    "jsonld": "^0.4.6",
+    "jsonld-next": "git://github.com/ariutta/jsonld.js.git",
     "lodash": "^3.10.1",
     "lru-cache": "^4.0.0",
     "normalize-url": "^1.4.1",
