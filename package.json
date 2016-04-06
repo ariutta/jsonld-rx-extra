@@ -19,7 +19,6 @@
     "rx-node-extra": "^1.0.3"
   },
   "browser": {
-    "rx": "rx-lite"
   },
   "devDependencies": {
     "chai": "^3.5.0",
