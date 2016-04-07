@@ -14,12 +14,10 @@
     "lodash": "^3.10.1",
     "lru-cache": "^4.0.0",
     "normalize-url": "^1.4.1",
-    "rx-lite": "4.0.7",
-    "rx-extra": "git://github.com/ariutta/rx-extra.git#9a562eed117c96ff62f75981bd334f075af51dfc",
-    "rx-node-extra": "^1.0.3"
+    "rx": "^4.1.0",
+    "rx-extra": "git://github.com/ariutta/rx-extra.git#ac954882fddcf03f9bf29919b597c63e93ab3a53"
   },
-  "browser": {
-  },
+  "browser": {},
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-as-promised": "^5.2.0",
