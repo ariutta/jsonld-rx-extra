@@ -4,8 +4,9 @@
   "description": "Rx wrapper for JSON-LD processing, with additional convenience functionality.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js && npm run test:matcher",
-    "test:matcher": "mocha ./test/unit/matcher/preprocess.js && mocha ./test/unit/matcher/index.js"
+    "test": "npm run test:matcher",
+    "test:broken": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js && npm run test:matcher",
+    "test:matcher": "mocha ./test/unit/matcher/preprocess.js --timeout=30000 && mocha ./test/unit/matcher/index.js"
   },
   "author": "",
   "license": "BSD-3-Clause",
@@ -15,7 +16,7 @@
     "lru-cache": "^4.0.0",
     "normalize-url": "^1.4.1",
     "rx": "^4.1.0",
-    "rx-extra": "git://github.com/ariutta/rx-extra.git#c1dafd16ec174b49b3275af56566a25e6e10389a"
+    "rx-extra": "git://github.com/ariutta/rx-extra.git#693db706aa419e0e677aa09eb41cfe14d25067f3"
   },
   "browser": {},
   "devDependencies": {

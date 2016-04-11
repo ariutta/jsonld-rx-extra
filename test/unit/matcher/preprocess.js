@@ -10,8 +10,8 @@ var leven = require('leven');
 var parse = require('csv-parse');
 var JsonldRx = require('../../../lib/main.js');
 var JsonldMatcher = require('../../../lib/matcher.js');
-var Rx = require('rx');
-var RxNode = require('rx-node-extra');
+var Rx = require('rx-extra');
+// TODO hyperquest works with pausable streams.
 var sinon      = require('sinon');
 var testUtils = require('../../test-utils');
 var wd = require('wd');
@@ -96,7 +96,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
         fs.readFileSync(__dirname + '/jsonld-context.jsonld', {encoding: 'utf8'}));
 
       var m = 0;
-      var datasourcesHeadersSource = RxNode.fromReadableStream(
+      var datasourcesHeadersSource = Rx.Observable.fromUnpausableStream(
           fs.createReadStream(__dirname + '/datasources_headers.txt')
           .pipe(parse({
             comment: '#',
@@ -120,7 +120,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
       });
 
       var l = 0;
-      var datasourcesRowsSource = RxNode.fromReadableStream(
+      var datasourcesRowsSource = Rx.Observable.fromUnpausableStream(
           fs.createReadStream(__dirname + '/datasources.txt')
           .pipe(parse({
             delimiter: '\t'
@@ -247,7 +247,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
       //      '/org.bridgedb.rdf/resources/jsonld-context.jsonld'
       //    ].join('');
 
-      var datasourcesContextElementSource = RxNode.fromReadableStream(
+      var datasourcesContextElementSource = Rx.Observable.fromUnpausableStream(
         hyperquest(contextIri, {
           withCredentials: false
         })
@@ -264,7 +264,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
       ].join('');
 
       var m = 0;
-      var datasourcesHeadersSource = RxNode.fromReadableStream(
+      var datasourcesHeadersSource = Rx.Observable.fromUnpausableStream(
         hyperquest(datasetsHeadersIri, {
           withCredentials: false
         })
@@ -296,7 +296,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
       ].join('');
 
       var l = 0;
-      var datasourcesRowsSource = RxNode.fromReadableStream(
+      var datasourcesRowsSource = Rx.Observable.fromUnpausableStream(
         hyperquest(datasetsMetadataIri, {
           withCredentials: false
         })
@@ -400,7 +400,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
       //      '/org.bridgedb.rdf/resources/jsonld-context.jsonld'
       //    ].join('');
 
-      var datasourcesContextElementSource = RxNode.fromReadableStream(
+      var datasourcesContextElementSource = Rx.Observable.fromUnpausableStream(
         hyperquest(contextIri, {
           withCredentials: false
         })
@@ -417,7 +417,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
       ].join('');
 
       var m = 0;
-      var datasourcesHeadersSource = RxNode.fromReadableStream(
+      var datasourcesHeadersSource = Rx.Observable.fromUnpausableStream(
         hyperquest(datasetsHeadersIri, {
           withCredentials: false
         })
@@ -449,7 +449,7 @@ describe('BridgeDb.jsonldMatcher.processReferenceRecords', function() {
       ].join('');
 
       var l = 0;
-      var datasourcesRowsSource = RxNode.fromReadableStream(
+      var datasourcesRowsSource = Rx.Observable.fromUnpausableStream(
         hyperquest(datasetsMetadataIri, {
           withCredentials: false
         })
