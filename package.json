@@ -4,8 +4,7 @@
   "description": "Rx wrapper for JSON-LD processing, with additional convenience functionality.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:matcher",
-    "test:broken": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js && npm run test:matcher",
+    "test": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js && npm run test:matcher",
     "test:matcher": "mocha ./test/unit/matcher/preprocess.js --timeout=30000 && mocha ./test/unit/matcher/index.js"
   },
   "author": "",
@@ -15,8 +14,7 @@
     "lodash": "^3.10.1",
     "lru-cache": "^4.0.0",
     "normalize-url": "^1.4.1",
-    "rx": "^4.1.0",
-    "rx-extra": "git://github.com/ariutta/rx-extra.git#693db706aa419e0e677aa09eb41cfe14d25067f3"
+    "rx-extra": "git://github.com/ariutta/rx-extra.git#850b53927252b515c935f2d60666875aac243792"
   },
   "browser": {},
   "devDependencies": {
@@ -27,7 +25,6 @@
     "deep-diff": "^0.3.3",
     "hyperquest": "^1.3.0",
     "leven": "^2.0.0",
-    "pretty-data": "^0.40.0",
     "sinon": "^1.17.3",
     "tower-strcase": "^0.5.0",
     "wd": "^0.4.0",
