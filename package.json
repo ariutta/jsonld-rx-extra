@@ -11,7 +11,7 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "jsonld": "^0.4.6",
-    "lodash": "^3.10.1",
+    "lodash": "^4.11.1",
     "lru-cache": "^4.0.0",
     "normalize-url": "^1.4.1",
     "rx-extra": "git://github.com/ariutta/rx-extra.git#f9a3bebb51e0ac54d16a62b2d35293376623a152"
