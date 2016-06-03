@@ -14,7 +14,7 @@
     "lodash": "^4.11.1",
     "lru-cache": "^4.0.0",
     "normalize-url": "^1.4.1",
-    "rx-extra": "git://github.com/ariutta/rx-extra.git#f9a3bebb51e0ac54d16a62b2d35293376623a152"
+    "rx-extra": "git://github.com/ariutta/rx-extra.git#d8ef18b1af76371f49cf1334cdf24e39bed1dd3d"
   },
   "browser": {},
   "devDependencies": {
