@@ -4,8 +4,10 @@
   "description": "Rx wrapper for JSON-LD processing, with additional convenience functionality.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js && npm run test:matcher",
-    "test:matcher": "mocha ./test/unit/matcher/preprocess.js --timeout=30000 && mocha ./test/unit/matcher/index.js"
+    "test": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js",
+    "test:main": "mocha ./test/unit/index.js --timeout 4000",
+    "test-broken": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js && npm run test:matcher",
+    "test-broken:matcher": "mocha ./test/unit/matcher/preprocess.js --timeout=30000 && mocha ./test/unit/matcher/index.js"
   },
   "author": "",
   "license": "BSD-3-Clause",
@@ -14,7 +16,7 @@
     "lodash": "^4.11.1",
     "lru-cache": "^4.0.0",
     "normalize-url": "^1.4.1",
-    "rx-extra": "git://github.com/ariutta/rx-extra.git#d8ef18b1af76371f49cf1334cdf24e39bed1dd3d"
+    "rx-extra": "git://github.com/ariutta/rx-extra.git#117359e7101c328187c648637c38c69aa60751d2"
   },
   "browser": {},
   "devDependencies": {
@@ -25,6 +27,7 @@
     "deep-diff": "^0.3.3",
     "hyperquest": "^1.3.0",
     "leven": "^2.0.0",
+    "pretty-data": "^0.40.0",
     "sinon": "^1.17.3",
     "tower-strcase": "^0.5.0",
     "wd": "^0.4.0",

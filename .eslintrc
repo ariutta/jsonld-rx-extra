@@ -1,17 +1,7 @@
 {
-  "browser": true,
-  "curly": true,
-  "eqeqeq": false,
-  "loopfunc": false,
-  "noarg": true,
-  "sub": true,
-  "trailing": true,
-  "undef": true,
-  "unused": false,
-  "laxcomma": true,
-  "asi": true,
-  "-W097": false,
-
+  "env": {
+    "browser": true
+  },
   "globals": {
     "_": true,
     "__dirname": true,
@@ -29,8 +19,8 @@
     "d3": true,
     "describe": false,
     "global": true,
-    "he":true,
-    "highland":true,
+    "he": true,
+    "highland": true,
     "it": false,
     "jsonld": true,
     "jQuery": true,
@@ -45,11 +35,32 @@
     "process": true,
     "RGBColor": true,
     "root": true,
-    "simpleModal":true,
+    "simpleModal": true,
     "strcase": true,
     "svgPanZoom": true,
     "typeahead": true,
     "uuid": true,
     "require": true
+  },
+  "rules": {
+    "curly": 2,
+    "eqeqeq": 0,
+    "no-loop-func": 0,
+    "no-caller": 2,
+    "dot-notation": 0,
+    "no-undef": 2,
+    "no-unused-vars": 0,
+    "comma-style": [
+      2,
+      "last"
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "max-len": [
+      2,
+      100
+    ]
   }
 }
