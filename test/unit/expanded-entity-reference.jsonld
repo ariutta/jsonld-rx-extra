@@ -1,0 +1,14 @@
+[
+  {
+    "@id": "http://identifiers.org/ncbigene/1234",
+    "http://schema.org/name": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#string",
+        "@value": "C-C motif chemokine receptor 5"
+      }
+    ],
+    "@type": [
+      "http://www.biopax.org/release/biopax-level3.owl#EntityReference"
+    ]
+  }
+]

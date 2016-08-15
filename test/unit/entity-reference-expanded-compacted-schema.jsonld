@@ -1,0 +1,332 @@
+{
+  "@context": {
+    "@vocab": "http://vocabularies.bridgedb.org/ops#",
+    "id": "@id",
+    "type": "@type",
+    "Dataset": {
+      "@id": "void:Dataset",
+      "@type": "@id"
+    },
+    "http://www.biopax.org/release/biopax-level3.owl#EntityReference": {
+      "@type": "@id"
+    },
+    "biopax:EntityReference": {
+      "@type": "@id"
+    },
+    "EntityReference": {
+      "@id": "biopax:EntityReference",
+      "@type": "@id"
+    },
+    "http://www.biopax.org/release/biopax-level3.owl#entityReference": {
+      "@type": "@id"
+    },
+    "biopax:entityReference": {
+      "@type": "@id"
+    },
+    "entityReference": {
+      "@id": "biopax:entityReference",
+      "@type": "@id"
+    },
+    "xref": {
+      "@id": "biopax:xref",
+      "@type": "@id"
+    },
+    "SIO": {
+      "@id": "http://semanticscience.org/resource/",
+      "@type": "@vocab"
+    },
+    "http://identifiers.org/idot/alternatePrefix": {
+      "@type": "xsd:string"
+    },
+    "idot:alternatePrefix": {
+      "@type": "xsd:string"
+    },
+    "alternatePrefix": {
+      "@id": "idot:alternatePrefix",
+      "@type": "xsd:string"
+    },
+    "baseIri": "@base",
+    "biopax": {
+      "@id": "http://www.biopax.org/release/biopax-level3.owl#",
+      "@type": "@vocab"
+    },
+    "bridgeDbDatasourceHeaders": {
+      "@id": "https://github.com/bridgedb/BridgeDb/blob/master/org.bridgedb.bio/resources/org/bridgedb/bio/datasources_headers.txt#",
+      "@type": "@vocab"
+    },
+    "https://github.com/bridgedb/BridgeDb/blob/master/org.bridgedb.bio/resources/org/bridgedb/bio/datasources_headers.txt#datasource_name": {
+      "@type": "xsd:string"
+    },
+    "bridgeDbDatasourceHeaders:datasource_name": {
+      "@type": "xsd:string"
+    },
+    "datasource_name": {
+      "@id": "bridgeDbDatasourceHeaders:datasource_name",
+      "@type": "xsd:string"
+    },
+    "https://github.com/bridgedb/BridgeDb/blob/master/org.bridgedb.bio/resources/org/bridgedb/bio/datasources_headers.txt#linkout_pattern": {
+      "@type": "xsd:string"
+    },
+    "bridgeDbDatasourceHeaders:linkout_pattern": {
+      "@type": "xsd:string"
+    },
+    "linkout_pattern": {
+      "@id": "bridgeDbDatasourceHeaders:linkout_pattern",
+      "@type": "xsd:string"
+    },
+    "http://vocabularies.bridgedb.org/ops#type": {
+      "@type": "xsd:string"
+    },
+    "entityType": {
+      "@id": "http://vocabularies.bridgedb.org/ops#type",
+      "@type": "xsd:string"
+    },
+    "http://vocabularies.bridgedb.org/ops#primary": {
+      "@type": "xsd:string"
+    },
+    "primary": {
+      "@type": "xsd:string"
+    },
+    "http://vocabularies.bridgedb.org/ops#systemCode": {
+      "@type": "xsd:string"
+    },
+    "systemCode": {
+      "@type": "xsd:string"
+    },
+    "bridgeDbDatasourceHeaders:system_code": {
+      "@type": "xsd:string"
+    },
+    "system_code": {
+      "@id": "bridgeDbDatasourceHeaders:system_code",
+      "@type": "xsd:string"
+    },
+    "http://vocabularies.bridgedb.org/ops#uriRegexPattern": {
+      "@type": "xsd:string"
+    },
+    "uriRegexPattern": {
+      "@type": "xsd:string"
+    },
+    "http://www.biopax.org/release/biopax-level3.owl#db": {
+      "@type": "xsd:string"
+    },
+    "biopax:db": {
+      "@type": "xsd:string"
+    },
+    "db": {
+      "@id": "biopax:db",
+      "@type": "xsd:string"
+    },
+    "dcterms": {
+      "@id": "http://purl.org/dc/terms/",
+      "@type": "@vocab"
+    },
+    "http://www.biopax.org/release/biopax-level3.owl#displayName": {
+      "@type": "xsd:string"
+    },
+    "biopax:displayName": {
+      "@type": "xsd:string"
+    },
+    "displayName": {
+      "@id": "biopax:displayName",
+      "@type": "xsd:string"
+    },
+    "http://identifiers.org/idot/exampleIdentifier": {
+      "@type": "xsd:string"
+    },
+    "idot:exampleIdentifier": {
+      "@type": "xsd:string"
+    },
+    "exampleIdentifier": {
+      "@id": "idot:exampleIdentifier",
+      "@type": "xsd:string"
+    },
+    "http://rdfs.org/ns/void#exampleResource": {
+      "@type": "@id"
+    },
+    "void:exampleResource": {
+      "@type": "@id"
+    },
+    "exampleResource": {
+      "@id": "void:exampleResource",
+      "@type": "@id"
+    },
+    "foaf": {
+      "@id": "http://xmlns.com/foaf/0.1/",
+      "@type": "@vocab"
+    },
+    "gpml": {
+      "@id": "http://vocabularies.wikipathways.org/gpml#",
+      "@type": "@vocab"
+    },
+    "identifier": {
+      "@id": "http://rdaregistry.info/Elements/u/P60052",
+      "@type": "xsd:string"
+    },
+    "http://identifiers.org/idot/identifierPattern": {
+      "@type": "xsd:string"
+    },
+    "idot:identifierPattern": {
+      "@type": "xsd:string"
+    },
+    "identifierPattern": {
+      "@id": "idot:identifierPattern",
+      "@type": "xsd:string"
+    },
+    "idot": {
+      "@id": "http://identifiers.org/idot/",
+      "@type": "@vocab"
+    },
+    "isDataItemIn": {
+      "@id": "SIO:SIO_001278",
+      "@type": "@id"
+    },
+    "http://schema/name": {
+      "@type": "xsd:string"
+    },
+    "schema:name": {
+      "@type": "xsd:string"
+    },
+    "name": {
+      "@id": "schema:name",
+      "@type": "xsd:string"
+    },
+    "nameLanguageMap": {
+      "@container": "@language",
+      "@id": "name"
+    },
+    "http://www.biopax.org/release/biopax-level3.owl#organism": {
+      "@type": "@id"
+    },
+    "biopax:organism": {
+      "@type": "@id"
+    },
+    "organism": {
+      "@id": "biopax:organism",
+      "@type": "@id"
+    },
+    "owl": {
+      "@id": "http://www.w3.org/2002/07/owl#",
+      "@type": "@vocab"
+    },
+    "http://identifiers.org/idot/preferredPrefix": {
+      "@type": "xsd:string"
+    },
+    "idot:preferredPrefix": {
+      "@type": "xsd:string"
+    },
+    "preferredPrefix": {
+      "@id": "idot:preferredPrefix",
+      "@type": "xsd:string"
+    },
+    "probe": {
+      "@id": "http://www.sequenceontology.org/miso/release_2.4/term/SO:0000051",
+      "@type": "@id"
+    },
+    "schema": {
+      "@id": "http://schema.org/",
+      "@type": "@vocab"
+    },
+    "http://purl.org/dc/terms/subject": {
+      "@type": "@id"
+    },
+    "dcterms:subject": {
+      "@type": "@id"
+    },
+    "subject": {
+      "@id": "dcterms:subject",
+      "@type": "@id"
+    },
+    "https://github.com/bridgedb/BridgeDb/blob/master/org.bridgedb.bio/resources/org/bridgedb/bio/datasources_headers.txt#uri": {
+      "@type": "@id"
+    },
+    "bridgeDbDatasourceHeaders:uri": {
+      "@type": "@id"
+    },
+    "uri": {
+      "@id": "bridgeDbDatasourceHeaders:uri",
+      "@type": "@id"
+    },
+    "void": {
+      "@id": "http://rdfs.org/ns/void#",
+      "@type": "@vocab"
+    },
+    "https://github.com/bridgedb/BridgeDb/blob/master/org.bridgedb.bio/resources/org/bridgedb/bio/datasources_headers.txt#website_url": {
+      "@type": "@id"
+    },
+    "bridgeDbDatasourceHeaders:website_url": {
+      "@type": "@id"
+    },
+    "website_url": {
+      "@id": "bridgeDbDatasourceHeaders:website_url",
+      "@type": "@id"
+    },
+    "webPage": {
+      "@id": "foaf:page",
+      "@type": "@id"
+    },
+    "xsd": {
+      "@id": "http://www.w3.org/2001/XMLSchema#",
+      "@type": "@id"
+    }
+  },
+  "schema:0": "h",
+  "schema:1": "t",
+  "schema:10": "e",
+  "schema:11": "m",
+  "schema:12": "a",
+  "schema:13": ".",
+  "schema:14": "o",
+  "schema:15": "r",
+  "schema:16": "g",
+  "schema:17": "/",
+  "schema:2": "t",
+  "schema:3": "p",
+  "schema:4": ":",
+  "schema:5": "/",
+  "schema:6": "/",
+  "schema:7": "s",
+  "schema:8": "c",
+  "schema:9": "h",
+  "schema:america": "\u001b[31mh\u001b[39m\u001b[37mt\u001b[39m\u001b[34mt\u001b[39m\u001b[31mp\u001b[39m\u001b[37m:\u001b[39m\u001b[34m/\u001b[39m\u001b[31m/\u001b[39m\u001b[37ms\u001b[39m\u001b[34mc\u001b[39m\u001b[31mh\u001b[39m\u001b[37me\u001b[39m\u001b[34mm\u001b[39m\u001b[31ma\u001b[39m\u001b[37m.\u001b[39m\u001b[34mo\u001b[39m\u001b[31mr\u001b[39m\u001b[37mg\u001b[39m\u001b[34m/\u001b[39m",
+  "schema:bgBlack": "\u001b[40mhttp://schema.org/\u001b[49m",
+  "schema:bgBlue": "\u001b[44mhttp://schema.org/\u001b[49m",
+  "schema:bgCyan": "\u001b[46mhttp://schema.org/\u001b[49m",
+  "schema:bgGreen": "\u001b[42mhttp://schema.org/\u001b[49m",
+  "schema:bgMagenta": "\u001b[45mhttp://schema.org/\u001b[49m",
+  "schema:bgRed": "\u001b[41mhttp://schema.org/\u001b[49m",
+  "schema:bgWhite": "\u001b[47mhttp://schema.org/\u001b[49m",
+  "schema:bgYellow": "\u001b[43mhttp://schema.org/\u001b[49m",
+  "schema:black": "\u001b[30mhttp://schema.org/\u001b[39m",
+  "schema:blackBG": "\u001b[40mhttp://schema.org/\u001b[49m",
+  "schema:blue": "\u001b[34mhttp://schema.org/\u001b[39m",
+  "schema:blueBG": "\u001b[44mhttp://schema.org/\u001b[49m",
+  "schema:bold": "\u001b[1mhttp://schema.org/\u001b[22m",
+  "schema:cyan": "\u001b[36mhttp://schema.org/\u001b[39m",
+  "schema:cyanBG": "\u001b[46mhttp://schema.org/\u001b[49m",
+  "schema:dim": "\u001b[2mhttp://schema.org/\u001b[22m",
+  "schema:gray": "\u001b[90mhttp://schema.org/\u001b[39m",
+  "schema:green": "\u001b[32mhttp://schema.org/\u001b[39m",
+  "schema:greenBG": "\u001b[42mhttp://schema.org/\u001b[49m",
+  "schema:grey": "\u001b[90mhttp://schema.org/\u001b[39m",
+  "schema:hidden": "\u001b[8mhttp://schema.org/\u001b[28m",
+  "schema:inverse": "\u001b[7mhttp://schema.org/\u001b[27m",
+  "schema:italic": "\u001b[3mhttp://schema.org/\u001b[23m",
+  "schema:magenta": "\u001b[35mhttp://schema.org/\u001b[39m",
+  "schema:magentaBG": "\u001b[45mhttp://schema.org/\u001b[49m",
+  "schema:rainbow": "\u001b[31mh\u001b[39m\u001b[33mt\u001b[39m\u001b[32mt\u001b[39m\u001b[34mp\u001b[39m\u001b[35m:\u001b[39m\u001b[31m/\u001b[39m\u001b[33m/\u001b[39m\u001b[32ms\u001b[39m\u001b[34mc\u001b[39m\u001b[35mh\u001b[39m\u001b[31me\u001b[39m\u001b[33mm\u001b[39m\u001b[32ma\u001b[39m\u001b[34m.\u001b[39m\u001b[35mo\u001b[39m\u001b[31mr\u001b[39m\u001b[33mg\u001b[39m\u001b[32m/\u001b[39m",
+  "schema:random": "\u001b[34mh\u001b[39m\u001b[36mt\u001b[39m\u001b[35mt\u001b[39m\u001b[90mp\u001b[39m\u001b[31m:\u001b[39m\u001b[33m/\u001b[39m\u001b[31m/\u001b[39m\u001b[36ms\u001b[39m\u001b[34mc\u001b[39m\u001b[31mh\u001b[39m\u001b[33me\u001b[39m\u001b[31mm\u001b[39m\u001b[35ma\u001b[39m\u001b[37m.\u001b[39m\u001b[37mo\u001b[39m\u001b[32mr\u001b[39m\u001b[36mg\u001b[39m\u001b[32m/\u001b[39m",
+  "schema:red": "\u001b[31mhttp://schema.org/\u001b[39m",
+  "schema:redBG": "\u001b[41mhttp://schema.org/\u001b[49m",
+  "schema:reset": "\u001b[0mhttp://schema.org/\u001b[0m",
+  "schema:strikethrough": "\u001b[9mhttp://schema.org/\u001b[29m",
+  "schema:strip": "http://schema.org/",
+  "schema:stripColors": "http://schema.org/",
+  "schema:trap": "ӇŦŁҎ://§ȻҢҼԠȺ.๏Ȑɢ/",
+  "schema:underline": "\u001b[4mhttp://schema.org/\u001b[24m",
+  "schema:white": "\u001b[37mhttp://schema.org/\u001b[39m",
+  "schema:whiteBG": "\u001b[47mhttp://schema.org/\u001b[49m",
+  "schema:yellow": "\u001b[33mhttp://schema.org/\u001b[39m",
+  "schema:yellowBG": "\u001b[43mhttp://schema.org/\u001b[49m",
+  "schema:zalgo": "h̸̨̩̠̮̻̘͍̦̰͇̮̬̘͔͙̱̭̰̞̙̻̝̜̲̞̤͔̯̑̀̓ͯͤ͋ͪͅt̮̺̩̟͓̖̬̣͍̟̤̜̥̹͉͔͓̜͈͔̬̙̯̝͎̼̝̲̥̜̞̖̜̫͍̮̭͍̮̫̖́́͌̽̄ͪ̆̾̄͑̈̀̚̕͝͠ͅt̷̨̜̯͚̖̜̻̗̞̝̼̩̘̮̠̹͕͓̻̟̯̍̀͛̃̔̈͒̋̒ͤ͊̚͜͠p̷̧̗͔̯̞̼̩̜̮̯̲̜̱̯̬̻͖̙̟̒̌̃͗̄͌͗̽̈̀̿̒͌̀ͦ͌̾̀̐̕͡͠ͅ:̴̶͈̫͇̱͔̝̮̭̰͓̮̼̗̩̺͖̗̱̗̘͔̣̪͇̯̳̮̲͖̭̫̣̺̗̼̪͙̭̫̰̙̭̗͎͓͈̙̞͎̥̠̞̟̘̱̼̬͍͙͍͚ͬ͂ͦ͋̌̑̈ͧ̽ͅ/̫̤̼̬͇̬̩̱̹̟̮͕̘̼̙͔̘̱̬̣̠̩͎̭̺̟͕̫̞̼̜̻̣̙͈͇̓̋̅̅̄ͫ͌ͣ̋͟͡ͅͅ/̶̷͇͓̘̪̝̤͕ͦͥ̓͊́̂͒͆̄̐ͬͧͩ̌͑̈͢s̶̬͍͖̲̣̮̘̭̙͖̱͔̬͉̣͓̤͔̫̞͍̜̝̣̥̬͚͎̭̙̪͕͚̦̖̠̤̪͔̪̥̠̗̜͕̘̳̝͙͔̙̗̩̣͕̜̳͖̠̰̖̮͎̜̐̽͂ͧͫ̑͘͜ͅͅc̐́̈͛ͧ̾͟ ҉ ҉̟̣͙̙͕̹̳̪͔̝̳̣͉̱͎͓̠̻̦̝͎͍͇̲͖͉̰͉͎̰̻͔̹̘̪̩̫͎̖̻̘̺̩́ͅh̴̵̘͓̲̗̥̦͈̲̱̹̘͖̭͎͖̞̮͉̺̝̹͎̙͊͋ͩ̒̆̋̈̓ͦ̚̕ͅe̷̯̤̜̼͍͉̜͖̮̘͇̮̖̫͓̖͓̭͕̭͉̪̦̻̟͖̘͇̟͔͔͈̱͓̳͓̼͕̰̞̱̲̠̻͇͕ͤ̄ͬ̐ͣ̔̇͘m̸̸̺̜̜̥͖̲̱͖͕̗͕̣͉̝͕͓̤̙̞͚͔͇̖̪̙̭̤̙̞̹̘̥̭͇̗̩̪͎ͭ̉ͮ͑ͦ͛̐ͫ͛̊͆͂́ͫ̐ͦ̀͟͡a̶̼͉͓̳͕̭̱̲̤͍͇̖̱̝̞̥͇͓͙̦̪̺̭̙̬͍̻̱̲̫̤̦̞̪͈͔̹̖̰͎̝̖̺͇̟̻͙͓͚̱͍̲͈̤̳͙̜̗̒ͧ̂̀̊̈̈͂̎̑̂̍ͤͩͨͫͩ͝.̵̙̰͔͎̞̩͖͚̞͙̦̭̭͙̺̤͙̻͕̮̫̰͚̥̱̤͚̭̳͕̟̥̜̳̺̟̩̭̈̈̊͆͋ͩ̿̓̌͞ͅo̷̻̦̦̬̪̥̻̟͇̫͎̱̫̩̦͔̹̭͔̣̬̳͍͎̗͍̱͉̩̠̜̙̰̘ͭͭ͊ͣ̄̇̾ͮ̎̓̎̑̋̃̒̈ͧͦ̕ͅͅr̢̞͇̟̜̭̪͍̰̙͈̩͍͖̥͚͕̣͎͈̪̦͇͖̭̬̺͖̱͍̬͓̹͙̮̣̱̤͚͉͇̼̮̩͎̤͚̥͇̳͖̻̓̽̒̓͊̍ͧ̒̇̌̇́̓͋̊ͬ́͜ͅͅͅg̳̥̙̹̞̟̬̠̬͎̯̰̲̘̲̣̩̤̞̺͕͓̮͈̩̝͚̜̟̠̻̦̦̙̳̺̙̟̟̻̭̻̹̳͎̘͕͉͔͍̗̖͔̥̙̟̦͕͉͖͈̥͉ͦ̒̒̾ͣͮ͋͂͆̇ͩ̽͌̃̀̀̚͘͟͠ͅͅ/̴̵̛̹̩̮̞͙͖̪̥̗̯͍͍̠̤̜̻̩̩̬̼͍͚̯̪̱̹̬͉̭͍̬̯̫̦̯͔̤͍̣̳̗͉͎͕͍̹̼̪̰̝͔͕͔͚̰̥̫͈͓̫̎̆͑̽ͥ̑̍͊̋ͅͅͅ",
+  "schema:zebra": "h\u001b[7mt\u001b[27mt\u001b[7mp\u001b[27m:\u001b[7m/\u001b[27m/\u001b[7ms\u001b[27mc\u001b[7mh\u001b[27me\u001b[7mm\u001b[27ma\u001b[7m.\u001b[27mo\u001b[7mr\u001b[27mg\u001b[7m/\u001b[27m"
+}

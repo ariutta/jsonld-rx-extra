@@ -4,8 +4,9 @@
   "description": "Rx wrapper for JSON-LD processing, with additional convenience functionality.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js",
-    "test:main": "mocha ./test/unit/index.js --timeout 4000",
+    "dev": "watch --filter=watch-filter.js --ignoreDotFile --ignoreUnreadable --wait=1 'npm run test:main' .",
+    "test": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js && npm run test:main",
+    "test:main": "mocha ./test/unit/index.js --timeout 8000",
     "test-broken": "node ./test/manual-tests/merge-contexts.js && node ./test/manual-tests/normalize.js && node ./test/manual-tests/readme-samples.js && npm run test:matcher",
     "test-broken:matcher": "mocha ./test/unit/matcher/preprocess.js --timeout=30000 && mocha ./test/unit/matcher/index.js"
   },
@@ -20,6 +21,7 @@
   },
   "browser": {},
   "devDependencies": {
+    "blessed": "^0.1.81",
     "chai": "^3.5.0",
     "chai-as-promised": "^5.2.0",
     "colors": "^1.1.2",
@@ -27,9 +29,13 @@
     "deep-diff": "^0.3.3",
     "hyperquest": "^1.3.0",
     "leven": "^2.0.0",
+    "mocha": "^3.0.2",
     "pretty-data": "^0.40.0",
+    "rx-fs": "^1.0.0-alpha.2",
     "sinon": "^1.17.3",
+    "test-helpers": "ariutta/test-helpers#90b7da95aec7b9a407412fe63a852076562b0b18",
     "tower-strcase": "^0.5.0",
+    "watch": "^0.19.1",
     "wd": "^0.4.0",
     "yargs": "^4.3.2"
   }

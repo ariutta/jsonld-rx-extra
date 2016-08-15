@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "called": "http://schema.org/name",
+    "birthPlace": "http://schema.org/birthPlace"
+  },
+  "@id": "http://dbpedia.org/page/Ada_Lovelace",
+  "birthPlace": "London, United Kingdom",
+  "called": "Ada Lovelace"
+}
